@@ -103222,7 +103222,7 @@ o=o.d
 o===$&&A.a()
 r=A.b5d(A.b5())
 q=A.b4V(p,new A.bv(B.ir,p,p,p,p,p,B.P),!0,!0,p,p,B.ao,p,p,p,B.Ji,p)
-return new A.yI(new A.bO(p,t.VL),o,s,n,"Edhomy AI languages",A.A9(B.KO,p,p,B.d3,B.P6,B.a0,B.a0,B.E5,B.HN,B.aX,B.I3,A.b4t(p,p,p,p,p,p,p,p,p,p,p,p,p,B.ir,B.ir,p,p,p,p,p,B.MK,p,B.a8N,p,p,p,p,p,p,p,p,B.e1,B.ML,p,B.aeT,p),B.a0,B.aaC,B.J0,new A.A7(B.ac,B.ma,B.iu),B.afr,q,!0,r),B.mj,B.i,B.a_B,new A.awA(),$.bfW,!1,!1,!1,new A.a0q(),p)}}
+return new A.yI(new A.bO(p,t.VL),o,s,n,"Edhomy AI Languages",A.A9(B.KO,p,p,B.d3,B.P6,B.a0,B.a0,B.E5,B.HN,B.aX,B.I3,A.b4t(p,p,p,p,p,p,p,p,p,p,p,p,p,B.ir,B.ir,p,p,p,p,p,B.MK,p,B.a8N,p,p,p,p,p,p,p,p,B.e1,B.ML,p,B.aeT,p),B.a0,B.aaC,B.J0,new A.A7(B.ac,B.ma,B.iu),B.afr,q,!0,r),B.mj,B.i,B.a_B,new A.awA(),$.bfW,!1,!1,!1,new A.a0q(),p)}}
 A.awA.prototype={
 $2(a,b){if(J.fJ(b,new A.awz(),t.N).jo(0).A(0,a.geY(0)))return a
 return new A.cb("en",null,null)},
@@ -119618,7 +119618,7 @@ $.bmh=!1
 $.bnF=null
 $.aZ6=null
 $.b6Y=null
-$.lz=A.b(["assets/photos/image1.jpg","assets/photos/image2.jpg","assets/photos/image3.jpg","assets/photos/image4.jpg","assets/photos/image5.jpg","assets/photos/image6.jpg","assets/photos/image7.jpg"],t.s)
+$.lz=A.b(["assets/photos/image1.jpg","assets/photos/image2.jpg","assets/photos/image3.jpg","assets/photos/image4.jpg"],t.s)
 $.bfW=A.b([B.a0M,B.a0N,B.a0O,B.a0P,B.a0R,B.a0S,B.a0T,B.a0U,B.a0V,B.a0W,B.a0X,B.a0Y,B.a0Z,B.a1_,B.a10,B.a11,B.a12,B.a13,B.a14,B.a15,B.a16,B.a17,B.a18,B.a19,B.a1a,B.a1b,B.a1c,B.a1d,B.a1e,B.a1f,B.a1g,B.a1h],t.ss)
 $.b6u=null
 $.aTp=null
