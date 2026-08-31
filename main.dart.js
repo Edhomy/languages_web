@@ -16596,7 +16596,7 @@ s.h(a,r)
 b[-1].gBK()
 break}o=A.bX()
 n=0
-if(p){o.sdk(A.q(t.D2,t.bu))
+if(p){o.sdl(A.q(t.D2,t.bu))
 for(m=o.a;n<=r;){l=s.h(a,n)
 k=l.a
 if(k!=null){j=o.b
@@ -18469,7 +18469,7 @@ s.a(p)
 if(!p.gqq())q=Math.max(q,A.j1(b.$1(r)))
 r=p.aW$}return q},
 aMX(a,b,c,d){var s,r,q,p,o,n,m,l,k,j
-a.ds(b.Lj(c),!0)
+a.dq(b.Lj(c),!0)
 A:{s=b.w
 r=s!=null
 if(r)if(s==null)A.cx(s)
@@ -28640,7 +28640,7 @@ return A.dy(s,b)},
 J2(a,b,c){if(a==null)return a===b
 return a>b-c&&a<b+c||a===b},
 aKi(a,b){return a.aL(B.a8,b,a.gcr())},
-aUB(a,b){a.ds(b,!0)
+aUB(a,b){a.dq(b,!0)
 return a.gv()},
 aUA(a,b,c){return a.h1(b,c)},
 aUz(a,b,c){return a.xz(c,!0)},
@@ -28749,7 +28749,7 @@ b22(){return A.q(t.N,t.GU)},
 aEj(){var s=A.cy($.ac.h(0,B.a6i))
 return s==null?$.aI_:s},
 dL(a){var s=t.J,r=t.z
-return A.b([A.an(["question",A.Y(a,B.o,s).gdv(),"answer",A.Y(a,B.o,s).gdi()],r,r),A.an(["question",A.Y(a,B.o,s).gdg(),"answer",A.Y(a,B.o,s).gdt()],r,r),A.an(["question",A.Y(a,B.o,s).gdr(),"answer",A.Y(a,B.o,s).gdq()],r,r),A.an(["question",A.Y(a,B.o,s).gdm(),"answer",A.Y(a,B.o,s).gdh()],r,r)],t.n4)},
+return A.b([A.an(["question",A.Y(a,B.o,s).gdr(),"answer",A.Y(a,B.o,s).gdg()],r,r),A.an(["question",A.Y(a,B.o,s).gds(),"answer",A.Y(a,B.o,s).gdh()],r,r),A.an(["question",A.Y(a,B.o,s).gdt(),"answer",A.Y(a,B.o,s).gdi()],r,r),A.an(["question",A.Y(a,B.o,s).gdu(),"answer",A.Y(a,B.o,s).gdj()],r,r)],t.n4)},
 aIz(){var s=0,r=A.x(t.H),q,p,o,n,m,l,k,j
 var $async$aIz=A.y(function(a,b){if(a===1)return A.u(b,r)
 for(;;)switch(s){case 0:if($.Z==null)A.aHs()
@@ -35600,12 +35600,12 @@ if(++i.d>=20)return i.e=!0
 if(!B.a4D.A(0,a.type))return!0
 if(i.b!=null)return!1
 r=A.mh("activationPoint")
-switch(a.type){case"click":r.sdk(new A.zL(a.offsetX,a.offsetY))
+switch(a.type){case"click":r.sdl(new A.zL(a.offsetX,a.offsetY))
 break
 case"touchstart":case"touchend":s=new A.rC(a.changedTouches,t.s5).ga3(0)
-r.sdk(new A.zL(s.clientX,s.clientY))
+r.sdl(new A.zL(s.clientX,s.clientY))
 break
-case"pointerdown":case"pointerup":r.sdk(new A.zL(a.clientX,a.clientY))
+case"pointerdown":case"pointerup":r.sdl(new A.zL(a.clientX,a.clientY))
 break
 default:return!0}q=i.c.getBoundingClientRect()
 s=q.left
@@ -40233,7 +40233,7 @@ return s},
 bi(){var s=this.b
 if(s===this)throw A.e(A.AY(this.a))
 return s},
-sdk(a){var s=this
+sdl(a){var s=this
 if(s.b!==s)throw A.e(new A.jk("Local '"+s.a+"' has already been initialized."))
 s.b=a}}
 A.axv.prototype={
@@ -47131,7 +47131,7 @@ r=q.h1(s,b)
 return r==null?null:r+this.Pk(q.aL(B.a8,s,q.gcr())).b},
 c2(){var s,r=this,q=r.E$
 if(q==null)return
-q.ds(r.Pr(t.k.a(A.J.prototype.gan.call(r))),!0)
+q.dq(r.Pr(t.k.a(A.J.prototype.gan.call(r))),!0)
 s=q.b
 s.toString
 t.q.a(s).a=r.Pk(q.gv())
@@ -47373,8 +47373,8 @@ s=t.k
 r=s.a(A.J.prototype.gan.call(l))
 q=k.a
 p=new A.ap(0,r.b,q,q)
-l.a9.ds(p,!0)
-l.av.ds(p,!0)
+l.a9.dq(p,!0)
+l.av.dq(p,!0)
 q=l.a9.gv()
 r=l.av.gv()
 k.b=0
@@ -47443,14 +47443,14 @@ else q=l.c
 j=t.k
 p=j.a(A.J.prototype.gan.call(r))
 o=k.a
-a.ds(new A.ap(0,p.b-q,o,o),!0)
+a.dq(new A.ap(0,p.b-q,o,o),!0)
 if(k.b+q+a.gv().a>j.a(A.J.prototype.gan.call(r)).b){++k.c
 k.b=r.a9.gv().a+r.ag
 p=r.a9.gv()
 o=r.av.gv()
 j=j.a(A.J.prototype.gan.call(r))
 n=k.a
-a.ds(new A.ap(0,j.b-(p.a+o.a),n,n),!0)}j=k.b
+a.dq(new A.ap(0,j.b-(p.a+o.a),n,n),!0)}j=k.b
 s.a=new A.i(j,0)
 m=j+(a.gv().a+r.ag)
 k.b=m
@@ -50143,7 +50143,7 @@ if(s==null)return null
 r=o.aL(B.a8,p,o.gcr())
 return s+q.gCP().kR(t.o.a(q.aL(B.a8,a,q.gcr()).a1(0,r))).b},
 c2(){var s=this,r=t.k,q=r.a(A.J.prototype.gan.call(s)).IU(1/0)
-s.E$.ds(q,!0)
+s.E$.dq(q,!0)
 s.fy=r.a(A.J.prototype.gan.call(s)).br(s.E$.gv())
 s.I6()}}
 A.Y2.prototype={
@@ -52799,7 +52799,7 @@ a2.fy=a4.br(r)
 q=r.a
 r=a2.i0$
 p=r.h(0,B.dz)
-if(p!=null){p.ds(A.mJ(s.c,q-A.i7(r.h(0,B.b5)).a),!0)
+if(p!=null){p.dq(A.mJ(s.c,q-A.i7(r.h(0,B.b5)).a),!0)
 switch(a2.X.a){case 0:o=0
 break
 case 1:o=A.i7(r.h(0,B.b5)).a
@@ -55690,7 +55690,7 @@ c2(){var s,r,q=this,p=q.E$
 p.toString
 s=t.k
 r=s.a(A.J.prototype.gan.call(q))
-p.ds(new A.ap(0,r.b,0,r.d),!0)
+p.dq(new A.ap(0,r.b,0,r.d),!0)
 if(!q.a_&&q.C==null)q.C=q.E$.gv().a
 p=s.a(A.J.prototype.gan.call(q))
 s=q.C
@@ -55827,7 +55827,7 @@ if(s.t!==-1&&!s.Z)return
 t.x.a(a)
 r=this.c
 q=r.b
-a.ds(new A.ap(0,q,0,r.d),!0)
+a.dq(new A.ap(0,q,0,r.d),!0)
 p=o.b+a.gv().a
 o.b=p
 if(p>q&&s.t===-1)s.t=o.a-1},
@@ -55871,7 +55871,7 @@ r=++this.a.a
 if(a===this.c)return
 q=this.b
 if(!q.zA(a,r)){s.e=!1
-return}a.ds(A.mJ(null,q.gv().a),!0)},
+return}a.dq(A.mJ(null,q.gv().a),!0)},
 $S:11}
 A.aAk.prototype={
 $1(a){var s
@@ -59078,7 +59078,7 @@ p.fy=p.fk=o.a=o.b=new A.O(A.M(0,r.a,r.b),A.M(0,r.c,r.d))
 p.f8=B.Gg
 o=p.E$
 if(o!=null)o.jA(r)
-return}s.ds(r,!0)
+return}s.dq(r,!0)
 switch(p.f8.a){case 0:o=p.bX
 o.a=o.b=p.E$.gv()
 p.f8=B.n3
@@ -59482,7 +59482,7 @@ A.iC.prototype={
 k(a){return this.y4(0)+"; id="+A.l(this.e)}}
 A.akb.prototype={
 fm(a,b){var s=this.b.h(0,a)
-s.ds(b,!0)
+s.dq(b,!0)
 return s.gv()},
 iA(a,b){var s=this.b.h(0,a).b
 s.toString
@@ -61819,7 +61819,7 @@ p.bk()}catch(q){s=A.a5(q)
 r=A.ao(q)
 p.zp("performLayout",s,r)}p.z=!1
 p.aT()},
-ds(a,b){var s,r,q,p,o,n=this
+dq(a,b){var s,r,q,p,o,n=this
 n.Q=!b||n.gmp()||a.gZj()||n.gaR()==null
 if(!n.z&&a.j(0,n.at))return
 n.at=a
@@ -61830,7 +61830,7 @@ n.bk()}catch(o){q=A.a5(o)
 p=A.ao(o)
 n.zp("performLayout",q,p)}n.z=!1
 n.aT()},
-jA(a){return this.ds(a,!1)},
+jA(a){return this.dq(a,!1)},
 gmp(){return!1},
 Z2(a,b){var s=this
 s.as=!0
@@ -63169,31 +63169,31 @@ a0=a0?B.a43:B.nb
 return new A.nP(new A.r3(p,q,c),new A.r3(o,n,e),a0,j,!0)},
 oe(a){var s=this,r=A.bX(),q=s.d,p=s.e,o=a.a
 switch(o.a){case 0:case 1:t.mb.a(a)
-switch(a.c.a){case 0:r.sdk(s.alB(a.b,o===B.ds))
+switch(a.c.a){case 0:r.sdl(s.alB(a.b,o===B.ds))
 break
-case 1:r.sdk(s.alD(a.b,s.gabE(),o===B.ds))
+case 1:r.sdl(s.alD(a.b,s.gabE(),o===B.ds))
 break
-case 2:r.sdk(s.alC(a.b,s.gab4(),s.gabs(),o===B.ds))
+case 2:r.sdl(s.alC(a.b,s.gab4(),s.gabs(),o===B.ds))
 break
 case 4:case 3:break}break
 case 2:s.e=s.d=null
 s.f=!1
-r.sdk(B.hb)
+r.sdl(B.hb)
 break
-case 3:r.sdk(s.Ri())
+case 3:r.sdl(s.Ri())
 break
-case 4:r.sdk(s.adU(t.hI.a(a).ga12()))
+case 4:r.sdl(s.adU(t.hI.a(a).ga12()))
 break
 case 5:t.NU.a(a)
 s.Ri()
-r.sdk(B.S)
+r.sdl(B.S)
 s.f=!0
 break
 case 6:t.rQ.a(a)
-r.sdk(s.acN(a.gYf(),a.gl0(),a.gawn()))
+r.sdl(s.acN(a.gYf(),a.gl0(),a.gawn()))
 break
 case 7:t.ra.a(a)
-r.sdk(s.acd(a.gwg(),a.gl0(),a.gB0()))
+r.sdl(s.acd(a.gwg(),a.gl0(),a.gB0()))
 break}if(!J.d(q,s.d)||!J.d(p,s.e)){s.b.aT()
 s.ahz()}return r.aV()},
 Vr(a,b,c,d,e){var s,r,q,p,o,n,m=this
@@ -63626,9 +63626,9 @@ s.f=!0
 return B.a9},
 Ek(a,b){var s=A.bX(),r=A.bX(),q=b.a,p=a.b
 if(q>p){q=new A.ah(q,B.p)
-r.sdk(q)
-s.sdk(q)}else{s.sdk(new A.ah(a.a,B.p))
-r.sdk(new A.ah(p,B.ao))}q=s.aV()
+r.sdl(q)
+s.sdl(q)}else{s.sdl(new A.ah(a.a,B.p))
+r.sdl(new A.ah(p,B.ao))}q=s.aV()
 return new A.a1A(r.aV(),q)},
 adU(a){var s=this,r=s.b,q=r.dw(r.eO(a))
 if(s.aia(q)&&!J.d(s.d,s.e))return B.a9
@@ -63851,7 +63851,7 @@ s=s==null?null:s.aL(B.a8,a,s.gcr())
 return s==null?this.vU(a):s},
 c2(){var s=this,r=s.E$
 if(r==null)r=null
-else r.ds(t.k.a(A.J.prototype.gan.call(s)),!0)
+else r.dq(t.k.a(A.J.prototype.gan.call(s)),!0)
 r=r==null?null:r.gv()
 s.fy=r==null?s.vU(t.k.a(A.J.prototype.gan.call(s))):r
 return},
@@ -63906,7 +63906,7 @@ return s},
 eB(a,b){var s=this.E$
 return s==null?null:s.h1(this.C.tf(a),b)},
 c2(){var s=this,r=t.k.a(A.J.prototype.gan.call(s)),q=s.E$,p=s.C
-if(q!=null){q.ds(p.tf(r),!0)
+if(q!=null){q.dq(p.tf(r),!0)
 s.fy=s.E$.gv()}else s.fy=p.tf(r).br(B.a1)},
 e5(a){var s=this.E$
 s=s==null?null:s.aL(B.a8,this.C.tf(a),s.gcr())
@@ -64788,7 +64788,7 @@ if(r==null)return null
 return r+s.b},
 c2(){var s,r=this,q=t.k.a(A.J.prototype.gan.call(r)),p=r.gpF(),o=r.E$
 if(o==null){r.fy=q.br(new A.O(p.gj_(),p.gdK()+p.gdU()))
-return}o.ds(q.pV(p),!0)
+return}o.dq(q.pV(p),!0)
 o=r.E$
 s=o.b
 s.toString
@@ -64836,7 +64836,7 @@ r=s.b*r}else r=1/0
 return a.br(new A.O(n,r))}n=p?0:1/0
 return a.br(new A.O(n,o?0:1/0))},
 c2(){var s,r,q=this,p=t.k.a(A.J.prototype.gan.call(q)),o=q.bM!=null||p.b===1/0,n=q.ci!=null||p.d===1/0,m=q.E$
-if(m!=null){m.ds(new A.ap(0,p.b,0,p.d),!0)
+if(m!=null){m.dq(new A.ap(0,p.b,0,p.d),!0)
 if(o){m=q.E$.gv()
 s=q.bM
 if(s==null)s=1
@@ -64912,7 +64912,7 @@ m.toString
 l=s.a
 r=s.b
 q=l>=r
-m.ds(s,!(q&&s.c>=s.d))
+m.dq(s,!(q&&s.c>=s.d))
 m=n.E$.b
 m.toString
 t.q.a(m)
@@ -65025,7 +65025,7 @@ if(j.E$==null){j.dy=B.a5P
 return}s=t.j7.a(A.J.prototype.gan.call(j))
 r=j.E$
 r.toString
-r.ds(s.amB(),!0)
+r.dq(s.amB(),!0)
 switch(A.bw(s.a).a){case 0:r=j.E$.gv().a
 break
 case 1:r=j.E$.gv().b
@@ -65265,7 +65265,7 @@ return s},
 qB(){},
 c2(){var s=this,r=s.gan(),q=!(r.a>=r.b&&r.c>=r.d)
 r=s.E$
-if(r!=null)r.ds(s.gan(),q)
+if(r!=null)r.dq(s.gan(),q)
 if(q&&s.E$!=null)r=s.E$.gv()
 else{r=s.gan()
 r=new A.O(A.M(0,r.a,r.b),A.M(0,r.c,r.d))}s.dy=r},
@@ -65385,7 +65385,7 @@ KC(a,b,c,d,e,f,g,h,a0,a1,a2){var s,r,q,p,o,n,m,l,k=this,j=A.b3z(k.Z.k4,e),i=f+h
 for(s=f,r=0;c!=null;){q=a2<=0?0:a2
 p=Math.max(b,-q)
 o=b-p
-c.ds(new A.vR(k.t,e,j,q,r,i-s,Math.max(0,a1-s+f),d,k.X,g,p,Math.max(0,a0+o)),!0)
+c.dq(new A.vR(k.t,e,j,q,r,i-s,Math.max(0,a1-s+f),d,k.X,g,p,Math.max(0,a0+o)),!0)
 n=c.dy
 m=s+0
 if(n.w||a2>0)k.LV(c,m,e)
@@ -67403,7 +67403,7 @@ break
 case 1:return A.v(q,r)}})
 return A.w($async$ou,r)},
 a7m(){var s=A.bX()
-s.sdk(A.aH6(new A.aqs(s),!1,t.hz))
+s.sdl(A.aH6(new A.aqs(s),!1,t.hz))
 return s.aV().gpl()},
 av_(){if(this.k1$==null)$.aN()
 return},
@@ -67501,7 +67501,7 @@ for(;;)switch(s){case 0:o=A.bX()
 n=o
 s=2
 return A.o($.Jp().qt("NOTICES",!1),$async$$0)
-case 2:n.sdk(b)
+case 2:n.sdl(b)
 p=q.a
 n=J
 s=3
@@ -69315,7 +69315,7 @@ if(!$.y2())A.a0(A.bp(u.E))
 break A}return new A.NJ(r,s,null)},
 $S:345}
 A.aDE.prototype={
-$1(a){this.a.sdk(a)
+$1(a){this.a.sdl(a)
 return!1},
 $S:37}
 A.b7.prototype={}
@@ -73379,28 +73379,28 @@ if(s==null)s=null
 return s},
 aC(){return A.b0g()}}
 A.wN.prototype={
-gdl(){var s=this,r=s.a.e
+gdm(){var s=this,r=s.a.e
 if(r==null){r=s.d
 if(r==null){r=s.Pw()
 s.d=r}}return r},
 aX(){this.bb()
 this.RA()},
 RA(){var s,r,q,p=this
-if(!p.a.gHN()){p.gdl().shW(p.a.ghW())
-s=p.gdl()
+if(!p.a.gHN()){p.gdm().shW(p.a.ghW())
+s=p.gdm()
 p.a.gpY()
 s.spY(!0)
-p.gdl().shJ(p.a.ghJ())
-if(p.a.y!=null){s=p.gdl()
+p.gdm().shJ(p.a.ghJ())
+if(p.a.y!=null){s=p.gdm()
 r=p.a.y
 r.toString
-s.skS(r)}}s=p.gdl()
+s.skS(r)}}s=p.gdm()
 p.f=s.b&&B.b.eJ(s.gdL(),A.ep())
-p.r=p.gdl().ghW()
-p.gdl()
+p.r=p.gdm().ghW()
+p.gdm()
 p.w=!0
-p.e=p.gdl().gkf()
-s=p.gdl()
+p.e=p.gdm().gkf()
+s=p.gdm()
 r=p.c
 r.toString
 q=p.a.gC7()
@@ -73410,12 +73410,12 @@ r=s.f
 s.f=r
 s.r=q==null?s.r:q
 p.y=s.ax=new A.adQ(s)
-p.gdl().a2(p.gFW())},
+p.gdm().a2(p.gFW())},
 Pw(){var s=this,r=s.a.gpU(),q=s.a.gkS(),p=s.a.ghW()
 s.a.gpY()
 return A.Ab(q,r,p,!0,null,null,s.a.ghJ())},
 l(){var s,r=this
-r.gdl().M(r.gFW())
+r.gdm().M(r.gFW())
 r.y.ap()
 s=r.d
 if(s!=null)s.l()
@@ -73427,7 +73427,7 @@ this.QY()},
 QY(){var s,r=this
 if(!r.x&&r.a.f){s=r.c
 s.toString
-A.aG5(s).amD(r.gdl())
+A.aG5(s).amD(r.gdm())
 r.x=!0}},
 dV(){this.r9()
 var s=this.y
@@ -73438,22 +73438,22 @@ q.bo(a)
 s=a.e
 r=q.a
 if(s==r.e){if(!r.gHN()){q.a.gL1()
-q.gdl()
-if(!J.d(q.a.gC7(),q.gdl().r))q.gdl().r=q.a.gC7()
-q.gdl().shJ(q.a.ghJ())
-if(q.a.y!=null){s=q.gdl()
+q.gdm()
+if(!J.d(q.a.gC7(),q.gdm().r))q.gdm().r=q.a.gC7()
+q.gdm().shJ(q.a.ghJ())
+if(q.a.y!=null){s=q.gdm()
 r=q.a.y
 r.toString
-s.skS(r)}q.gdl().shW(q.a.ghW())
-s=q.gdl()
+s.skS(r)}q.gdm().shW(q.a.ghW())
+s=q.gdm()
 q.a.gpY()
 s.spY(!0)}}else{q.y.ap()
 if(s!=null)s.M(q.gFW())
 q.RA()}if(a.f!==q.a.f)q.QY()},
-acF(){var s=this,r=s.gdl().gkf(),q=s.gdl(),p=q.b&&B.b.eJ(q.gdL(),A.ep()),o=s.gdl().ghW()
-s.gdl()
+acF(){var s=this,r=s.gdm().gkf(),q=s.gdm(),p=q.b&&B.b.eJ(q.gdL(),A.ep()),o=s.gdm().ghW()
+s.gdm()
 q=s.a.r
-if(q!=null)q.$1(s.gdl().gbI())
+if(q!=null)q.$1(s.gdm().gbI())
 q=s.e
 q===$&&A.a()
 if(q!==r)s.aP(new A.awE(s,r))
@@ -73473,12 +73473,12 @@ n=p.a
 s=n.d
 if(n.at){if(A.aQ()!==B.a7){n=p.f
 n===$&&A.a()}else n=!1
-n=n?p.gdl().gtS():o
+n=n?p.gdm().gtS():o
 r=p.f
 r===$&&A.a()
 if(r){q=p.e
 q===$&&A.a()}else q=o
-s=A.d1(o,p.a.d,!1,o,o,!1,!1,r,q,o,o,o,o,o,o,o,o,o,o,o,o,o,o,n,o,o,o,o,o,o,o,o,o,o,o,B.aa)}return A.aOg(s,p.gdl())}}
+s=A.d1(o,p.a.d,!1,o,o,!1,!1,r,q,o,o,o,o,o,o,o,o,o,o,o,o,o,o,n,o,o,o,o,o,o,o,o,o,o,o,B.aa)}return A.aOg(s,p.gdm())}}
 A.awE.prototype={
 $0(){this.a.e=this.b},
 $S:0}
@@ -73511,7 +73511,7 @@ return A.Ot(this.a.gkS(),s,this.a.ghJ())},
 K(a){var s,r,q=this,p=null,o=q.y
 o.toString
 o.LB(q.a.c)
-o=q.gdl()
+o=q.gdm()
 s=q.a
 r=A.aOg(s.d,o)
 return s.at?A.d1(p,r,!1,p,p,!1,!0,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,p,B.aa):r}}
@@ -73855,7 +73855,7 @@ A.Ad.prototype={
 aC(){return new A.a_a()}}
 A.FE.prototype={}
 A.a_a.prototype={
-gdl(){var s,r,q,p=this,o=p.d
+gdm(){var s,r,q,p=this,o=p.d
 if(o===$){s=p.a.c
 r=A.b([],t.bp)
 q=$.ax()
@@ -73863,15 +73863,15 @@ p.d!==$&&A.aM()
 o=p.d=new A.FE(s,!1,!0,!0,!0,null,null,r,q)}return o},
 aX(){this.bb()
 this.a.toString},
-l(){this.gdl().l()
+l(){this.gdm().l()
 this.b1()},
 b2(a){var s=this
 s.bo(a)
-if(a.c!==s.a.c)s.gdl().fr=s.a.c},
-K(a){var s=null,r=this.gdl(),q=this.a,p=q.w
+if(a.c!==s.a.c)s.gdm().fr=s.a.c},
+K(a){var s=null,r=this.gdm(),q=this.a,p=q.w
 return A.pB(!1,!1,q.f,s,!0,!0,r,!1,s,s,s,s,p,!0)}}
 A.Tu.prototype={
-eD(a){a.awV(a.gdl())}}
+eD(a){a.awV(a.gdm())}}
 A.qg.prototype={}
 A.S2.prototype={
 eD(a){var s=$.Z.ah$.d.c,r=s.e
@@ -75717,7 +75717,7 @@ eB(a,b){return null},
 c2(){var s,r=this,q=t.k.a(A.J.prototype.gan.call(r))
 r.a_T()
 s=r.E$
-if(s!=null){s.ds(q,!0)
+if(s!=null){s.dq(q,!0)
 r.fy=q.br(r.E$.gv())}else r.fy=new A.O(A.M(1/0,q.a,q.b),A.M(1/0,q.c,q.d))},
 im(a){var s=this.E$
 s=s==null?null:s.mj(a)
@@ -77306,7 +77306,7 @@ fm(a,b){var s,r=a.b
 r.toString
 t.B.a(r)
 s=this.gqN().gGY()
-if(!r.gqq()){a.ds(b,!0)
+if(!r.gqq()){a.dq(b,!0)
 r.a=B.j}else A.aMX(a,r,this.gv(),s)},
 dE(a,b){var s,r,q,p=this.ym(),o=p.ga6(p)
 p=t.B
@@ -77669,10 +77669,10 @@ s.by=!0
 s.NQ(b,!1)
 s.ae=s.by=!1
 if(r)a.Z2(new A.azU(s),t.k)},
-ds(a,b){var s=this.d
+dq(a,b){var s=this.d
 s.toString
 this.PP(s,a)},
-jA(a){return this.ds(a,!1)},
+jA(a){return this.dq(a,!1)},
 qB(){var s=t.k.a(A.J.prototype.gan.call(this))
 this.fy=new A.O(A.M(1/0,s.a,s.b),A.M(1/0,s.c,s.d))},
 c2(){var s,r=this
@@ -78878,7 +78878,7 @@ r=r!=null&&r.a!=null}if(r===!0)s.LI(s.b)}s=p.CW
 if(s==null)s=null
 else{s=s.r
 s=s!=null&&s.a!=null}if(s===!0){q=A.bX()
-q.sdk(new A.asU(p,q))
+q.sdl(new A.asU(p,q))
 s=p.CW
 s.toString
 r=q.aV()
@@ -82474,7 +82474,7 @@ if(s==null)return new A.O(A.M(0,a.a,a.b),A.M(0,a.c,a.d))
 return a.br(s.aL(B.a8,this.Qy(a),s.gcr()))},
 c2(){var s,r,q=this,p=t.k.a(A.J.prototype.gan.call(q)),o=q.E$
 if(o==null)q.fy=new A.O(A.M(0,p.a,p.b),A.M(0,p.c,p.d))
-else{o.ds(q.Qy(p),!0)
+else{o.dq(q.Qy(p),!0)
 q.fy=p.br(q.E$.gv())}o=q.X.at
 if(o!=null)if(o>q.gz6()){o=q.X
 s=q.gz6()
@@ -82975,7 +82975,7 @@ b.bM=r.w
 b.ci=p?r.x:null
 b.bX=r.y}}
 A.nL.prototype={
-ds(a,b){var s,r,q,p=this
+dq(a,b){var s,r,q,p=this
 p.NQ(a,b)
 s=p.bg
 if(s==null)return
@@ -82987,7 +82987,7 @@ s=s.bM
 q=p.c6
 if(s.h(0,q)==null)s.m(0,q,A.aR(t.Cn))
 s.h(0,p.c6).D(0,p)}p.c5=r},
-jA(a){return this.ds(a,!1)},
+jA(a){return this.dq(a,!1)},
 l(){var s=this
 if(s.c5)s.bg.D4(s)
 s.hK()}}
@@ -84954,7 +84954,7 @@ return a.br(r.ao(0,this.t))},
 c2(){var s,r=this,q=r.E$
 if(q==null)return
 s=t.k
-q.ds(new A.ap(0,s.a(A.J.prototype.gan.call(r)).b/r.t,0,1/0),!0)
+q.dq(new A.ap(0,s.a(A.J.prototype.gan.call(r)).b/r.t,0,1/0),!0)
 r.fy=s.a(A.J.prototype.gan.call(r)).br(q.gv().ao(0,r.t))},
 ee(a,b){var s=this.t
 b.r1(s,s,s,1)},
@@ -88395,11 +88395,11 @@ $0(){return A.cP(this.a).dz("/",null)},
 $S:0}
 A.aeK.prototype={
 auu(a,b){var s,r,q=this,p=a.c,o=A.bX(),n=A.bX(),m=A.bX()
-if(p==null){o.sdk(new A.lQ(null,null,B.jD))
-n.sdk(a.geu())}else if(!(p instanceof A.lQ)){s=q.d.b.ef(t.pE.a(p))
-o.sdk(new A.lQ(s.d,s,B.a1a))
-n.sdk(s.c)}else{o.sdk(p)
-n.sdk(a.geu())}m.sdk(new A.fz(A.aN1(n.aV()),o.aV()))
+if(p==null){o.sdl(new A.lQ(null,null,B.jD))
+n.sdl(a.geu())}else if(!(p instanceof A.lQ)){s=q.d.b.ef(t.pE.a(p))
+o.sdl(new A.lQ(s.d,s,B.a1a))
+n.sdl(s.c)}else{o.sdl(p)
+n.sdl(a.geu())}m.sdl(new A.fz(A.aN1(n.aV()),o.aV()))
 r=m.aV()
 return q.f.are(b,o.aV(),new A.aeN(q,m,o,b),new A.aeO(q,m,o,b),r)},
 agm(a,b,c,d){var s=new A.aeL(this,b,A.b([],t.k4)).$1(d),r=s instanceof A.c0?new A.bC(s,t.Q4):s
@@ -91391,19 +91391,11 @@ gd7(){return"\u0423\u0432\u044f\u0434\u0437\u0456\u0446\u0435 \u0456\u043c\u044f
 gd5(){return"\u0423\u0432\u044f\u0434\u0437\u0456\u0446\u0435 email"},
 gd6(){return"\u0423\u0432\u044f\u0434\u0437\u0456\u0446\u0435 \u043f\u0430\u0432\u0435\u0434\u0430\u043c\u043b\u0435\u043d\u043d\u0435"},
 gcK(){return"\u0421\u0430\u0447\u044b\u0446\u0435 \u0437\u0430 \u043d\u0430\u043c\u0456"},
-gdu(){return"\u041f\u0430\u0432\u0435\u0434\u0430\u043c\u043b\u0435\u043d\u043d\u0435 \u043f\u0430\u0441\u043f\u044f\u0445\u043e\u0432\u0430 \u0430\u0434\u043f\u0440\u0430\u045e\u043b\u0435\u043d\u0430"},
-gdj(){return"\u041f\u0430\u043c\u044b\u043b\u043a\u0430. \u041a\u0430\u043b\u0456 \u043b\u0430\u0441\u043a\u0430, \u043f\u0430\u0441\u043f\u0440\u0430\u0431\u0443\u0439\u0446\u0435 \u044f\u0448\u0447\u044d \u0440\u0430\u0437"},
+gdv(){return"\u041f\u0430\u0432\u0435\u0434\u0430\u043c\u043b\u0435\u043d\u043d\u0435 \u043f\u0430\u0441\u043f\u044f\u0445\u043e\u0432\u0430 \u0430\u0434\u043f\u0440\u0430\u045e\u043b\u0435\u043d\u0430"},
+gdk(){return"\u041f\u0430\u043c\u044b\u043b\u043a\u0430. \u041a\u0430\u043b\u0456 \u043b\u0430\u0441\u043a\u0430, \u043f\u0430\u0441\u043f\u0440\u0430\u0431\u0443\u0439\u0446\u0435 \u044f\u0448\u0447\u044d \u0440\u0430\u0437"},
 gd9(){return"\u0417\u0430\u043f\u043e\u045e\u043d\u0456\u0446\u0435 \u045e\u0441\u0435 \u043f\u0430\u043b\u0456 \u043f\u0435\u0440\u0430\u0434 \u0430\u0434\u043f\u0440\u0430\u045e\u043a\u0430\u0439"},
 gcR(){return"\u0431\u043e\u043b\u044c\u0448"},
 gcO(){return"\u043c\u0435\u043d\u0448"},
-gdv(){return"\u0428\u0442\u043e \u0442\u0430\u043a\u043e\u0435 Edhomy AI \u043c\u043e\u0432\u044b?"},
-gdi(){return"Edhomy AI languages - \u0433\u044d\u0442\u0430 \u043f\u0440\u044b\u043a\u043b\u0430\u0434\u0430\u043d\u043d\u0435, \u0443 \u044f\u043a\u0456\u043c \u0432\u044b \u043c\u043e\u0436\u0430\u0446\u0435 \u0432\u0443\u0447\u044b\u0446\u0446\u0430 \u043c\u043e\u0432\u0435 \u0437 \u0434\u0430\u043f\u0430\u043c\u043e\u0433\u0430\u0439 \u0406\u0406. \u042f\u043d\u043e \u043f\u0440\u0430\u043f\u0430\u043d\u0443\u0435 \u0406\u0406-\u0442\u0443\u0442\u0430\u0440 \u0434\u043b\u044f \u043f\u0440\u0430\u043a\u0442\u044b\u043a\u0456 \u0432\u044b\u043c\u0430\u045e\u043b\u0435\u043d\u043d\u044f \u0456 \u043a\u0443\u0440\u0441 \u043f\u0430 \u0440\u0430\u0441\u043a\u0430\u0437\u0432\u0430\u043d\u043d\u0456 \u0433\u0456\u0441\u0442\u043e\u0440\u044b\u0439 \u0437 100 \u045e\u0440\u043e\u043a\u0430\u043c\u0456 \u0434\u043b\u044f \u0434\u0430\u043f\u0430\u043c\u043e\u0433\u0456 \u045e \u0437\u0430\u0441\u0432\u0430\u0435\u043d\u043d\u0456 \u043c\u043e\u0432\u044b."},
-gdg(){return"\u0426\u0456 \u043c\u0430\u0433\u0443 \u044f \u0432\u0443\u0447\u044b\u0446\u0446\u0430 \u043c\u043e\u0432\u0435?"},
-gdt(){return"\u0422\u0430\u043a, \u0432\u044b \u043c\u043e\u0436\u0430\u0446\u0435. \u041c\u044b \u0441\u0443\u043f\u0440\u0430\u0446\u043e\u045e\u043d\u0456\u0447\u0430\u0435\u043c \u0437 \u044d\u043a\u0441\u043f\u0435\u0440\u0442\u0430\u043c\u0456, \u044f\u043a\u0456\u044f \u0432\u0435\u0434\u0430\u044e\u0446\u044c \u043b\u0435\u043f\u0448\u044b\u044f \u043c\u0435\u0442\u0430\u0434\u044b \u0434\u043b\u044f \u0432\u044b\u0432\u0443\u0447\u044d\u043d\u043d\u044f \u043c\u043e\u045e \u043f\u0440\u0430\u0437 \u043c\u0443\u043b\u044c\u0442\u044b\u043c\u0435\u0434\u044b\u044f-\u043a\u0443\u0440\u0441\u044b."},
-gdr(){return"\u0426\u0456 \u0431\u044f\u0441\u043f\u0435\u0447\u043d\u0430\u044f \u0433\u044d\u0442\u0430 \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430?"},
-gdq(){return"\u041c\u044b \u043d\u0435 \u043f\u0440\u0430\u0434\u0430\u0451\u043c \u0432\u0430\u0448\u044b \u0434\u0430\u0434\u0437\u0435\u043d\u044b\u044f \u0442\u0440\u044d\u0446\u0456\u043c \u0430\u0441\u043e\u0431\u0430\u043c. \u041f\u0430\u0440\u043e\u043b\u0456 \u0456 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u044b\u044f \u0430\u0434\u0440\u0430\u0441\u044b \u0446\u0430\u043b\u043a\u0430\u043c \u0437\u0430\u0448\u044b\u0444\u0440\u0430\u0432\u0430\u043d\u044b\u044f. \u0422\u043e\u043b\u044c\u043a\u0456 \u0432\u044b \u043c\u043e\u0436\u0430\u0446\u0435 \u043f\u0430\u0432\u0435\u0434\u0430\u043c\u0456\u0446\u044c \u0430\u0431 \u043b\u044e\u0431\u044b\u0445 \u043f\u0430\u0434\u0430\u0437\u0440\u043e\u043d\u044b\u0445 \u0441\u0456\u0442\u0443\u0430\u0446\u044b\u044f\u0445, \u044f\u043a\u0456\u044f \u045e\u043f\u043b\u044b\u0432\u0430\u044e\u0446\u044c \u043d\u0430 \u0432\u0430\u0448\u0443 \u0431\u044f\u0441\u043f\u0435\u043a\u0443, \u0456 \u043a\u0430\u043c\u0430\u043d\u0434\u0430 \u043f\u0430\u0434\u0442\u0440\u044b\u043c\u043a\u0456 \u0437\u0432\u044f\u0436\u0430\u0446\u0446\u0430 \u0437 \u0432\u0430\u043c\u0456."},
-gdm(){return"\u042f\u043a \u044f \u043c\u0430\u0433\u0443 \u0432\u0443\u0447\u044b\u0446\u0446\u0430 \u045e \u0433\u044d\u0442\u044b\u043c \u043f\u0440\u044b\u043a\u043b\u0430\u0434\u0430\u043d\u043d\u0456?"},
-gdh(){return"\u0412\u044b \u043c\u043e\u0436\u0430\u0446\u0435 \u043f\u0440\u0430\u0439\u0441\u0446\u0456 \u043f\u0430 \u043a\u0456\u0440\u0430\u045e\u043d\u0456\u0446\u0442\u0432\u0435 \u043a\u0443\u0440\u0441\u044b, \u043f\u0440\u0430\u043a\u0442\u044b\u043a\u0430\u0432\u0430\u0446\u0446\u0430 \u0437 \u0406\u0406-\u0442\u0443\u0442\u0430\u0440\u0430\u043c \u0456 \u043f\u0440\u0430\u0446\u044f\u0433\u0432\u0430\u0446\u044c \u043f\u0440\u0430\u0441\u043e\u045e\u0432\u0430\u0446\u0446\u0430, \u043a\u0430\u0431 \u043f\u0435\u0440\u0430\u0430\u0434\u043e\u043b\u0435\u0446\u044c \u045e\u0437\u0440\u043e\u0432\u0435\u043d\u044c \u0432\u044b\u0436\u044b\u0432\u0430\u043d\u043d\u044f."},
 gcU(){return"\u041f\u0430\u043b\u0456\u0442\u044b\u043a\u0430 \u043a\u0430\u043d\u0444\u0456\u0434\u044d\u043d\u0446\u044b\u044f\u043b\u044c\u043d\u0430\u0441\u0446\u0456"},
 gcT(){return"\u041f\u0440\u0430\u0432\u0456\u043b\u044b \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u044b"},
 gcV(){return"\u0423\u043c\u043e\u0432\u044b \u0432\u044b\u043a\u0430\u0440\u044b\u0441\u0442\u0430\u043d\u043d\u044f"},
@@ -91418,7 +91410,15 @@ gcA(){return"\u041d\u043e\u0440\u043c\u044b \u0431\u044f\u0441\u043f\u0435\u043a
 gcW(){return"\u0423\u043c\u043e\u0432\u044b \u0432\u044b\u043a\u0430\u0440\u044b\u0441\u0442\u0430\u043d\u043d\u044f"},
 gcf(){return"\u0421\u043f\u0430\u043c\u043f\u0430\u0432\u0430\u0446\u044c \u0434\u043b\u044f Android"},
 gcg(){return"\u0421\u043f\u0430\u043c\u043f\u0430\u0432\u0430\u0446\u044c \u0434\u043b\u044f iOS"},
-gco(){return"\u0421\u043f\u0430\u043c\u043f\u0430\u0432\u0430\u0446\u044c \u0434\u043b\u044f macOS"}}
+gco(){return"\u0421\u043f\u0430\u043c\u043f\u0430\u0432\u0430\u0446\u044c \u0434\u043b\u044f macOS"},
+gdr(){return"\u042f\u043a \u043f\u0440\u0430\u0446\u0443\u0435 \u0428\u0406-\u0440\u044d\u043f\u0435\u0442\u044b\u0442\u0430\u0440 \u0434\u043b\u044f \u043f\u0440\u0430\u043a\u0442\u044b\u043a\u0456?"},
+gdg(){return"\u0412\u044b \u043c\u043e\u0436\u0430\u0446\u0435 \u0432\u0435\u0441\u0446\u0456 \u0433\u0430\u043b\u0430\u0441\u0430\u0432\u044b\u044f \u0440\u0430\u0437\u043c\u043e\u0432\u044b \u045e \u0440\u044d\u0430\u043b\u044c\u043d\u044b\u043c \u0447\u0430\u0441\u0435 \u043d\u0430 \u043b\u044e\u0431\u0443\u044e \u0442\u044d\u043c\u0443 \u043d\u0430 \u0440\u043e\u0437\u043d\u044b\u0445 \u0443\u0437\u0440\u043e\u045e\u043d\u044f\u0445. \u0428\u0406 \u0434\u0430\u0435 \u0456\u043c\u0433\u043d\u0435\u043d\u043d\u0443\u044e \u0437\u0432\u0430\u0440\u043e\u0442\u043d\u0443\u044e \u0441\u0443\u0432\u044f\u0437\u044c \u043f\u0430 \u0432\u0430\u0448\u044b\u043c \u0440\u0430\u0437\u0443\u043c\u0435\u043d\u043d\u0456, \u0433\u0440\u0430\u043c\u0430\u0442\u044b\u0446\u044b \u0456 \u0441\u043b\u043e\u045e\u043d\u0456\u043a\u0430\u0432\u044b\u043c \u0437\u0430\u043f\u0430\u0441\u0435."},
+gds(){return"\u0426\u0456 \u0431\u0443\u0434\u0437\u0435 \u0428\u0406 \u0432\u044b\u043f\u0440\u0430\u045e\u043b\u044f\u0446\u044c \u043c\u0430\u0435 \u043f\u0430\u043c\u044b\u043b\u043a\u0456 \u043f\u0430\u0434\u0447\u0430\u0441 \u0440\u0430\u0437\u043c\u043e\u0432\u044b?"},
+gdh(){return"\u0422\u0430\u043a. \u0428\u0406 \u043c\u044f\u043a\u043a\u0430 \u0432\u044b\u043f\u0440\u0430\u045e\u043b\u044f\u0435 \u0432\u0430\u0448\u0443 \u0433\u0440\u0430\u043c\u0430\u0442\u044b\u043a\u0443 \u0456 \u0441\u043b\u043e\u045e\u043d\u0456\u043a\u0430\u0432\u044b \u0437\u0430\u043f\u0430\u0441 \u0443 \u0440\u044d\u0430\u043b\u044c\u043d\u044b\u043c \u0447\u0430\u0441\u0435, \u043a\u0430\u0431 \u0432\u044b \u043c\u0430\u0433\u043b\u0456 \u045e\u043f\u044d\u045e\u043d\u0435\u043d\u0430 \u0440\u0430\u0437\u043c\u0430\u045e\u043b\u044f\u0446\u044c \u0431\u0435\u0437 \u0441\u0442\u0440\u044d\u0441\u0443."},
+gdt(){return"\u0426\u0456 \u0437'\u044f\u045e\u043b\u044f\u0435\u0446\u0446\u0430 Edhomy AI Languages \u0431\u044f\u0441\u043f\u043b\u0430\u0442\u043d\u044b\u043c?"},
+gdi(){return"\u0414\u0430\u0434\u0430\u0442\u0430\u043a \u043c\u043e\u0436\u043d\u0430 \u0441\u043f\u0430\u043c\u043f\u0430\u0432\u0430\u0446\u044c \u0431\u044f\u0441\u043f\u043b\u0430\u0442\u043d\u0430, \u0456 \u0451\u043d \u0443\u043a\u043b\u044e\u0447\u0430\u0435 \u0456\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u044b \u0434\u043b\u044f \u0448\u0442\u043e\u0434\u0437\u0451\u043d\u043d\u0430\u0439 \u043f\u0440\u0430\u043a\u0442\u044b\u043a\u0456. \u041d\u0435\u0430\u0431\u043c\u0435\u0436\u0430\u0432\u0430\u043d\u0430\u044f \u043f\u0440\u0430\u043a\u0442\u044b\u043a\u0430 \u0440\u0430\u0437\u043c\u043e\u0432\u044b \u0437 \u0428\u0406 \u0456 \u043a\u0456\u0440\u0430\u0432\u0430\u043d\u044b\u044f \u0432\u0456\u0434\u044d\u0430\u045e\u0440\u043e\u043a\u0456 \u043f\u0430\u0442\u0440\u0430\u0431\u0443\u044e\u0446\u044c \u043f\u0440\u044d\u043c\u0456\u0443\u043c-\u0430\u043a\u0430\u045e\u043d\u0442\u0430."},
+gdu(){return"\u042f\u043a \u043d\u0430\u0431\u044b\u0446\u044c \u043f\u0440\u044d\u043c\u0456\u0443\u043c-\u0430\u043a\u0430\u045e\u043d\u0442?"},
+gdj(){return"\u041f\u0435\u0440\u0430\u0439\u0434\u0437\u0456\u0446\u0435 \u045e \u041d\u0430\u043b\u0430\u0434\u044b, \u043d\u0430\u0446\u0456\u0441\u043d\u0456\u0446\u0435 '\u041f\u0440\u044d\u043c\u0456\u0443\u043c-\u0430\u043a\u0430\u045e\u043d\u0442', \u0432\u044b\u0431\u0435\u0440\u044b\u0446\u0435 \u043f\u0430\u0436\u0430\u0434\u0430\u043d\u044b \u043f\u043b\u0430\u043d \u0456 \u0431\u044f\u0441\u043f\u0435\u0447\u043d\u0430 \u0430\u043f\u043b\u0430\u0442\u0446\u0435 \u043f\u0440\u0430\u0437 Apple, Google \u0430\u0431\u043e \u0431\u0430\u043d\u043a\u0430\u045e\u0441\u043a\u0443\u044e \u043a\u0430\u0440\u0442\u0443."}}
 A.JJ.prototype={
 gcn(){return"\u0421\u0432\u044a\u0440\u0436\u0435\u0442\u0435 \u0441\u0435 \u0441 \u043d\u0430\u0441"},
 gcS(){return"\u041f\u043e\u0432\u0435\u0447\u0435 \u043e\u043f\u0446\u0438\u0438"},
@@ -91442,19 +91442,11 @@ gd7(){return"\u0412\u044a\u0432\u0435\u0434\u0435\u0442\u0435 \u0438\u043c\u0435
 gd5(){return"\u0412\u044a\u0432\u0435\u0434\u0435\u0442\u0435 \u0438\u043c\u0435\u0439\u043b"},
 gd6(){return"\u0412\u044a\u0432\u0435\u0434\u0435\u0442\u0435 \u0441\u044a\u043e\u0431\u0449\u0435\u043d\u0438\u0435\u0442\u043e"},
 gcK(){return"\u041f\u043e\u0441\u043b\u0435\u0434\u0432\u0430\u0439\u0442\u0435 \u043d\u0438"},
-gdu(){return"\u0421\u044a\u043e\u0431\u0449\u0435\u043d\u0438\u0435\u0442\u043e \u0431\u0435\u0448\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0438\u0437\u043f\u0440\u0430\u0442\u0435\u043d\u043e"},
-gdj(){return"\u0413\u0440\u0435\u0448\u043a\u0430. \u041c\u043e\u043b\u044f, \u043e\u043f\u0438\u0442\u0430\u0439\u0442\u0435 \u043e\u0442\u043d\u043e\u0432\u043e"},
+gdv(){return"\u0421\u044a\u043e\u0431\u0449\u0435\u043d\u0438\u0435\u0442\u043e \u0431\u0435\u0448\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0438\u0437\u043f\u0440\u0430\u0442\u0435\u043d\u043e"},
+gdk(){return"\u0413\u0440\u0435\u0448\u043a\u0430. \u041c\u043e\u043b\u044f, \u043e\u043f\u0438\u0442\u0430\u0439\u0442\u0435 \u043e\u0442\u043d\u043e\u0432\u043e"},
 gd9(){return"\u041f\u043e\u043f\u044a\u043b\u043d\u0435\u0442\u0435 \u0432\u0441\u0438\u0447\u043a\u043e \u043f\u0440\u0435\u0434\u0438 \u0434\u0430 \u0438\u0437\u043f\u0440\u0430\u0442\u0438\u0442\u0435"},
 gcR(){return"\u043f\u043e\u0432\u0435\u0447\u0435"},
 gcO(){return"\u043f\u043e-\u043c\u0430\u043b\u043a\u043e"},
-gdv(){return"\u041a\u0430\u043a\u0432\u043e \u0435 Edhomy AI \u0435\u0437\u0438\u0446\u0438?"},
-gdi(){return"Edhomy AI languages \u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435, \u0432 \u043a\u043e\u0435\u0442\u043e \u043c\u043e\u0436\u0435\u0442\u0435 \u0434\u0430 \u043d\u0430\u0443\u0447\u0438\u0442\u0435 \u0435\u0437\u0438\u043a \u0441 \u0418\u0418. \u0422\u043e \u043f\u0440\u0435\u0434\u043b\u0430\u0433\u0430 \u0418\u0418 \u0443\u0447\u0438\u0442\u0435\u043b \u0437\u0430 \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0430 \u043d\u0430 \u043f\u0440\u043e\u0438\u0437\u043d\u043e\u0448\u0435\u043d\u0438\u0435 \u0438 \u043a\u0443\u0440\u0441 \u0437\u0430 \u0440\u0430\u0437\u043a\u0430\u0437\u0432\u0430\u043d\u0435 \u043d\u0430 \u0438\u0441\u0442\u043e\u0440\u0438\u0438 \u0441 100 \u0443\u0440\u043e\u043a\u0430, \u043a\u043e\u0438\u0442\u043e \u0434\u0430 \u0432\u0438 \u043f\u043e\u043c\u043e\u0433\u043d\u0430\u0442 \u0434\u0430 \u043e\u0432\u043b\u0430\u0434\u0435\u0435\u0442\u0435 \u0435\u0437\u0438\u043a\u0430."},
-gdg(){return"\u041c\u043e\u0433\u0430 \u043b\u0438 \u0434\u0430 \u043d\u0430\u0443\u0447\u0430 \u0435\u0437\u0438\u043a?"},
-gdt(){return"\u0414\u0430, \u043c\u043e\u0436\u0435\u0442\u0435. \u0421\u044a\u0442\u0440\u0443\u0434\u043d\u0438\u0447\u0438\u043c \u0441 \u0435\u043a\u0441\u043f\u0435\u0440\u0442\u0438, \u043a\u043e\u0438\u0442\u043e \u0437\u043d\u0430\u044f\u0442 \u043d\u0430\u0439-\u0434\u043e\u0431\u0440\u0438\u0442\u0435 \u043c\u0435\u0442\u043e\u0434\u0438 \u0437\u0430 \u0443\u0447\u0435\u043d\u0435 \u0447\u0440\u0435\u0437 \u043c\u0443\u043b\u0442\u0438\u043c\u0435\u0434\u0438\u0439\u043d\u0438 \u043a\u0443\u0440\u0441\u043e\u0432\u0435."},
-gdr(){return"\u0422\u0430\u0437\u0438 \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430 \u043b\u0438 \u0435 \u0441\u0438\u0433\u0443\u0440\u043d\u0430?"},
-gdq(){return"\u041d\u0435 \u043f\u0440\u043e\u0434\u0430\u0432\u0430\u043c\u0435 \u0432\u0430\u0448\u0438\u0442\u0435 \u0434\u0430\u043d\u043d\u0438 \u043d\u0430 \u0442\u0440\u0435\u0442\u0438 \u0441\u0442\u0440\u0430\u043d\u0438. \u041f\u0430\u0440\u043e\u043b\u0438\u0442\u0435 \u0438 \u0438\u043c\u0435\u0439\u043b\u0438\u0442\u0435 \u0441\u0430 \u043d\u0430\u043f\u044a\u043b\u043d\u043e \u043a\u0440\u0438\u043f\u0442\u0438\u0440\u0430\u043d\u0438. \u0421\u0430\u043c\u043e \u0432\u0438\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u0434\u0430 \u0434\u043e\u043a\u043b\u0430\u0434\u0432\u0430\u0442\u0435 \u0432\u0441\u044f\u043a\u0430\u043a\u0432\u0438 \u043f\u043e\u0434\u043e\u0437\u0440\u0438\u0442\u0435\u043b\u043d\u0438 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u0438, \u043a\u043e\u0438\u0442\u043e \u043c\u043e\u0433\u0430\u0442 \u0434\u0430 \u043f\u043e\u0432\u043b\u0438\u044f\u044f\u0442 \u043d\u0430 \u0432\u0430\u0448\u0430\u0442\u0430 \u0441\u0438\u0433\u0443\u0440\u043d\u043e\u0441\u0442, \u0438 \u0435\u043a\u0438\u043f\u044a\u0442 \u0437\u0430 \u043f\u043e\u0434\u0434\u0440\u044a\u0436\u043a\u0430 \u0449\u0435 \u0441\u0435 \u0441\u0432\u044a\u0440\u0436\u0435 \u0441 \u0432\u0430\u0441."},
-gdm(){return"\u041a\u0430\u043a \u0434\u0430 \u043d\u0430\u0443\u0447\u0430 \u0432 \u0442\u043e\u0432\u0430 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435?"},
-gdh(){return"\u041c\u043e\u0436\u0435\u0442\u0435 \u0434\u0430 \u0441\u043b\u0435\u0434\u0432\u0430\u0442\u0435 \u0440\u044a\u043a\u043e\u0432\u043e\u0434\u0435\u043d\u0438 \u043a\u0443\u0440\u0441\u043e\u0432\u0435, \u0434\u0430 \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0443\u0432\u0430\u0442\u0435 \u0441 \u0418\u0418 \u0443\u0447\u0438\u0442\u0435\u043b \u0438 \u0434\u0430 \u043f\u0440\u043e\u0434\u044a\u043b\u0436\u0438\u0442\u0435 \u0434\u0430 \u043d\u0430\u043f\u0440\u0435\u0434\u0432\u0430\u0442\u0435, \u0437\u0430 \u0434\u0430 \u043f\u0440\u0435\u043e\u0434\u043e\u043b\u0435\u0435\u0442\u0435 \u043d\u0438\u0432\u043e \u043d\u0430 \u043e\u0446\u0435\u043b\u044f\u0432\u0430\u043d\u0435."},
 gcU(){return"\u041f\u043e\u043b\u0438\u0442\u0438\u043a\u0430 \u0437\u0430 \u043a\u043e\u043d\u0444\u0438\u0434\u0435\u043d\u0446\u0438\u0430\u043b\u043d\u043e\u0441\u0442"},
 gcT(){return"\u041f\u0440\u0430\u0432\u0438\u043b\u0430 \u043d\u0430 \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430\u0442\u0430"},
 gcV(){return"\u0423\u0441\u043b\u043e\u0432\u0438\u044f \u0437\u0430 \u043f\u043e\u043b\u0437\u0432\u0430\u043d\u0435"},
@@ -91469,7 +91461,15 @@ gcA(){return"\u0421\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u0438 \u0437\u0430
 gcW(){return"\u0423\u0441\u043b\u043e\u0432\u0438\u044f \u0437\u0430 \u043f\u043e\u043b\u0437\u0432\u0430\u043d\u0435"},
 gcf(){return"\u0418\u0437\u0442\u0435\u0433\u043b\u0438 \u0437\u0430 Android"},
 gcg(){return"\u0418\u0437\u0442\u0435\u0433\u043b\u0438 \u0437\u0430 iOS"},
-gco(){return"\u0418\u0437\u0442\u0435\u0433\u043b\u0438 \u0437\u0430 macOS"}}
+gco(){return"\u0418\u0437\u0442\u0435\u0433\u043b\u0438 \u0437\u0430 macOS"},
+gdr(){return"\u041a\u0430\u043a \u0440\u0430\u0431\u043e\u0442\u0438 AI \u0440\u0435\u043f\u0435\u0442\u0438\u0442\u043e\u0440\u044a\u0442 \u0437\u0430 \u0443\u043f\u0440\u0430\u0436\u043d\u0435\u043d\u0438\u044f?"},
+gdg(){return"\u041c\u043e\u0436\u0435\u0442\u0435 \u0434\u0430 \u043f\u0440\u043e\u0432\u0435\u0436\u0434\u0430\u0442\u0435 \u0433\u043b\u0430\u0441\u043e\u0432\u0438 \u0440\u0430\u0437\u0433\u043e\u0432\u043e\u0440\u0438 \u0432 \u0440\u0435\u0430\u043b\u043d\u043e \u0432\u0440\u0435\u043c\u0435 \u043d\u0430 \u0432\u0441\u044f\u043a\u0430 \u0442\u0435\u043c\u0430 \u043d\u0430 \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u0438 \u043d\u0438\u0432\u0430. \u0418\u0437\u043a\u0443\u0441\u0442\u0432\u0435\u043d\u0438\u044f\u0442 \u0438\u043d\u0442\u0435\u043b\u0435\u043a\u0442 \u0432\u0438 \u0434\u0430\u0432\u0430 \u043d\u0435\u0437\u0430\u0431\u0430\u0432\u043d\u0430 \u043e\u0431\u0440\u0430\u0442\u043d\u0430 \u0432\u0440\u044a\u0437\u043a\u0430 \u0437\u0430 \u0432\u0430\u0448\u0435\u0442\u043e \u0440\u0430\u0437\u0431\u0438\u0440\u0430\u043d\u0435, \u0433\u0440\u0430\u043c\u0430\u0442\u0438\u043a\u0430 \u0438 \u0440\u0435\u0447\u043d\u0438\u043a."},
+gds(){return"\u0429\u0435 \u043f\u043e\u043f\u0440\u0430\u0432\u044f \u043b\u0438 AI \u0433\u0440\u0435\u0448\u043a\u0438\u0442\u0435 \u043c\u0438, \u0434\u043e\u043a\u0430\u0442\u043e \u0433\u043e\u0432\u043e\u0440\u044f?"},
+gdh(){return"\u0414\u0430. \u0418\u0437\u043a\u0443\u0441\u0442\u0432\u0435\u043d\u0438\u044f\u0442 \u0438\u043d\u0442\u0435\u043b\u0435\u043a\u0442 \u0434\u0435\u043b\u0438\u043a\u0430\u0442\u043d\u043e \u043a\u043e\u0440\u0438\u0433\u0438\u0440\u0430 \u0432\u0430\u0448\u0430\u0442\u0430 \u0433\u0440\u0430\u043c\u0430\u0442\u0438\u043a\u0430 \u0438 \u0440\u0435\u0447\u043d\u0438\u043a \u0432 \u0440\u0435\u0430\u043b\u043d\u043e \u0432\u0440\u0435\u043c\u0435, \u0437\u0430 \u0434\u0430 \u0438\u0437\u0433\u0440\u0430\u0434\u0438\u0442\u0435 \u0443\u0432\u0435\u0440\u0435\u043d\u043e\u0441\u0442 \u043f\u0440\u0438 \u0433\u043e\u0432\u043e\u0440\u0435\u043d\u0435 \u0431\u0435\u0437 \u0441\u0442\u0440\u0435\u0441."},
+gdt(){return"\u0411\u0435\u0437\u043f\u043b\u0430\u0442\u043d\u043e \u043b\u0438 \u0435 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435\u0442\u043e Edhomy AI Languages?"},
+gdi(){return"\u041f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435\u0442\u043e \u0435 \u0431\u0435\u0437\u043f\u043b\u0430\u0442\u043d\u043e \u0437\u0430 \u0438\u0437\u0442\u0435\u0433\u043b\u044f\u043d\u0435 \u0438 \u0432\u043a\u043b\u044e\u0447\u0432\u0430 \u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u0438 \u0437\u0430 \u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u0430 \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0430. \u041d\u0435\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0430\u0442\u0430 \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0430 \u0437\u0430 \u0440\u0430\u0437\u0433\u043e\u0432\u043e\u0440\u0438 \u0441 AI \u0438 \u0432\u043e\u0434\u0435\u043d\u0438\u0442\u0435 \u0432\u0438\u0434\u0435\u043e \u0443\u0440\u043e\u0446\u0438 \u0438\u0437\u0438\u0441\u043a\u0432\u0430\u0442 \u043f\u0440\u0435\u043c\u0438\u0443\u043c \u0430\u043a\u0430\u0443\u043d\u0442."},
+gdu(){return"\u041a\u0430\u043a \u0434\u0430 \u043a\u0443\u043f\u044f \u043f\u0440\u0435\u043c\u0438\u0443\u043c \u0430\u043a\u0430\u0443\u043d\u0442?"},
+gdj(){return"\u041e\u0442\u0438\u0434\u0435\u0442\u0435 \u0432 \u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438, \u043d\u0430\u0442\u0438\u0441\u043d\u0435\u0442\u0435 '\u041f\u0440\u0435\u043c\u0438\u0443\u043c \u0430\u043a\u0430\u0443\u043d\u0442', \u0438\u0437\u0431\u0435\u0440\u0435\u0442\u0435 \u043f\u0440\u0435\u0434\u043f\u043e\u0447\u0438\u0442\u0430\u043d\u0438\u044f \u043e\u0442 \u0432\u0430\u0441 \u043f\u043b\u0430\u043d \u0438 \u0437\u0430\u0432\u044a\u0440\u0448\u0435\u0442\u0435 \u043f\u043b\u0430\u0449\u0430\u043d\u0435\u0442\u043e \u0441\u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e \u0447\u0440\u0435\u0437 Apple, Google \u0438\u043b\u0438 \u043a\u0440\u0435\u0434\u0438\u0442\u043d\u0430 \u043a\u0430\u0440\u0442\u0430."}}
 A.JK.prototype={
 gcn(){return"Kontaktiere uns"},
 gcS(){return"Mehr Optionen"},
@@ -91493,19 +91493,11 @@ gd7(){return"Gib deinen Namen ein"},
 gd5(){return"Gib deine E-Mail ein"},
 gd6(){return"Gib deine Nachricht ein"},
 gcK(){return"Folge uns"},
-gdu(){return"Nachricht wurde erfolgreich gesendet"},
-gdj(){return"Fehler. Bitte versuche es erneut"},
+gdv(){return"Nachricht wurde erfolgreich gesendet"},
+gdk(){return"Fehler. Bitte versuche es erneut"},
 gd9(){return"F\xfclle alles aus, bevor du es sendest"},
 gcR(){return"mehr"},
 gcO(){return"weniger"},
-gdv(){return"Was ist Edhomy AI Languages?"},
-gdi(){return"Edhomy AI Languages ist eine App, mit der du eine Sprache mit KI lernen kannst. Sie bietet einen KI-Tutor zum \xdcben der Aussprache und einen Storytelling-Kurs mit 100 Lektionen, um die Sprache zu meistern."},
-gdg(){return"Kann ich eine Sprache lernen?"},
-gdt(){return"Ja, das kannst du. Wir arbeiten mit Experten zusammen, die wissen, welche Techniken am besten zum Lernen mit Multimedia-Kursen geeignet sind."},
-gdr(){return"Ist diese Plattform sicher?"},
-gdq(){return"Wir verkaufen Ihre Daten nicht an Dritte. Passw\xf6rter und E-Mails sind vollst\xe4ndig verschl\xfcsselt. Nur Sie k\xf6nnen verd\xe4chtige Situationen melden, die Ihre Sicherheit betreffen, und das Support-Team wird sich mit Ihnen in Verbindung setzen."},
-gdm(){return"Wie kann ich in dieser App lernen?"},
-gdh(){return"Du kannst den gef\xfchrten Kurs folgen, mit dem KI-Tutor \xfcben und weiter vorankommen, um das \xdcberlebenslevel zu \xfcberwinden."},
 gcU(){return"Datenschutzrichtlinie"},
 gcT(){return"Plattform-Regeln"},
 gcV(){return"Nutzungsbedingungen"},
@@ -91520,7 +91512,15 @@ gcA(){return"Sicherheitsstandards"},
 gcW(){return"Nutzungsbedingungen"},
 gcf(){return"F\xfcr Android herunterladen"},
 gcg(){return"F\xfcr iOS herunterladen"},
-gco(){return"F\xfcr macOS herunterladen"}}
+gco(){return"F\xfcr macOS herunterladen"},
+gdr(){return"Wie funktioniert der AI-Praxistutor?"},
+gdg(){return"Sie k\xf6nnen Sprachgespr\xe4che in Echtzeit zu jedem Thema auf verschiedenen Niveaus f\xfchren. Die KI gibt Ihnen sofortiges Feedback zu Ihrem Verst\xe4ndnis, Ihrer Grammatik und Ihrem Wortschatz."},
+gds(){return"Korrigiert die KI meine Fehler, w\xe4hrend ich spreche?"},
+gdh(){return"Ja. Die KI korrigiert Ihre Grammatik und Ihren Wortschatz sanft in Echtzeit, sodass Sie ohne Stress Selbstvertrauen beim Sprechen aufbauen k\xf6nnen."},
+gdt(){return"Ist Edhomy AI Languages kostenlos?"},
+gdi(){return"Die App kann kostenlos heruntergeladen werden und enth\xe4lt t\xe4gliche \xdcbungstools. Unbegrenztes AI-Konversationstraining und gef\xfchrte Videolektionen erfordern ein Premium-Konto."},
+gdu(){return"Wie kaufe ich ein Premium-Konto?"},
+gdj(){return"Gehen Sie zu den Einstellungen, tippen Sie auf 'Premium-Konto', w\xe4hlen Sie Ihren bevorzugten Tarif und schlie\xdfen Sie Ihre Zahlung sicher mit Apple, Google oder einer Kreditkarte ab."}}
 A.JL.prototype={
 gcn(){return"\u0395\u03c0\u03b9\u03ba\u03bf\u03b9\u03bd\u03c9\u03bd\u03ae\u03c3\u03c4\u03b5 \u03bc\u03b1\u03b6\u03af \u03bc\u03b1\u03c2"},
 gcS(){return"\u03a0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03b5\u03c2 \u03b5\u03c0\u03b9\u03bb\u03bf\u03b3\u03ad\u03c2"},
@@ -91544,19 +91544,11 @@ gd7(){return"\u0395\u03b9\u03c3\u03ac\u03b3\u03b5\u03c4\u03b5 \u03c4\u03bf \u03c
 gd5(){return"\u0395\u03b9\u03c3\u03ac\u03b3\u03b5\u03c4\u03b5 \u03c4\u03bf email"},
 gd6(){return"\u0395\u03b9\u03c3\u03ac\u03b3\u03b5\u03c4\u03b5 \u03c4\u03bf \u03bc\u03ae\u03bd\u03c5\u03bc\u03b1"},
 gcK(){return"\u0391\u03ba\u03bf\u03bb\u03bf\u03c5\u03b8\u03ae\u03c3\u03c4\u03b5 \u03bc\u03b1\u03c2"},
-gdu(){return"\u03a4\u03bf \u03bc\u03ae\u03bd\u03c5\u03bc\u03b1 \u03c3\u03c4\u03ac\u03bb\u03b8\u03b7\u03ba\u03b5 \u03bc\u03b5 \u03b5\u03c0\u03b9\u03c4\u03c5\u03c7\u03af\u03b1"},
-gdj(){return"\u03a3\u03c6\u03ac\u03bb\u03bc\u03b1. \u03a0\u03b1\u03c1\u03b1\u03ba\u03b1\u03bb\u03bf\u03cd\u03bc\u03b5 \u03c0\u03c1\u03bf\u03c3\u03c0\u03b1\u03b8\u03ae\u03c3\u03c4\u03b5 \u03be\u03b1\u03bd\u03ac"},
+gdv(){return"\u03a4\u03bf \u03bc\u03ae\u03bd\u03c5\u03bc\u03b1 \u03c3\u03c4\u03ac\u03bb\u03b8\u03b7\u03ba\u03b5 \u03bc\u03b5 \u03b5\u03c0\u03b9\u03c4\u03c5\u03c7\u03af\u03b1"},
+gdk(){return"\u03a3\u03c6\u03ac\u03bb\u03bc\u03b1. \u03a0\u03b1\u03c1\u03b1\u03ba\u03b1\u03bb\u03bf\u03cd\u03bc\u03b5 \u03c0\u03c1\u03bf\u03c3\u03c0\u03b1\u03b8\u03ae\u03c3\u03c4\u03b5 \u03be\u03b1\u03bd\u03ac"},
 gd9(){return"\u03a3\u03c5\u03bc\u03c0\u03bb\u03b7\u03c1\u03ce\u03c3\u03c4\u03b5 \u03cc\u03bb\u03b1 \u03c4\u03b1 \u03c0\u03b5\u03b4\u03af\u03b1 \u03c0\u03c1\u03b9\u03bd \u03c4\u03b7\u03bd \u03b1\u03c0\u03bf\u03c3\u03c4\u03bf\u03bb\u03ae"},
 gcR(){return"\u03c0\u03b5\u03c1\u03b9\u03c3\u03c3\u03cc\u03c4\u03b5\u03c1\u03b1"},
 gcO(){return"\u03bb\u03b9\u03b3\u03cc\u03c4\u03b5\u03c1\u03b1"},
-gdv(){return"\u03a4\u03b9 \u03b5\u03af\u03bd\u03b1\u03b9 \u03c4\u03bf Edhomy AI Languages;"},
-gdi(){return"\u03a4\u03bf Edhomy AI Languages \u03b5\u03af\u03bd\u03b1\u03b9 \u03bc\u03b9\u03b1 \u03b5\u03c6\u03b1\u03c1\u03bc\u03bf\u03b3\u03ae \u03cc\u03c0\u03bf\u03c5 \u03bc\u03c0\u03bf\u03c1\u03b5\u03af\u03c4\u03b5 \u03bd\u03b1 \u03bc\u03ac\u03b8\u03b5\u03c4\u03b5 \u03bc\u03b9\u03b1 \u03b3\u03bb\u03ce\u03c3\u03c3\u03b1 \u03bc\u03b5 \u03a4\u03b5\u03c7\u03bd\u03b7\u03c4\u03ae \u039d\u03bf\u03b7\u03bc\u03bf\u03c3\u03cd\u03bd\u03b7. \u03a0\u03c1\u03bf\u03c3\u03c6\u03ad\u03c1\u03b5\u03b9 \u03ad\u03bd\u03b1\u03bd \u0399\u03a4 Tutor \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03b5\u03be\u03b1\u03c3\u03ba\u03ae\u03c3\u03b5\u03c4\u03b5 \u03c4\u03b7\u03bd \u03c0\u03c1\u03bf\u03c6\u03bf\u03c1\u03ac \u03c3\u03b1\u03c2 \u03ba\u03b1\u03b9 \u03ad\u03bd\u03b1 \u03bc\u03ac\u03b8\u03b7\u03bc\u03b1 \u03b1\u03c6\u03ae\u03b3\u03b7\u03c3\u03b7\u03c2 \u03b9\u03c3\u03c4\u03bf\u03c1\u03b9\u03ce\u03bd \u03bc\u03b5 100 \u03bc\u03b1\u03b8\u03ae\u03bc\u03b1\u03c4\u03b1 \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03ba\u03c5\u03c1\u03b9\u03b1\u03c1\u03c7\u03ae\u03c3\u03b5\u03c4\u03b5 \u03c3\u03c4\u03b7 \u03b3\u03bb\u03ce\u03c3\u03c3\u03b1."},
-gdg(){return"\u039c\u03c0\u03bf\u03c1\u03ce \u03bd\u03b1 \u03bc\u03ac\u03b8\u03c9 \u03bc\u03b9\u03b1 \u03b3\u03bb\u03ce\u03c3\u03c3\u03b1;"},
-gdt(){return"\u039d\u03b1\u03b9, \u03bc\u03c0\u03bf\u03c1\u03b5\u03af\u03c4\u03b5. \u03a3\u03c5\u03bd\u03b5\u03c1\u03b3\u03b1\u03b6\u03cc\u03bc\u03b1\u03c3\u03c4\u03b5 \u03bc\u03b5 \u03b5\u03b9\u03b4\u03b9\u03ba\u03bf\u03cd\u03c2 \u03c0\u03bf\u03c5 \u03b3\u03bd\u03c9\u03c1\u03af\u03b6\u03bf\u03c5\u03bd \u03c4\u03b9\u03c2 \u03ba\u03b1\u03bb\u03cd\u03c4\u03b5\u03c1\u03b5\u03c2 \u03c4\u03b5\u03c7\u03bd\u03b9\u03ba\u03ad\u03c2 \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03bc\u03ac\u03b8\u03b5\u03c4\u03b5 \u03bc\u03ad\u03c3\u03c9 \u03bc\u03b1\u03b8\u03b7\u03bc\u03ac\u03c4\u03c9\u03bd \u03c0\u03bf\u03bb\u03c5\u03bc\u03ad\u03c3\u03c9\u03bd."},
-gdr(){return"\u0395\u03af\u03bd\u03b1\u03b9 \u03b1\u03c3\u03c6\u03b1\u03bb\u03ae\u03c2 \u03b1\u03c5\u03c4\u03ae \u03b7 \u03c0\u03bb\u03b1\u03c4\u03c6\u03cc\u03c1\u03bc\u03b1;"},
-gdq(){return"\u0394\u03b5\u03bd \u03c0\u03bf\u03c5\u03bb\u03ac\u03bc\u03b5 \u03c4\u03b1 \u03b4\u03b5\u03b4\u03bf\u03bc\u03ad\u03bd\u03b1 \u03c3\u03b1\u03c2 \u03c3\u03b5 \u03c4\u03c1\u03af\u03c4\u03bf\u03c5\u03c2. \u039f\u03b9 \u03ba\u03c9\u03b4\u03b9\u03ba\u03bf\u03af \u03c0\u03c1\u03cc\u03c3\u03b2\u03b1\u03c3\u03b7\u03c2 \u03ba\u03b1\u03b9 \u03c4\u03b1 email \u03b5\u03af\u03bd\u03b1\u03b9 \u03c0\u03bb\u03ae\u03c1\u03c9\u03c2 \u03ba\u03c1\u03c5\u03c0\u03c4\u03bf\u03b3\u03c1\u03b1\u03c6\u03b7\u03bc\u03ad\u03bd\u03b1. \u039c\u03cc\u03bd\u03bf \u03b5\u03c3\u03b5\u03af\u03c2 \u03bc\u03c0\u03bf\u03c1\u03b5\u03af\u03c4\u03b5 \u03bd\u03b1 \u03b1\u03bd\u03b1\u03c6\u03ad\u03c1\u03b5\u03c4\u03b5 \u03bf\u03c0\u03bf\u03b9\u03b5\u03c3\u03b4\u03ae\u03c0\u03bf\u03c4\u03b5 \u03cd\u03c0\u03bf\u03c0\u03c4\u03b5\u03c2 \u03ba\u03b1\u03c4\u03b1\u03c3\u03c4\u03ac\u03c3\u03b5\u03b9\u03c2 \u03c0\u03bf\u03c5 \u03b1\u03c6\u03bf\u03c1\u03bf\u03cd\u03bd \u03c4\u03b7\u03bd \u03b1\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03ac \u03c3\u03b1\u03c2, \u03ba\u03b1\u03b9 \u03b7 \u03bf\u03bc\u03ac\u03b4\u03b1 \u03c5\u03c0\u03bf\u03c3\u03c4\u03ae\u03c1\u03b9\u03be\u03b7\u03c2 \u03b8\u03b1 \u03b5\u03c0\u03b9\u03ba\u03bf\u03b9\u03bd\u03c9\u03bd\u03ae\u03c3\u03b5\u03b9 \u03bc\u03b1\u03b6\u03af \u03c3\u03b1\u03c2."},
-gdm(){return"\u03a0\u03ce\u03c2 \u03bc\u03c0\u03bf\u03c1\u03ce \u03bd\u03b1 \u03bc\u03ac\u03b8\u03c9 \u03c3\u03b5 \u03b1\u03c5\u03c4\u03ae\u03bd \u03c4\u03b7\u03bd \u03b5\u03c6\u03b1\u03c1\u03bc\u03bf\u03b3\u03ae;"},
-gdh(){return"\u039c\u03c0\u03bf\u03c1\u03b5\u03af\u03c4\u03b5 \u03bd\u03b1 \u03b1\u03ba\u03bf\u03bb\u03bf\u03c5\u03b8\u03ae\u03c3\u03b5\u03c4\u03b5 \u03c4\u03b1 \u03ba\u03b1\u03b8\u03bf\u03b4\u03b7\u03b3\u03bf\u03cd\u03bc\u03b5\u03bd\u03b1 \u03bc\u03b1\u03b8\u03ae\u03bc\u03b1\u03c4\u03b1, \u03bd\u03b1 \u03b5\u03be\u03b1\u03c3\u03ba\u03b7\u03b8\u03b5\u03af\u03c4\u03b5 \u03bc\u03b5 \u03c4\u03bf\u03bd \u0399\u03a4 Tutor \u03ba\u03b1\u03b9 \u03bd\u03b1 \u03c3\u03c5\u03bd\u03b5\u03c7\u03af\u03c3\u03b5\u03c4\u03b5 \u03bd\u03b1 \u03c0\u03c1\u03bf\u03c7\u03c9\u03c1\u03ac\u03c4\u03b5 \u03b3\u03b9\u03b1 \u03bd\u03b1 \u03be\u03b5\u03c0\u03b5\u03c1\u03ac\u03c3\u03b5\u03c4\u03b5 \u03c4\u03bf \u03b5\u03c0\u03af\u03c0\u03b5\u03b4\u03bf \u03b5\u03c0\u03b9\u03b2\u03af\u03c9\u03c3\u03b7\u03c2."},
 gcU(){return"\u03a0\u03bf\u03bb\u03b9\u03c4\u03b9\u03ba\u03ae \u03b1\u03c0\u03bf\u03c1\u03c1\u03ae\u03c4\u03bf\u03c5"},
 gcT(){return"\u039a\u03b1\u03bd\u03cc\u03bd\u03b5\u03c2 \u03c0\u03bb\u03b1\u03c4\u03c6\u03cc\u03c1\u03bc\u03b1\u03c2"},
 gcV(){return"\u038c\u03c1\u03bf\u03b9 \u03ba\u03b1\u03b9 \u03c0\u03c1\u03bf\u03cb\u03c0\u03bf\u03b8\u03ad\u03c3\u03b5\u03b9\u03c2"},
@@ -91571,7 +91563,15 @@ gcA(){return"\u03a0\u03c1\u03cc\u03c4\u03c5\u03c0\u03b1 \u03b1\u03c3\u03c6\u03b1
 gcW(){return"\u038c\u03c1\u03bf\u03b9 \u03c7\u03c1\u03ae\u03c3\u03b7\u03c2"},
 gcf(){return"\u039a\u03b1\u03c4\u03b5\u03b2\u03ac\u03c3\u03c4\u03b5 \u03b3\u03b9\u03b1 Android"},
 gcg(){return"\u039a\u03b1\u03c4\u03b5\u03b2\u03ac\u03c3\u03c4\u03b5 \u03b3\u03b9\u03b1 iOS"},
-gco(){return"\u039a\u03b1\u03c4\u03b5\u03b2\u03ac\u03c3\u03c4\u03b5 \u03b3\u03b9\u03b1 macOS"}}
+gco(){return"\u039a\u03b1\u03c4\u03b5\u03b2\u03ac\u03c3\u03c4\u03b5 \u03b3\u03b9\u03b1 macOS"},
+gdr(){return"\u03a0\u03ce\u03c2 \u03bb\u03b5\u03b9\u03c4\u03bf\u03c5\u03c1\u03b3\u03b5\u03af \u03bf AI \u03ba\u03b1\u03b8\u03b7\u03b3\u03b7\u03c4\u03ae\u03c2 \u03b5\u03be\u03ac\u03c3\u03ba\u03b7\u03c3\u03b7\u03c2;"},
+gdg(){return"\u039c\u03c0\u03bf\u03c1\u03b5\u03af\u03c4\u03b5 \u03bd\u03b1 \u03ad\u03c7\u03b5\u03c4\u03b5 \u03c6\u03c9\u03bd\u03b7\u03c4\u03b9\u03ba\u03ad\u03c2 \u03c3\u03c5\u03bd\u03bf\u03bc\u03b9\u03bb\u03af\u03b5\u03c2 \u03c3\u03b5 \u03c0\u03c1\u03b1\u03b3\u03bc\u03b1\u03c4\u03b9\u03ba\u03cc \u03c7\u03c1\u03cc\u03bd\u03bf \u03b3\u03b9\u03b1 \u03bf\u03c0\u03bf\u03b9\u03bf\u03b4\u03ae\u03c0\u03bf\u03c4\u03b5 \u03b8\u03ad\u03bc\u03b1 \u03c3\u03b5 \u03b4\u03b9\u03b1\u03c6\u03bf\u03c1\u03b5\u03c4\u03b9\u03ba\u03ac \u03b5\u03c0\u03af\u03c0\u03b5\u03b4\u03b1. \u0397 \u03c4\u03b5\u03c7\u03bd\u03b7\u03c4\u03ae \u03bd\u03bf\u03b7\u03bc\u03bf\u03c3\u03cd\u03bd\u03b7 \u03c3\u03ac\u03c2 \u03b4\u03af\u03bd\u03b5\u03b9 \u03ac\u03bc\u03b5\u03c3\u03b7 \u03b1\u03bd\u03ac\u03b4\u03c1\u03b1\u03c3\u03b7 \u03b3\u03b9\u03b1 \u03c4\u03b7\u03bd \u03ba\u03b1\u03c4\u03b1\u03bd\u03cc\u03b7\u03c3\u03b7, \u03c4\u03b7 \u03b3\u03c1\u03b1\u03bc\u03bc\u03b1\u03c4\u03b9\u03ba\u03ae \u03ba\u03b1\u03b9 \u03c4\u03bf \u03bb\u03b5\u03be\u03b9\u03bb\u03cc\u03b3\u03b9\u03cc \u03c3\u03b1\u03c2."},
+gds(){return"\u0398\u03b1 \u03b4\u03b9\u03bf\u03c1\u03b8\u03ce\u03bd\u03b5\u03b9 \u03b7 \u03c4\u03b5\u03c7\u03bd\u03b7\u03c4\u03ae \u03bd\u03bf\u03b7\u03bc\u03bf\u03c3\u03cd\u03bd\u03b7 \u03c4\u03b1 \u03bb\u03ac\u03b8\u03b7 \u03bc\u03bf\u03c5 \u03b5\u03bd\u03ce \u03bc\u03b9\u03bb\u03ac\u03c9;"},
+gdh(){return"\u039d\u03b1\u03b9. \u0397 \u03c4\u03b5\u03c7\u03bd\u03b7\u03c4\u03ae \u03bd\u03bf\u03b7\u03bc\u03bf\u03c3\u03cd\u03bd\u03b7 \u03b4\u03b9\u03bf\u03c1\u03b8\u03ce\u03bd\u03b5\u03b9 \u03b4\u03b9\u03b1\u03ba\u03c1\u03b9\u03c4\u03b9\u03ba\u03ac \u03c4\u03b7 \u03b3\u03c1\u03b1\u03bc\u03bc\u03b1\u03c4\u03b9\u03ba\u03ae \u03ba\u03b1\u03b9 \u03c4\u03bf \u03bb\u03b5\u03be\u03b9\u03bb\u03cc\u03b3\u03b9\u03cc \u03c3\u03b1\u03c2 \u03c3\u03b5 \u03c0\u03c1\u03b1\u03b3\u03bc\u03b1\u03c4\u03b9\u03ba\u03cc \u03c7\u03c1\u03cc\u03bd\u03bf, \u03ce\u03c3\u03c4\u03b5 \u03bd\u03b1 \u03b1\u03c0\u03bf\u03ba\u03c4\u03ae\u03c3\u03b5\u03c4\u03b5 \u03b1\u03c5\u03c4\u03bf\u03c0\u03b5\u03c0\u03bf\u03af\u03b8\u03b7\u03c3\u03b7 \u03c3\u03c4\u03b7\u03bd \u03bf\u03bc\u03b9\u03bb\u03af\u03b1 \u03c7\u03c9\u03c1\u03af\u03c2 \u03ac\u03b3\u03c7\u03bf\u03c2."},
+gdt(){return"\u0395\u03af\u03bd\u03b1\u03b9 \u03c4\u03bf Edhomy AI Languages \u03b4\u03c9\u03c1\u03b5\u03ac\u03bd;"},
+gdi(){return"\u0397 \u03b5\u03c6\u03b1\u03c1\u03bc\u03bf\u03b3\u03ae \u03b5\u03af\u03bd\u03b1\u03b9 \u03b4\u03c9\u03c1\u03b5\u03ac\u03bd \u03b3\u03b9\u03b1 \u03bb\u03ae\u03c8\u03b7 \u03ba\u03b1\u03b9 \u03c0\u03b5\u03c1\u03b9\u03bb\u03b1\u03bc\u03b2\u03ac\u03bd\u03b5\u03b9 \u03ba\u03b1\u03b8\u03b7\u03bc\u03b5\u03c1\u03b9\u03bd\u03ac \u03b5\u03c1\u03b3\u03b1\u03bb\u03b5\u03af\u03b1 \u03b5\u03be\u03ac\u03c3\u03ba\u03b7\u03c3\u03b7\u03c2. \u0397 \u03b1\u03c0\u03b5\u03c1\u03b9\u03cc\u03c1\u03b9\u03c3\u03c4\u03b7 \u03b5\u03be\u03ac\u03c3\u03ba\u03b7\u03c3\u03b7 \u03c3\u03c5\u03bd\u03bf\u03bc\u03b9\u03bb\u03af\u03b1\u03c2 \u03bc\u03b5 AI \u03ba\u03b1\u03b9 \u03c4\u03b1 \u03ba\u03b1\u03b8\u03bf\u03b4\u03b7\u03b3\u03bf\u03cd\u03bc\u03b5\u03bd\u03b1 \u03b2\u03b9\u03bd\u03c4\u03b5\u03bf\u03bc\u03b1\u03b8\u03ae\u03bc\u03b1\u03c4\u03b1 \u03b1\u03c0\u03b1\u03b9\u03c4\u03bf\u03cd\u03bd premium \u03bb\u03bf\u03b3\u03b1\u03c1\u03b9\u03b1\u03c3\u03bc\u03cc."},
+gdu(){return"\u03a0\u03ce\u03c2 \u03bc\u03c0\u03bf\u03c1\u03ce \u03bd\u03b1 \u03b1\u03b3\u03bf\u03c1\u03ac\u03c3\u03c9 \u03ad\u03bd\u03b1\u03bd premium \u03bb\u03bf\u03b3\u03b1\u03c1\u03b9\u03b1\u03c3\u03bc\u03cc;"},
+gdj(){return"\u039c\u03b5\u03c4\u03b1\u03b2\u03b5\u03af\u03c4\u03b5 \u03c3\u03c4\u03b9\u03c2 \u03a1\u03c5\u03b8\u03bc\u03af\u03c3\u03b5\u03b9\u03c2, \u03c0\u03b1\u03c4\u03ae\u03c3\u03c4\u03b5 'Premium \u03bb\u03bf\u03b3\u03b1\u03c1\u03b9\u03b1\u03c3\u03bc\u03cc\u03c2', \u03b5\u03c0\u03b9\u03bb\u03ad\u03be\u03c4\u03b5 \u03c4\u03bf \u03c0\u03c1\u03cc\u03b3\u03c1\u03b1\u03bc\u03bc\u03b1 \u03c0\u03bf\u03c5 \u03c0\u03c1\u03bf\u03c4\u03b9\u03bc\u03ac\u03c4\u03b5 \u03ba\u03b1\u03b9 \u03bf\u03bb\u03bf\u03ba\u03bb\u03b7\u03c1\u03ce\u03c3\u03c4\u03b5 \u03c4\u03b7\u03bd \u03c0\u03bb\u03b7\u03c1\u03c9\u03bc\u03ae \u03c3\u03b1\u03c2 \u03bc\u03b5 \u03b1\u03c3\u03c6\u03ac\u03bb\u03b5\u03b9\u03b1 \u03c7\u03c1\u03b7\u03c3\u03b9\u03bc\u03bf\u03c0\u03bf\u03b9\u03ce\u03bd\u03c4\u03b1\u03c2 Apple, Google \u03ae \u03c0\u03b9\u03c3\u03c4\u03c9\u03c4\u03b9\u03ba\u03ae \u03ba\u03ac\u03c1\u03c4\u03b1."}}
 A.JM.prototype={
 gcn(){return"Contact us"},
 gcS(){return"More options"},
@@ -91595,19 +91595,11 @@ gd7(){return"Enter name"},
 gd5(){return"Enter email"},
 gd6(){return"Enter message"},
 gcK(){return"Follow us"},
-gdu(){return"The message sent successfully"},
-gdj(){return"Error. Please, try it again"},
+gdv(){return"The message sent successfully"},
+gdk(){return"Error. Please, try it again"},
 gd9(){return"Fill out all before to send"},
 gcR(){return"more"},
 gcO(){return"less"},
-gdv(){return"What is Edhomy AI languages?"},
-gdi(){return"Edhomy AI languages is an app where you can learn a language with AI. It provides an AI tutor to practice pronunciation and a storytelling course with 100 lessons to help you master the language."},
-gdg(){return"Can I learn a language?"},
-gdt(){return"Yes, you can. We collaborate with experts who know the best techniques for learning through multimedia courses."},
-gdr(){return"Is this platform secure?"},
-gdq(){return"Yes, we do not sell your data to third parties. Passwords and emails are completely encrypted. Only you can report any suspicious situations affecting your security, and the support team will contact you."},
-gdm(){return"How can I learn in this app?"},
-gdh(){return"You can follow the guided courses, practice with the AI tutor, and continue progressing to overcome the survival level."},
 gcU(){return"Privacy policy"},
 gcT(){return"Platform Rules"},
 gcV(){return"Term and conditions"},
@@ -91622,7 +91614,15 @@ gcA(){return"Safety Standards"},
 gcW(){return"Terms of Use"},
 gcf(){return"Download for Android"},
 gcg(){return"Download for iOS"},
-gco(){return"Download for macOS"}}
+gco(){return"Download for macOS"},
+gdr(){return"How does the AI practice tutor work?"},
+gdg(){return"You can have real-time voice conversations on any topic across different levels. The AI gives you instant feedback on your understanding, grammar, and vocabulary."},
+gds(){return"Will the AI correct my mistakes while I speak?"},
+gdh(){return"Yes. The AI gently corrects your grammar and vocabulary in real time so you can build speaking confidence without stress."},
+gdt(){return"Is Edhomy AI Languages free to use?"},
+gdi(){return"The app is free to download and includes daily practice tools. Unlimited AI conversation practice and guided video courses require a premium account."},
+gdu(){return"How do I purchase a premium account?"},
+gdj(){return"Go to Settings, tap 'Premium account', choose your preferred plan, and complete your payment securely using Apple, Google, or a credit card."}}
 A.JN.prototype={
 gcn(){return"Cont\xe1ctanos"},
 gcS(){return"M\xe1s opciones"},
@@ -91646,19 +91646,11 @@ gd7(){return"Ingresa el nombre"},
 gd5(){return"Ingresa el correo"},
 gd6(){return"Ingresa el mensaje"},
 gcK(){return"S\xedguenos"},
-gdu(){return"El mensaje se envi\xf3 con \xe9xito"},
-gdj(){return"Error. Por favor, intenta nuevamente"},
+gdv(){return"El mensaje se envi\xf3 con \xe9xito"},
+gdk(){return"Error. Por favor, intenta nuevamente"},
 gd9(){return"Rellena todo antes de enviar"},
 gcR(){return"m\xe1s"},
 gcO(){return"menos"},
-gdv(){return"\xbfQu\xe9 es Edhomy AI languages?"},
-gdi(){return"Edhomy AI languages es una aplicaci\xf3n donde puedes aprender un idioma con IA. Ofrece un tutor de IA para practicar pronunciaci\xf3n y un curso de narraci\xf3n de historias con 100 lecciones para ayudarte a dominar el idioma."},
-gdg(){return"\xbfPuedo aprender un idioma?"},
-gdt(){return"S\xed, puedes. Colaboramos con expertos que conocen las mejores t\xe9cnicas para aprender a trav\xe9s de cursos multimedia."},
-gdr(){return"\xbfEs segura esta plataforma?"},
-gdq(){return"No vendemos tus datos a terceros. Las contrase\xf1as y los correos electr\xf3nicos est\xe1n completamente cifrados. Solo t\xfa puedes reportar cualquier situaci\xf3n sospechosa que afecte tu seguridad, y el equipo de soporte se pondr\xe1 en contacto contigo."},
-gdm(){return"\xbfC\xf3mo puedo aprender en esta aplicaci\xf3n?"},
-gdh(){return"Puedes seguir los cursos guiados, practicar con el tutor de IA y continuar progresando hasta superar el nivel de supervivencia."},
 gcU(){return"Pol\xedtica de privacidad"},
 gcT(){return"Reglas de la plataforma"},
 gcV(){return"T\xe9rminos y condiciones"},
@@ -91673,7 +91665,15 @@ gcA(){return"Normas de seguridad"},
 gcW(){return"T\xe9rminos de uso"},
 gcf(){return"Descargar para Android"},
 gcg(){return"Descargar para iOS"},
-gco(){return"Descargar para macOS"}}
+gco(){return"Descargar para macOS"},
+gdr(){return"\xbfC\xf3mo funciona el tutor de pr\xe1ctica de IA?"},
+gdg(){return"Puedes tener conversaciones de voz en tiempo real sobre cualquier tema en diferentes niveles. La IA te da comentarios al instante sobre tu comprensi\xf3n, gram\xe1tica y vocabulario."},
+gds(){return"\xbfLa IA corregir\xe1 mis errores mientras hablo?"},
+gdh(){return"S\xed. La IA corrige suavemente tu gram\xe1tica y vocabulario en tiempo real para que puedas ganar confianza al hablar sin estr\xe9s."},
+gdt(){return"\xbfEdhomy AI Languages es gratis?"},
+gdi(){return"La aplicaci\xf3n se puede descargar gratis e incluye herramientas de pr\xe1ctica diaria. La pr\xe1ctica ilimitada de conversaci\xf3n con IA y las lecciones en video guiadas requieren una cuenta premium."},
+gdu(){return"\xbfC\xf3mo compro una cuenta premium?"},
+gdj(){return"Ve a Configuraci\xf3n, toca 'Cuenta premium', elige tu plan preferido y completa tu pago de forma segura usando Apple, Google o una tarjeta de cr\xe9dito."}}
 A.JO.prototype={
 gcn(){return"V\xf5ta meiega \xfchendust"},
 gcS(){return"Rohkem valikuid"},
@@ -91697,19 +91697,11 @@ gd7(){return"Sisestage nimi"},
 gd5(){return"Sisestage e-mail"},
 gd6(){return"Sisestage s\xf5num"},
 gcK(){return"J\xe4rgige meid"},
-gdu(){return"S\xf5num on edukalt saadetud"},
-gdj(){return"Viga. Palun proovige uuesti"},
+gdv(){return"S\xf5num on edukalt saadetud"},
+gdk(){return"Viga. Palun proovige uuesti"},
 gd9(){return"T\xe4ida k\xf5ik enne saatmist"},
 gcR(){return"rohkem"},
 gcO(){return"v\xe4hem"},
-gdv(){return"Mis on Edhomy AI keeled?"},
-gdi(){return"Edhomy AI keeled on rakendus, kus saad keelt \xf5ppida tehisintellekti abil. Pakume tehisintellekti juhendajat h\xe4\xe4lduse harjutamiseks ja 100 \xf5ppetunniga jutustamis\xf5ppe kursust, et aidata keelt valdamiseks."},
-gdg(){return"Kas ma saan keelt \xf5ppida?"},
-gdt(){return"Jah, saate. Teeme koost\xf6\xf6d ekspertidega, kes teavad parimaid tehnikaid keele\xf5ppeks multimeediakursuste abil."},
-gdr(){return"Kas see platvorm on turvaline?"},
-gdq(){return"Me ei m\xfc\xfc teie andmeid kolmandatele osapooltele. Paroolid ja e-postid on t\xe4ielikult kr\xfcpteeritud. Ainult teie saate teatada k\xf5ikidest kahtlastest olukordadest, mis m\xf5jutavad teie turvalisust, ja tugimeeskond v\xf5tab teiega \xfchendust."},
-gdm(){return"Kuidas saan selles rakenduses \xf5ppida?"},
-gdh(){return"Saate j\xe4rgida juhendatud kursusi, harjutada tehisintellektiga ja j\xe4tkata edenemist, et \xfcletada elluj\xe4\xe4misv\xf5imekuse taset."},
 gcU(){return"Privaatsuspoliitika"},
 gcT(){return"Platvormi reeglid"},
 gcV(){return"Teenuse tingimused"},
@@ -91724,7 +91716,15 @@ gcA(){return"Ohutusn\xf5uded"},
 gcW(){return"Kasutustingimused"},
 gcf(){return"Lae alla Androidi jaoks"},
 gcg(){return"Lae alla iOS-i jaoks"},
-gco(){return"Lae alla macOS-i jaoks"}}
+gco(){return"Lae alla macOS-i jaoks"},
+gdr(){return"Kuidas tehisintellektist keele\xf5petaja t\xf6\xf6tab?"},
+gdg(){return"Saate pidada reaalajas h\xe4\xe4levestlusi mis tahes teemal eri tasemetel. AI annab teile kohest tagasisidet teie arusaamise, grammatika ja s\xf5navara kohta."},
+gds(){return"Kas AI parandab minu vigu r\xe4\xe4kimise ajal?"},
+gdh(){return"Jah. AI parandab gentilselt teie grammatikat ja s\xf5navara reaalajas, et saaksite ilma stressita r\xe4\xe4kimisjulgust kasvatada."},
+gdt(){return"Kas Edhomy AI Languages on tasuta?"},
+gdi(){return"Rakendus on tasuta allalaaditav ja sisaldab igap\xe4evaseid harjutusvahendeid. Piiramatu AI vestluspraktika ja juhendatud videotunnid n\xf5uavad premium-kontot."},
+gdu(){return"Kuidas osta premium-kontot?"},
+gdj(){return"Minge seadetesse, vajutage 'Premium-konto', valige sobiv pakett ja viige makse turvaliselt l\xf5pule, kasutades Apple'i, Google'i v\xf5i krediitkaarti."}}
 A.JP.prototype={
 gcn(){return"Ota yhteytt\xe4"},
 gcS(){return"Lis\xe4\xe4 vaihtoehtoja"},
@@ -91748,19 +91748,11 @@ gd7(){return"Sy\xf6t\xe4 nimi"},
 gd5(){return"Sy\xf6t\xe4 s\xe4hk\xf6posti"},
 gd6(){return"Sy\xf6t\xe4 viesti"},
 gcK(){return"Seuraa meit\xe4"},
-gdu(){return"Viesti l\xe4hetettiin onnistuneesti"},
-gdj(){return"Virhe. Yrit\xe4 uudelleen"},
+gdv(){return"Viesti l\xe4hetettiin onnistuneesti"},
+gdk(){return"Virhe. Yrit\xe4 uudelleen"},
 gd9(){return"T\xe4yt\xe4 kaikki ennen l\xe4hett\xe4mist\xe4"},
 gcR(){return"lis\xe4\xe4"},
 gcO(){return"v\xe4hemm\xe4n"},
-gdv(){return"Mik\xe4 on Edhomy AI Languages?"},
-gdi(){return"Edhomy AI Languages on sovellus, jonka avulla voit oppia kielt\xe4 teko\xe4lyn avulla. Se tarjoaa teko\xe4lyopettajan \xe4\xe4nt\xe4misharjoituksiin ja tarinankerronnan kurssin, jossa on 100 oppituntia kielen hallitsemiseksi."},
-gdg(){return"Voinko oppia kielt\xe4?"},
-gdt(){return"Kyll\xe4, voit. Teemme yhteisty\xf6t\xe4 asiantuntijoiden kanssa, jotka tuntevat parhaat tekniikat kielen oppimiseen multimedia-kurssien avulla."},
-gdr(){return"Onko t\xe4m\xe4 alusta turvallinen?"},
-gdq(){return"Emme myy tietojasi kolmansille osapuolille. Salasanat ja s\xe4hk\xf6postit on t\xe4ysin salattu. Vain sin\xe4 voit raportoida mahdollisista ep\xe4ilytt\xe4vist\xe4 tilanteista, jotka vaikuttavat turvallisuuteesi, ja tukitiimi ottaa sinuun yhteytt\xe4."},
-gdm(){return"Kuinka voin oppia t\xe4ss\xe4 sovelluksessa?"},
-gdh(){return"Voit seurata ohjattuja kursseja, harjoitella teko\xe4lyn kanssa ja edet\xe4, kunnes ylit\xe4t selviytymistason."},
 gcU(){return"Tietosuojak\xe4yt\xe4nt\xf6"},
 gcT(){return"Alustan s\xe4\xe4nn\xf6t"},
 gcV(){return"Palvelun ehdot"},
@@ -91775,7 +91767,15 @@ gcA(){return"Turvallisuusstandardit"},
 gcW(){return"K\xe4ytt\xf6ehdot"},
 gcf(){return"Lataa Androidille"},
 gcg(){return"Lataa iOS:lle"},
-gco(){return"Lataa macOS:lle"}}
+gco(){return"Lataa macOS:lle"},
+gdr(){return"Miten AI-harjoittelunopettaja toimii?"},
+gdg(){return"Voit k\xe4yd\xe4 realiaikaisia \xe4\xe4nikeskusteluja mist\xe4 tahansa aiheesta eri tasoilla. AI antaa v\xe4lit\xf6nt\xe4 palautetta ymm\xe4rryksest\xe4si, kieliopistasi ja sanastostasi."},
+gds(){return"Korjaako AI virheeni puhuessani?"},
+gdh(){return"Kyll\xe4. AI korjaa kielioppiasi ja sanastoasi lempe\xe4sti realiajassa, jotta voit kasvattaa puherohkeuttasi ilman stressi\xe4."},
+gdt(){return"Onko Edhomy AI Languages ilmainen?"},
+gdi(){return"Sovellus on ilmainen ladata ja se sis\xe4lt\xe4\xe4 p\xe4ivitt\xe4isi\xe4 harjoitusty\xf6kaluja. Rajoittamaton AI-keskusteluharjoittelu ja ohjatut videotunnit vaativat premium-tilin."},
+gdu(){return"Miten ostan premium-tilin?"},
+gdj(){return"Mene Asetuksiin, napauta 'Premium-tili', valitse haluamasi tilausvaihtoehto ja suorita maksu turvallisesti Apple-, Google- tai luottokortilla."}}
 A.JQ.prototype={
 gcn(){return"Contactez-nous"},
 gcS(){return"Plus d'options"},
@@ -91799,19 +91799,11 @@ gd7(){return"Entrez votre nom"},
 gd5(){return"Entrez votre e-mail"},
 gd6(){return"Entrez votre message"},
 gcK(){return"Suivez-nous"},
-gdu(){return"Le message a \xe9t\xe9 envoy\xe9 avec succ\xe8s"},
-gdj(){return"Erreur. Veuillez r\xe9essayer"},
+gdv(){return"Le message a \xe9t\xe9 envoy\xe9 avec succ\xe8s"},
+gdk(){return"Erreur. Veuillez r\xe9essayer"},
 gd9(){return"Veuillez remplir tous les champs avant d'envoyer"},
 gcR(){return"plus"},
 gcO(){return"moins"},
-gdv(){return"Qu'est-ce que Edhomy AI Languages ?"},
-gdi(){return"Edhomy AI Languages est une application o\xf9 vous pouvez apprendre une langue avec l'IA. Il offre un tuteur IA pour pratiquer la prononciation et un cours de narration avec 100 le\xe7ons pour vous aider \xe0 ma\xeetriser la langue."},
-gdg(){return"Puis-je apprendre une langue ?"},
-gdt(){return"Oui, vous pouvez. Nous collaborons avec des experts qui connaissent les meilleures techniques pour apprendre via des cours multim\xe9dia."},
-gdr(){return"Cette plateforme est-elle s\xe9curis\xe9e ?"},
-gdq(){return"Nous ne vendons pas vos donn\xe9es \xe0 des tiers. Les mots de passe et les e-mails sont enti\xe8rement crypt\xe9s. Seul vous pouvez signaler toute situation suspecte affectant votre s\xe9curit\xe9, et l'\xe9quipe de support vous contactera."},
-gdm(){return"Comment puis-je apprendre sur cette application ?"},
-gdh(){return"Vous pouvez suivre les cours guid\xe9s, pratiquer avec le tuteur IA et continuer \xe0 progresser pour d\xe9passer le niveau de survie."},
 gcU(){return"Politique de confidentialit\xe9"},
 gcT(){return"R\xe8gles de la plateforme"},
 gcV(){return"Conditions d'utilisation"},
@@ -91826,7 +91818,15 @@ gcA(){return"Normes de s\xe9curit\xe9"},
 gcW(){return"Conditions d'utilisation"},
 gcf(){return"T\xe9l\xe9charger pour Android"},
 gcg(){return"T\xe9l\xe9charger pour iOS"},
-gco(){return"T\xe9l\xe9charger pour macOS"}}
+gco(){return"T\xe9l\xe9charger pour macOS"},
+gdr(){return"Comment fonctionne le tuteur d'entra\xeenement IA ?"},
+gdg(){return"Vous pouvez avoir des conversations vocales en temps r\xe9el sur n'importe quel sujet \xe0 diff\xe9rents niveaux. L'IA vous donne un retour instantan\xe9 sur votre compr\xe9hension, votre grammaire et votre vocabulaire."},
+gds(){return"L'IA corrigera-t-elle mes erreurs pendant que je parle ?"},
+gdh(){return"Oui. L'IA corrige en douceur votre grammaire et votre vocabulaire en temps r\xe9el afin que vous puissiez prendre confiance \xe0 l'oral sans stress."},
+gdt(){return"L'application Edhomy AI Languages est-elle gratuite ?"},
+gdi(){return"L'application est gratuite \xe0 t\xe9l\xe9charger et comprend des outils de pratique quotidienne. La pratique illimit\xe9e de la conversation avec l'IA et les le\xe7ons vid\xe9o guid\xe9es n\xe9cessitent un compte premium."},
+gdu(){return"Comment acheter un compte premium ?"},
+gdj(){return"Acc\xe9dez aux Param\xe8tres, appuyez sur 'Compte premium', choisissez votre forfait pr\xe9f\xe9r\xe9 et compl\xe9tez votre paiement en toute s\xe9curit\xe9 avec Apple, Google ou une carte de cr\xe9dit."}}
 A.JR.prototype={
 gcn(){return"Kapcsolatfelv\xe9tel"},
 gcS(){return"Tov\xe1bbi lehet\u0151s\xe9gek"},
@@ -91850,20 +91850,12 @@ gd7(){return"Add meg a neved"},
 gd5(){return"Add meg az email c\xedmed"},
 gd6(){return"Add meg az \xfczenetet"},
 gcK(){return"K\xf6vess minket"},
-gdu(){return"Az \xfczenet sikeresen elk\xfcldve"},
-gdj(){return"Hiba t\xf6rt\xe9nt. K\xe9rlek pr\xf3b\xe1ld \xfajra"},
+gdv(){return"Az \xfczenet sikeresen elk\xfcldve"},
+gdk(){return"Hiba t\xf6rt\xe9nt. K\xe9rlek pr\xf3b\xe1ld \xfajra"},
 gd9(){return"T\xf6ltsd ki az \xf6sszes mez\u0151t a k\xfcld\xe9s el\u0151tt"},
 gcR(){return"t\xf6bb"},
 gcO(){return"kevesebb"},
-gdv(){return"Mi az Edhomy AI Languages?"},
-gdi(){return"Edhomy AI Languages egy alkalmaz\xe1s, amellyel nyelvet tanulhatsz MI seg\xedts\xe9g\xe9vel. Teka MI oktat\xf3 seg\xedt a kiejt\xe9s gyakorl\xe1s\xe1ban, \xe9s egy t\xf6rt\xe9netmes\xe9l\xe9s kurzust k\xedn\xe1l 100 leck\xe9vel a nyelv elsaj\xe1t\xedt\xe1s\xe1hoz."},
-gdg(){return"Tanulhatok nyelveket?"},
-gdt(){return"Igen, tanulhatsz. Egy\xfcttm\u0171k\xf6d\xfcnk olyan szak\xe9rt\u0151kkel, akik ismerik a legjobb technik\xe1kat a multim\xe9di\xe1s tanfolyamokon kereszt\xfcl t\xf6rt\xe9n\u0151 tanul\xe1shoz."},
-gdr(){return"Biztons\xe1gos ez a platform?"},
-gdq(){return"Nem adjuk el az adataidat harmadik feleknek. A jelszavak \xe9s e-mailek teljesen titkos\xedtva vannak. Csak te jelentheted a biztons\xe1godat \xe9rint\u0151 gyan\xfas helyzeteket, \xe9s a t\xe1mogat\xf3 csapat fel fog venni veled kapcsolatot."},
-gdm(){return"Hogyan tanulhatok ezen az alkalmaz\xe1son?"},
-gdh(){return"K\xf6vesd az ir\xe1ny\xedtott kurzusokat, gyakorolj az MI oktat\xf3val, \xe9s folytasd a fejl\u0151d\xe9st, hogy \xe1tl\xe9pd a t\xfal\xe9l\xe9si szintet."},
-gcU(){return"Adatv\xe9delmi ir\xe1nyelvek"},
+gcU(){return"Privacy policy"},
 gcT(){return"Platform szab\xe1lyai"},
 gcV(){return"Szolg\xe1ltat\xe1si felt\xe9telek"},
 gck(){return"Gyakran ism\xe9telt k\xe9rd\xe9sek"},
@@ -91877,7 +91869,15 @@ gcA(){return"Biztons\xe1gi szabv\xe1nyok"},
 gcW(){return"Felhaszn\xe1l\xe1si felt\xe9telek"},
 gcf(){return"Let\xf6lt\xe9s Androidra"},
 gcg(){return"Let\xf6lt\xe9s iOS-ra"},
-gco(){return"Let\xf6lt\xe9s macOS-ra"}}
+gco(){return"Let\xf6lt\xe9s macOS-ra"},
+gdr(){return"Hogyan m\u0171k\xf6dik az AI gyakorl\xf3 oktat\xf3?"},
+gdg(){return"Val\xf3s idej\u0171 hangalap\xfa besz\xe9lget\xe9seket folytathat b\xe1rmilyen t\xe9m\xe1ban, k\xfcl\xf6nb\xf6z\u0151 szinteken. Az AI azonnali visszajelz\xe9st ad a meg\xe9rt\xe9sr\u0151l, a nyelvtanr\xf3l \xe9s a sz\xf3kincsr\u0151l."},
+gds(){return"Az AI kijav\xedtja a hib\xe1imat besz\xe9d k\xf6zben?"},
+gdh(){return"Igen. Az AI finoman, val\xf3s id\u0151ben jav\xedtja a nyelvtant \xe9s a sz\xf3kincset, \xedgy stressz n\xe9lk\xfcl \xe9p\xedtheti \xf6nbizalm\xe1t a besz\xe9d sor\xe1n."},
+gdt(){return"Az Edhomy AI Languages ingyenesen haszn\xe1lhat\xf3?"},
+gdi(){return"Az alkalmaz\xe1s ingyenesen let\xf6lthet\u0151, \xe9s napi gyakorl\xf3eszk\xf6z\xf6ket tartalmaz. A korl\xe1tlan AI besz\xe9lget\xe9sgyakorl\xe1shoz \xe9s a vezetett vide\xf3leck\xe9khez pr\xe9mium fi\xf3k sz\xfcks\xe9ges."},
+gdu(){return"Hogyan v\xe1s\xe1rolhatok pr\xe9mium fi\xf3kot?"},
+gdj(){return"L\xe9pjen a Be\xe1ll\xedt\xe1sok men\xfcpontba, koppintson a 'Pr\xe9mium fi\xf3k' lehet\u0151s\xe9gre, v\xe1lassza ki a k\xedv\xe1nt csomagot, \xe9s fejezze be a fizet\xe9st biztons\xe1gosan Apple, Google vagy bankk\xe1rtya seg\xedts\xe9g\xe9vel."}}
 A.JS.prototype={
 gcn(){return"Hubungi Kami"},
 gcS(){return"Lebih banyak pilihan"},
@@ -91901,19 +91901,11 @@ gd7(){return"Masukkan nama"},
 gd5(){return"Masukkan email"},
 gd6(){return"Masukkan pesan"},
 gcK(){return"Ikuti kami"},
-gdu(){return"Pesan berhasil dikirim"},
-gdj(){return"Kesalahan. Silakan coba lagi"},
+gdv(){return"Pesan berhasil dikirim"},
+gdk(){return"Kesalahan. Silakan coba lagi"},
 gd9(){return"Harap isi semua kolom sebelum mengirim"},
 gcR(){return"lebih"},
 gcO(){return"kurang"},
-gdv(){return"Apa itu Edhomy AI Languages?"},
-gdi(){return"Edhomy AI Languages adalah aplikasi di mana Anda bisa belajar bahasa dengan AI. Ini menawarkan tutor AI untuk berlatih pengucapan dan kursus storytelling dengan 100 pelajaran untuk membantu Anda menguasai bahasa."},
-gdg(){return"Bisakah saya belajar bahasa?"},
-gdt(){return"Ya, Anda bisa. Kami bekerja sama dengan ahli yang tahu teknik terbaik untuk belajar melalui kursus multimedia."},
-gdr(){return"Apakah platform ini aman?"},
-gdq(){return"Kami tidak menjual data Anda kepada pihak ketiga. Kata sandi dan email sepenuhnya terenkripsi. Hanya Anda yang dapat melaporkan situasi mencurigakan yang memengaruhi keamanan Anda, dan tim dukungan akan menghubungi Anda."},
-gdm(){return"Bagaimana saya bisa belajar di aplikasi ini?"},
-gdh(){return"Anda dapat mengikuti kursus terarah, berlatih dengan tutor AI, dan melanjutkan untuk mengatasi tingkat kelangsungan hidup."},
 gcU(){return"Kebijakan Privasi"},
 gcT(){return"Aturan Platform"},
 gcV(){return"Syarat dan Ketentuan"},
@@ -91928,7 +91920,15 @@ gcA(){return"Standar Keamanan"},
 gcW(){return"Syarat Penggunaan"},
 gcf(){return"Unduh untuk Android"},
 gcg(){return"Unduh untuk iOS"},
-gco(){return"Unduh untuk macOS"}}
+gco(){return"Unduh untuk macOS"},
+gdr(){return"Bagaimana cara kerja tutor latihan AI?"},
+gdg(){return"Anda dapat melakukan percakapan suara secara real-time tentang topik apa pun di berbagai tingkat kesulitan. AI memberikan umpan balik instan tentang pemahaman, tata bahasa, dan kosakata Anda."},
+gds(){return"Apakah AI akan mengoreksi kesalahan saya saat berbicara?"},
+gdh(){return"Ya. AI secara halus mengoreksi tata bahasa dan kosakata Anda secara real-time sehingga Anda dapat membangun rasa percaya diri berbicara tanpa stres."},
+gdt(){return"Apakah Edhomy AI Languages gratis untuk digunakan?"},
+gdi(){return"Aplikasi ini gratis untuk diunduh dan mencakup alat latihan harian. Latihan percakapan AI tanpa batas dan pelajaran video terpandu memerlukan akun premium."},
+gdu(){return"Bagaimana cara membeli akun premium?"},
+gdj(){return"Buka Pengaturan, ketuk 'Akun premium', pilih paket yang Anda inginkan, dan selesaikan pembayaran Anda secara aman menggunakan Apple, Google, atau kartu kredit."}}
 A.JT.prototype={
 gcn(){return"Hafa samband"},
 gcS(){return"Fleiri valkostir"},
@@ -91952,19 +91952,11 @@ gd7(){return"Sl\xe1\xf0u inn nafn"},
 gd5(){return"Sl\xe1\xf0u inn t\xf6lvup\xf3st"},
 gd6(){return"Sl\xe1\xf0u inn skilabo\xf0"},
 gcK(){return"Fylgdu okkur"},
-gdu(){return"Skilabo\xf0in voru send me\xf0 g\xf3\xf0um \xe1rangri"},
-gdj(){return"Villa. Vinsamlegast reyndu aftur"},
+gdv(){return"Skilabo\xf0in voru send me\xf0 g\xf3\xf0um \xe1rangri"},
+gdk(){return"Villa. Vinsamlegast reyndu aftur"},
 gd9(){return"Vinsamlegast fylltu \xfat allt \xe1\xf0ur en \xfe\xfa sendir"},
 gcR(){return"meira"},
 gcO(){return"minna"},
-gdv(){return"Hva\xf0 er Edhomy AI tungum\xe1l?"},
-gdi(){return"Edhomy AI tungum\xe1l er forrit \xfear sem \xfe\xfa getur l\xe6rt tungum\xe1l me\xf0 gervigreind. \xdea\xf0 b\xfd\xf0ur upp \xe1 AI kennara til a\xf0 \xe6fa frambur\xf0 og s\xf6gu-n\xe1m me\xf0 100 kennslum til a\xf0 hj\xe1lpa \xfe\xe9r a\xf0 n\xe1 t\xf6kum \xe1 tungum\xe1linu."},
-gdg(){return"Get \xe9g l\xe6rt tungum\xe1l?"},
-gdt(){return"J\xe1, \xfe\xfa getur. Vi\xf0 vinnum me\xf0 s\xe9rfr\xe6\xf0ingum sem vita hva\xf0a t\xe6kni er best til a\xf0 l\xe6ra me\xf0 fj\xf6lmi\xf0la n\xe1mskei\xf0um."},
-gdr(){return"Er \xfeessi vettvangur \xf6ruggur?"},
-gdq(){return"Vi\xf0 seljum ekki g\xf6gnin \xfe\xedn til \xferi\xf0ju a\xf0ila. Lykilor\xf0 og t\xf6lvup\xf3stur eru algj\xf6rlega dulk\xf3\xf0u\xf0. Bara \xfe\xfa getur tilkynnt allar grunsamlegar a\xf0st\xe6\xf0ur sem hafa \xe1hrif \xe1 \xf6ryggi \xfeitt, og stu\xf0ningsteymi\xf0 mun hafa samband vi\xf0 \xfeig."},
-gdm(){return"Hvernig get \xe9g l\xe6rt \xe1 \xfeessari app?"},
-gdh(){return"\xde\xfa getur fylgt n\xe1mskei\xf0unum, \xe6ft me\xf0 AI kennaranum og haldi\xf0 \xe1fram a\xf0 b\xe6ta \xfeig til a\xf0 komast yfir l\xedfsvi\xf0hald."},
 gcU(){return"Pers\xf3nuverndarstefna"},
 gcT(){return"Reglur \xe1 vettvangi"},
 gcV(){return"Skilm\xe1lar og skilyr\xf0i"},
@@ -91979,7 +91971,15 @@ gcA(){return"\xd6ryggissta\xf0lar"},
 gcW(){return"Notkunarskilm\xe1lar"},
 gcf(){return"S\xe6kja fyrir Android"},
 gcg(){return"S\xe6kja fyrir iOS"},
-gco(){return"S\xe6kja fyrir macOS"}}
+gco(){return"S\xe6kja fyrir macOS"},
+gdr(){return"Hvernig virkar gervigreandarkennarinn?"},
+gdg(){return"\xde\xfa getur \xe1tt raddsamr\xe6\xf0ur \xed raunt\xedma um hva\xf0a efni sem er \xe1 mismunandi stigum. Gervigreindin gefur \xfe\xe9r takalausa endurgj\xf6f \xe1 skilning, m\xe1lfr\xe6\xf0i og or\xf0afor\xf0a."},
+gds(){return"Mun gervigreindin lei\xf0r\xe9tta mist\xf6kin m\xedn \xe1 me\xf0an \xe9g tala?"},
+gdh(){return"J\xe1. Gervigreindin lei\xf0r\xe9ttir m\xe1lfr\xe6\xf0i og or\xf0afor\xf0a mj\xfaklega \xed raunt\xedma svo \xfe\xfa getur byggt upp sj\xe1lfstraust \xed tali \xe1n \xe1lags."},
+gdt(){return"Er Edhomy AI Languages \xf3keypis \xed notkun?"},
+gdi(){return"Appi\xf0 er \xf3keypis \xed ni\xf0urhali og inniheldur dagleg \xe6fingat\xe6ki. \xd3takm\xf6rku\xf0 samr\xe6\xf0u\xe6fing vi\xf0 gervigreind og lei\xf0beindar myndbandslex\xedur krefjast premium-reiknings."},
+gdu(){return"Hvernig kaupi \xe9g premium-reikning?"},
+gdj(){return"Far\xf0u \xed Stillingar, \xfdttu \xe1 'Premium-reikningur', veldu \xfe\xe1 lei\xf0 sem \xfe\xe9r hentar og kl\xe1ra\xf0u grei\xf0sluna \xe1 \xf6ruggan h\xe1tt me\xf0 Apple, Google e\xf0a kreditkorti."}}
 A.JU.prototype={
 gcn(){return"Contattaci"},
 gcS(){return"Altre opzioni"},
@@ -92003,19 +92003,11 @@ gd7(){return"Inserisci il nome"},
 gd5(){return"Inserisci l'email"},
 gd6(){return"Inserisci il messaggio"},
 gcK(){return"Seguici"},
-gdu(){return"Il messaggio \xe8 stato inviato con successo"},
-gdj(){return"Errore. Riprova per favore"},
+gdv(){return"Il messaggio \xe8 stato inviato con successo"},
+gdk(){return"Errore. Riprova per favore"},
 gd9(){return"Compila tutto prima di inviare"},
 gcR(){return"pi\xf9"},
 gcO(){return"meno"},
-gdv(){return"Cos'\xe8 Edhomy AI Languages?"},
-gdi(){return"Edhomy AI Languages \xe8 un'app in cui puoi imparare una lingua con l'AI. Offre un tutor AI per esercitarti con la pronuncia e un corso di storytelling con 100 lezioni per aiutarti a padroneggiare la lingua."},
-gdg(){return"Posso imparare una lingua?"},
-gdt(){return"S\xec, puoi. Collaboriamo con esperti che conoscono le migliori tecniche per imparare attraverso corsi multimediali."},
-gdr(){return"Questa piattaforma \xe8 sicura?"},
-gdq(){return"Non vendiamo i tuoi dati a terze parti. Le password e le email sono completamente criptate. Solo tu puoi segnalare eventuali situazioni sospette che influenzano la tua sicurezza, e il team di supporto ti contatter\xe0."},
-gdm(){return"Come posso imparare in questa app?"},
-gdh(){return"Puoi seguire i corsi guidati, esercitarti con il tutor AI e continuare a progredire fino a superare il livello di sopravvivenza."},
 gcU(){return"Politica sulla privacy"},
 gcT(){return"Regole della piattaforma"},
 gcV(){return"Termini di servizio"},
@@ -92030,7 +92022,15 @@ gcA(){return"Norme di sicurezza"},
 gcW(){return"Termini di utilizzo"},
 gcf(){return"Scarica per Android"},
 gcg(){return"Scarica per iOS"},
-gco(){return"Scarica per macOS"}}
+gco(){return"Scarica per macOS"},
+gdr(){return"Come funziona il tutor per la pratica IA?"},
+gdg(){return"Puoi conversare a voce in tempo reale su qualsiasi argomento a diversi livelli. L'IA ti fornisce un feedback immediato su comprensione, grammatica e vocaboli."},
+gds(){return"L'IA corregger\xe0 i miei errori mentre parlo?"},
+gdh(){return"S\xec. L'IA corregge delicatamente la tua grammatica e i tuoi vocaboli in tempo reale, cos\xec puoi sviluppare la sicurezza nel parlare senza stress."},
+gdt(){return"Edhomy AI Languages \xe8 gratuito?"},
+gdi(){return"L'app \xe8 gratuita da scaricare e include strumenti di pratica quotidiana. La pratica di conversazione illimitata con l'IA e le video lezioni guidate richiedono un account premium."},
+gdu(){return"Come posso acquistare un account premium?"},
+gdj(){return"Vai su Impostazioni, tocca 'Account premium', scegli il piano che preferisci e completa il pagamento in modo sicuro utilizzando Apple, Google o una carta di credito."}}
 A.JV.prototype={
 gcn(){return"\u304a\u554f\u3044\u5408\u308f\u305b"},
 gcS(){return"\u305d\u306e\u4ed6\u306e\u30aa\u30d7\u30b7\u30e7\u30f3"},
@@ -92054,19 +92054,11 @@ gd7(){return"\u540d\u524d\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044"
 gd5(){return"\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044"},
 gd6(){return"\u30e1\u30c3\u30bb\u30fc\u30b8\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044"},
 gcK(){return"\u30d5\u30a9\u30ed\u30fc\u3059\u308b"},
-gdu(){return"\u30e1\u30c3\u30bb\u30fc\u30b8\u306f\u6b63\u5e38\u306b\u9001\u4fe1\u3055\u308c\u307e\u3057\u305f"},
-gdj(){return"\u30a8\u30e9\u30fc\u3002\u3082\u3046\u4e00\u5ea6\u304a\u8a66\u3057\u304f\u3060\u3055\u3044"},
+gdv(){return"\u30e1\u30c3\u30bb\u30fc\u30b8\u306f\u6b63\u5e38\u306b\u9001\u4fe1\u3055\u308c\u307e\u3057\u305f"},
+gdk(){return"\u30a8\u30e9\u30fc\u3002\u3082\u3046\u4e00\u5ea6\u304a\u8a66\u3057\u304f\u3060\u3055\u3044"},
 gd9(){return"\u9001\u4fe1\u524d\u306b\u3059\u3079\u3066\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044"},
 gcR(){return"\u3082\u3063\u3068"},
 gcO(){return"\u5c11\u306a\u3044"},
-gdv(){return"Edhomy AI Languages\u3068\u306f\uff1f"},
-gdi(){return"Edhomy AI Languages\u306f\u3001AI\u3092\u4f7f\u3063\u3066\u8a00\u8a9e\u3092\u5b66\u3076\u30a2\u30d7\u30ea\u3067\u3059\u3002\u767a\u97f3\u3092\u7df4\u7fd2\u3059\u308b\u305f\u3081\u306eAI\u30c1\u30e5\u30fc\u30bf\u30fc\u3068\u3001\u8a00\u8a9e\u3092\u30de\u30b9\u30bf\u30fc\u3059\u308b\u305f\u3081\u306e100\u30ec\u30c3\u30b9\u30f3\u306e\u30b9\u30c8\u30fc\u30ea\u30fc\u30c6\u30ea\u30f3\u30b0\u30b3\u30fc\u30b9\u304c\u3042\u308a\u307e\u3059\u3002"},
-gdg(){return"\u8a00\u8a9e\u3092\u5b66\u3076\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u304b\uff1f"},
-gdt(){return"\u306f\u3044\u3001\u3067\u304d\u307e\u3059\u3002\u30de\u30eb\u30c1\u30e1\u30c7\u30a3\u30a2\u30b3\u30fc\u30b9\u3092\u901a\u3058\u3066\u5b66\u3076\u6700\u9069\u306a\u6280\u8853\u3092\u77e5\u3063\u3066\u3044\u308b\u5c02\u9580\u5bb6\u3068\u63d0\u643a\u3057\u3066\u3044\u307e\u3059\u3002"},
-gdr(){return"\u3053\u306e\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0\u306f\u5b89\u5168\u3067\u3059\u304b\uff1f"},
-gdq(){return"\u5f53\u793e\u306f\u304a\u5ba2\u69d8\u306e\u30c7\u30fc\u30bf\u3092\u7b2c\u4e09\u8005\u306b\u8ca9\u58f2\u3059\u308b\u3053\u3068\u306f\u3042\u308a\u307e\u305b\u3093\u3002\u30d1\u30b9\u30ef\u30fc\u30c9\u3068\u30e1\u30fc\u30eb\u30a2\u30c9\u30ec\u30b9\u306f\u5b8c\u5168\u306b\u6697\u53f7\u5316\u3055\u308c\u3066\u3044\u307e\u3059\u3002\u30bb\u30ad\u30e5\u30ea\u30c6\u30a3\u306b\u5f71\u97ff\u3092\u53ca\u307c\u3059\u4e0d\u5be9\u306a\u72b6\u6cc1\u306f\u3001\u304a\u5ba2\u69d8\u3054\u81ea\u8eab\u306e\u307f\u304c\u5831\u544a\u3067\u304d\u3001\u30b5\u30dd\u30fc\u30c8\u30c1\u30fc\u30e0\u304c\u3054\u9023\u7d61\u3044\u305f\u3057\u307e\u3059\u3002"},
-gdm(){return"\u3053\u306e\u30a2\u30d7\u30ea\u3067\u3069\u306e\u3088\u3046\u306b\u5b66\u3079\u307e\u3059\u304b\uff1f"},
-gdh(){return"\u30ac\u30a4\u30c9\u4ed8\u304d\u30b3\u30fc\u30b9\u3092\u30d5\u30a9\u30ed\u30fc\u3057\u3001AI\u30c1\u30e5\u30fc\u30bf\u30fc\u3068\u7df4\u7fd2\u3057\u3066\u3001\u30b5\u30d0\u30a4\u30d0\u30eb\u30ec\u30d9\u30eb\u3092\u8d85\u3048\u3066\u9032\u3093\u3067\u3044\u304d\u307e\u3059\u3002"},
 gcU(){return"\u30d7\u30e9\u30a4\u30d0\u30b7\u30fc\u30dd\u30ea\u30b7\u30fc"},
 gcT(){return"\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0\u306e\u898f\u5247"},
 gcV(){return"\u5229\u7528\u898f\u7d04"},
@@ -92081,58 +92073,66 @@ gcA(){return"\u5b89\u5168\u57fa\u6e96"},
 gcW(){return"\u5229\u7528\u898f\u7d04"},
 gcf(){return"Android\u7528\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9"},
 gcg(){return"iOS\u7528\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9"},
-gco(){return"macOS\u7528\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9"}}
+gco(){return"macOS\u7528\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9"},
+gdr(){return"AI\u7df4\u7fd2\u30c1\u30e5\u30fc\u30bf\u30fc\u306f\u3069\u306e\u3088\u3046\u306b\u6a5f\u80fd\u3057\u307e\u3059\u304b\uff1f"},
+gdg(){return"\u3055\u307e\u3056\u307e\u306a\u30ec\u30d9\u30eb\u3067\u3001\u3042\u3089\u3086\u308b\u30c8\u30d4\u30c3\u30af\u306b\u3064\u3044\u3066\u30ea\u30a2\u30eb\u30bf\u30a4\u30e0\u306e\u97f3\u58f0\u4f1a\u8a71\u304c\u3067\u304d\u307e\u3059\u3002AI\u304c\u7406\u89e3\u5ea6\u3001\u6587\u6cd5\u3001\u8a9e\u5f59\u306b\u3064\u3044\u3066\u5373\u5ea7\u306b\u30d5\u30a3\u30fc\u30c9\u30d0\u30c3\u30af\u3092\u63d0\u4f9b\u3057\u307e\u3059\u3002"},
+gds(){return"\u8a71\u3057\u3066\u3044\u308b\u9593\u306bAI\u304c\u9593\u9055\u3044\u3092\u4fee\u6b63\u3057\u3066\u304f\u308c\u307e\u3059\u304b\uff1f"},
+gdh(){return"\u306f\u3044\u3002AI\u304c\u30ea\u30a2\u30eb\u30bf\u30a4\u30e0\u3067\u6587\u6cd5\u3084\u8a9e\u5f59\u3092\u512a\u3057\u304f\u4fee\u6b63\u3059\u308b\u305f\u3081\u3001\u30b9\u30c8\u30ec\u30b9\u306a\u304f\u8a71\u3059\u81ea\u4fe1\u3092\u6df1\u3081\u308b\u3053\u3068\u304c\u3067\u304d\u307e\u3059\u3002"},
+gdt(){return"Edhomy AI Languages\u306f\u7121\u6599\u3067\u5229\u7528\u3067\u304d\u307e\u3059\u304b\uff1f"},
+gdi(){return"\u30a2\u30d7\u30ea\u306f\u7121\u6599\u3067\u30c0\u30a6\u30f3\u30ed\u30fc\u30c9\u3067\u304d\u3001\u6bce\u65e5\u306e\u7df4\u7fd2\u30c4\u30fc\u30eb\u304c\u542b\u307e\u308c\u3066\u3044\u307e\u3059\u3002\u7121\u5236\u9650\u306eAI\u4f1a\u8a71\u7df4\u7fd2\u304a\u3088\u3073\u30ac\u30a4\u30c9\u4ed8\u304d\u30d3\u30c7\u30aa\u30ec\u30c3\u30b9\u30f3\u306b\u306f\u30d7\u30ec\u30df\u30a2\u30e0\u30a2\u30ab\u30a6\u30f3\u30c8\u304c\u5fc5\u8981\u3067\u3059\u3002"},
+gdu(){return"\u30d7\u30ec\u30df\u30a2\u30e0\u30a2\u30ab\u30a6\u30f3\u30c8\u306f\u3069\u306e\u3088\u3046\u306b\u8cfc\u5165\u3067\u304d\u307e\u3059\u304b\uff1f"},
+gdj(){return"\u300c\u8a2d\u5b9a\u300d\u306b\u79fb\u52d5\u3057\u3001\u300c\u30d7\u30ec\u30df\u30a2\u30e0\u30a2\u30ab\u30a6\u30f3\u30c8\u300d\u3092\u30bf\u30c3\u30d7\u3057\u3066\u3054\u5e0c\u671b\u306e\u30d7\u30e9\u30f3\u3092\u9078\u629e\u3057\u3001Apple\u3001Google\u3001\u307e\u305f\u306f\u30af\u30ec\u30b8\u30c3\u30c8\u30ab\u30fc\u30c9\u3092\u4f7f\u7528\u3057\u3066\u5b89\u5168\u306b\u652f\u6255\u3044\u3092\u5b8c\u4e86\u3057\u3066\u304f\u3060\u3055\u3044\u3002"}}
 A.JW.prototype={
-gcn(){return"\u0411\u0456\u0437\u0431\u0435\u043d \u0431\u0430\u0439\u043b\u0430\u043d\u044b\u0441\u0443"},
-gcS(){return"\u049a\u043e\u0441\u044b\u043c\u0448\u0430 \u043e\u043f\u0446\u0438\u044f\u043b\u0430\u0440"},
-gcJ(){return"AI \u043a\u04e9\u043c\u0435\u0433\u0456\u043c\u0435\u043d \u0442\u0456\u043b \u04af\u0439\u0440\u0435\u043d\u0456\u04a3\u0456\u0437."},
+gcn(){return"\u10d3\u10d0\u10d2\u10d5\u10d8\u10d9\u10d0\u10d5\u10e8\u10d8\u10e0\u10d3\u10d8\u10d7"},
+gcS(){return"\u10db\u10d4\u10e2\u10d8 \u10dd\u10de\u10ea\u10d8\u10d0"},
+gcJ(){return"\u10d8\u10e1\u10ec\u10d0\u10d5\u10da\u10d4\u10d7 \u10d4\u10dc\u10d4\u10d1\u10d8 AI-\u10e1 \u10d3\u10d0\u10ee\u10db\u10d0\u10e0\u10d4\u10d1\u10d8\u10d7."},
 gcZ(){return"\u10d8\u10d5\u10d0\u10e0\u10ef\u10d8\u10e8\u10d4\u10d7 AI \u10e0\u10d4\u10de\u10d4\u10e2\u10d8\u10e2\u10dd\u10e0\u10d7\u10d0\u10dc"},
 gd_(){return"\u10e7\u10dd\u10d5\u10d4\u10da\u10d3\u10e6\u10d8\u10e3\u10e0\u10d0\u10d3 \u10d2\u10d0\u10d8\u10d0\u10e0\u10d4\u10d7 \u10d5\u10d8\u10d3\u10d4\u10dd\u10d2\u10d0\u10d9\u10d5\u10d4\u10d7\u10d8\u10da\u10d4\u10d1\u10d8"},
-gcl(){return"\u041c\u04b1\u043d\u0434\u0430 \u049b\u043e\u0441\u044b\u043b\u044b\u04a3\u044b\u0437!"},
-gcF(){return"\u041a\u04e9\u043f\u0442\u0456\u043b\u0434\u0456 \u0416\u0418 \u043e\u049b\u044b\u0442\u0443\u0448\u044b"},
-gcG(){return"\u04d8\u04a3\u0433\u0456\u043c\u0435 \u0430\u0439\u0442\u044b\u043f \u0431\u0435\u0440\u0443 \u0432\u0438\u0434\u0435\u043e\u043b\u0430\u0440\u044b"},
-gcH(){return"\u0414\u0438\u043d\u0430\u043c\u0438\u043a\u0430\u043b\u044b\u049b \u0432\u0438\u043a\u0442\u043e\u0440\u0438\u043d\u0430\u043b\u0430\u0440"},
-gcB(){return"\u0416\u0430\u0441\u0430\u043d\u0434\u044b \u0438\u043d\u0442\u0435\u043b\u043b\u0435\u043a\u0442\u0442\u0456 \u043f\u0430\u0439\u0434\u0430\u043b\u0430\u043d\u044b\u043f \u0441\u04e9\u0439\u043b\u0435\u0443 \u0434\u0430\u0493\u0434\u044b\u043b\u0430\u0440\u044b\u04a3\u044b\u0437\u0434\u044b \u0434\u0430\u043c\u044b\u0442\u044b\u043f, \u0436\u0435\u0442\u0456\u043b\u0434\u0456\u0440\u0456\u04a3\u0456\u0437. \u0425\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u0431\u0456\u0440\u0434\u0435\u043d \u0430\u0443\u0434\u0430\u0440\u044b\u04a3\u044b\u0437, \u0430\u043d\u0430 \u0442\u0456\u043b\u0456\u04a3\u0456\u0437\u0434\u0435 (\u043e\u0440\u044b\u0441, \u043d\u0435\u043c\u0456\u0441, \u0444\u0440\u0430\u043d\u0446\u0443\u0437, \u0438\u0441\u043f\u0430\u043d, \u0438\u0442\u0430\u043b\u044c\u044f\u043d \u043d\u0435\u043c\u0435\u0441\u0435 \u0430\u0493\u044b\u043b\u0448\u044b\u043d) \u0441\u04e9\u0439\u043b\u0435\u043f, AI \u043e\u049b\u044b\u0442\u0443\u0448\u044b\u04a3\u044b\u0437 \u0430\u0440\u049b\u044b\u043b\u044b \u0430\u0493\u044b\u043b\u0448\u044b\u043d \u0441\u04e9\u0437\u0434\u0456\u0433\u0456\u043d \u043d\u0430\u049b\u0442\u044b \u0443\u0430\u049b\u044b\u0442 \u0440\u0435\u0436\u0438\u043c\u0456\u043d\u0434\u0435 \u04af\u0439\u0440\u0435\u043d\u0456\u04a3\u0456\u0437, \u0431\u0430\u0442\u044b\u0440\u043c\u0430\u043b\u0430\u0440\u0434\u044b \u0431\u0430\u0441\u0443\u0434\u044b\u04a3 \u049b\u0430\u0436\u0435\u0442\u0456 \u0436\u043e\u049b."},
-gcC(){return"\u04d8\u0440\u0442\u04af\u0440\u043b\u0456 \u043a\u0435\u0439\u0456\u043f\u043a\u0435\u0440\u043b\u0435\u0440\u0434\u0456\u04a3 \u049b\u044b\u0437\u044b\u049b\u0442\u044b \u04d9\u04a3\u0433\u0456\u043c\u0435\u043b\u0435\u0440\u0456\u043d \u0431\u0430\u049b\u044b\u043b\u0430\u043f, \u0442\u0456\u043b \u04af\u0439\u0440\u0435\u043d\u0443 \u0442\u0438\u0456\u043c\u0434\u0456\u0440\u0435\u043a \u0431\u043e\u043b\u0430\u0434\u044b, \u0441\u043e\u043d\u044b\u043c\u0435\u043d \u049b\u0430\u0442\u0430\u0440 \u04d9\u0440 \u0442\u04af\u0440\u043b\u0456 \u0436\u0430\u0493\u0434\u0430\u0439\u0493\u0430 \u0441\u04d9\u0439\u043a\u0435\u0441 \u0441\u04e9\u0437\u0434\u0456\u043a \u049b\u043e\u0440\u044b\u043d \u0434\u0430\u043c\u044b\u0442\u0430 \u0430\u043b\u0430\u0441\u044b\u0437."},
-gcD(){return"\u04d8\u04a3\u0433\u0456\u043c\u0435\u043b\u0435\u0440\u0434\u0456 \u043a\u04e9\u0440\u0456\u043f, \u04d9\u0440 \u0441\u0430\u0431\u0430\u049b\u0442\u0430\u043d \u043a\u0435\u0439\u0456\u043d \u0434\u0438\u043d\u0430\u043c\u0438\u043a\u0430\u043b\u044b\u049b \u0441\u04b1\u0440\u0430\u049b\u0442\u0430\u0440 \u043c\u0435\u043d \u0432\u0438\u043a\u0442\u043e\u0440\u0438\u043d\u0430\u043b\u0430\u0440 \u0430\u0440\u049b\u044b\u043b\u044b \u0431\u0456\u043b\u0456\u043c\u0434\u0435\u0440\u0456\u04a3\u0456\u0437\u0434\u0456 \u0442\u0435\u043a\u0441\u0435\u0440\u0456\u04a3\u0456\u0437."},
-gdn(){return"\u041a\u043e\u043c\u043f\u0430\u043d\u0438\u044f\u043c\u044b\u0437 \u0442\u0443\u0440\u0430\u043b\u044b \u0441\u04b1\u0440\u0430\u049b\u0442\u0430\u0440\u044b\u04a3\u044b\u0437 \u0431\u043e\u043b\u0441\u0430, \u0442\u04e9\u043c\u0435\u043d\u0434\u0435\u0433\u0456 \u0444\u043e\u0440\u043c\u0430\u043d\u044b \u0442\u043e\u043b\u0442\u044b\u0440\u044b\u043f \u0431\u0456\u0437\u0433\u0435 \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u0441\u044b\u04a3\u044b\u0437."},
-gdc(){return"\u041c\u04b1\u043d\u0434\u0430 \u0445\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430 \u0436\u0430\u0437\u044b\u04a3\u044b\u0437"},
-gd2(){return"\u0416\u0456\u0431\u0435\u0440\u0443"},
-gd3(){return"\u0416\u0456\u0431\u0435\u0440\u0456\u043b\u0456\u043f \u0436\u0430\u0442\u044b\u0440"},
-gdd(){return"\u041c\u04b1\u043d\u0434\u0430 \u0430\u0442\u044b\u04a3\u044b\u0437\u0434\u044b \u0436\u0430\u0437\u044b\u04a3\u044b\u0437"},
-gda(){return"\u041c\u04b1\u043d\u0434\u0430 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0434\u044b \u043f\u043e\u0448\u0442\u0430\u04a3\u044b\u0437\u0434\u044b \u0436\u0430\u0437\u044b\u04a3\u044b\u0437"},
-gd7(){return"\u0410\u0442\u044b-\u0436\u04e9\u043d\u0456\u04a3\u0456\u0437\u0434\u0456 \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437"},
-gd5(){return"\u042d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u0434\u044b \u043f\u043e\u0448\u0442\u0430\u04a3\u044b\u0437\u0434\u044b \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437"},
-gd6(){return"\u0425\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430\u04a3\u044b\u0437\u0434\u044b \u0435\u043d\u0433\u0456\u0437\u0456\u04a3\u0456\u0437"},
-gcK(){return"\u0411\u0456\u0437\u0434\u0456 \u0431\u0430\u049b\u044b\u043b\u0430\u04a3\u044b\u0437"},
-gdu(){return"\u0425\u0430\u0431\u0430\u0440\u043b\u0430\u043c\u0430 \u0441\u04d9\u0442\u0442\u0456 \u0436\u0456\u0431\u0435\u0440\u0456\u043b\u0434\u0456"},
-gdj(){return"\u049a\u0430\u0442\u0435. \u049a\u0430\u0439\u0442\u0430\u0434\u0430\u043d \u049b\u043e\u043b\u0434\u0430\u043d\u044b\u043f \u043a\u04e9\u0440\u0456\u04a3\u0456\u0437"},
-gd9(){return"\u0416\u0456\u0431\u0435\u0440\u043c\u0435\u0441 \u0431\u04b1\u0440\u044b\u043d \u0431\u0430\u0440\u043b\u044b\u0493\u044b\u043d \u0442\u043e\u043b\u0442\u044b\u0440\u044b\u04a3\u044b\u0437"},
-gcR(){return"\u043a\u04e9\u043f"},
-gcO(){return"\u0430\u0437"},
-gdv(){return"Edhomy AI Languages \u0434\u0435\u0433\u0435\u043d \u043d\u0435?"},
-gdi(){return"Edhomy AI Languages - AI \u043a\u04e9\u043c\u0435\u0433\u0456\u043c\u0435\u043d \u0442\u0456\u043b \u04af\u0439\u0440\u0435\u043d\u0443\u0433\u0435 \u0430\u0440\u043d\u0430\u043b\u0493\u0430\u043d \u049b\u043e\u0441\u044b\u043c\u0448\u0430. \u041e\u043b \u0441\u0456\u0437\u0433\u0435 \u0434\u04b1\u0440\u044b\u0441 \u0430\u0439\u0442\u0443 \u04af\u0448\u0456\u043d AI \u043e\u049b\u044b\u0442\u0443\u0448\u044b\u0441\u044b \u043c\u0435\u043d \u0442\u0456\u043b \u04af\u0439\u0440\u0435\u043d\u0443\u0434\u0456 \u043c\u0435\u04a3\u0433\u0435\u0440\u0443\u0433\u0435 \u043a\u04e9\u043c\u0435\u043a\u0442\u0435\u0441\u0435\u0442\u0456\u043d 100 \u0441\u0430\u0431\u0430\u049b\u0442\u0430\u043d \u0442\u04b1\u0440\u0430\u0442\u044b\u043d \u04d9\u04a3\u0433\u0456\u043c\u0435 \u043a\u0443\u0440\u0441\u044b\u043d \u04b1\u0441\u044b\u043d\u0430\u0434\u044b."},
-gdg(){return"\u041c\u0435\u043d \u0442\u0456\u043b \u04af\u0439\u0440\u0435\u043d\u0435 \u0430\u043b\u0430\u043c\u044b\u043d \u0431\u0430?"},
-gdt(){return"\u0418\u04d9, \u0430\u043b\u0430\u0441\u044b\u0437. \u0411\u0456\u0437 \u043c\u0443\u043b\u044c\u0442\u0438\u043c\u0435\u0434\u0438\u044f\u043b\u044b\u049b \u043a\u0443\u0440\u0441\u0442\u0430\u0440 \u0430\u0440\u049b\u044b\u043b\u044b \u0435\u04a3 \u0436\u0430\u049b\u0441\u044b \u04af\u0439\u0440\u0435\u043d\u0443 \u04d9\u0434\u0456\u0441\u0442\u0435\u0440\u0456\u043d \u0431\u0456\u043b\u0435\u0442\u0456\u043d \u043c\u0430\u043c\u0430\u043d\u0434\u0430\u0440\u043c\u0435\u043d \u0436\u04b1\u043c\u044b\u0441 \u0456\u0441\u0442\u0435\u0439\u043c\u0456\u0437."},
-gdr(){return"\u0411\u04b1\u043b \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430 \u049b\u0430\u0443\u0456\u043f\u0441\u0456\u0437 \u0431\u0435?"},
-gdq(){return"\u10e9\u10d5\u10d4\u10dc \u10d0\u10e0 \u10d5\u10e7\u10d8\u10d3\u10d8\u10d7 \u10d7\u10e5\u10d5\u10d4\u10dc\u10e1 \u10db\u10dd\u10dc\u10d0\u10ea\u10d4\u10db\u10d4\u10d1\u10e1 \u10db\u10d4\u10e1\u10d0\u10db\u10d4 \u10de\u10d8\u10e0\u10d4\u10d1\u10e1. \u10de\u10d0\u10e0\u10dd\u10da\u10d4\u10d1\u10d8 \u10d3\u10d0 \u10d4\u10da-\u10e4\u10dd\u10e1\u10e2\u10d4\u10d1\u10d8 \u10e1\u10e0\u10e3\u10da\u10d0\u10d3 \u10d0\u10e0\u10d8\u10d0\u10dc \u10d3\u10d0\u10e8\u10d8\u10e4\u10e0\u10e3\u10da\u10d8. \u10db\u10ee\u10dd\u10da\u10dd\u10d3 \u10d7\u10e5\u10d5\u10d4\u10dc \u10e8\u10d4\u10d2\u10d8\u10eb\u10da\u10d8\u10d0\u10d7 \u10d2\u10d0\u10db\u10dd\u10d0\u10ea\u10ee\u10d0\u10d3\u10dd\u10d7 \u10dc\u10d4\u10d1\u10d8\u10e1\u10db\u10d8\u10d4\u10e0\u10d8 \u10e1\u10d0\u10d4\u10ed\u10d5\u10dd \u10e1\u10d8\u10e2\u10e3\u10d0\u10ea\u10d8\u10d0, \u10e0\u10dd\u10db\u10d4\u10da\u10d8\u10ea \uc601\ud5a5\uc744 \u10d0\u10ee\u10d3\u10d4\u10dc\u10e1 \u10d7\u10e5\u10d5\u10d4\u10dc\u10e1 \u10e3\u10e1\u10d0\u10e4\u10e0\u10d7\u10ee\u10dd\u10d4\u10d1\u10d0\u10d6\u10d4, \u10d3\u10d0 \u10db\u10ee\u10d0\u10e0\u10d3\u10d0\u10ed\u10d4\u10e0\u10d8\u10e1 \u10d2\u10e3\u10dc\u10d3\u10d8 \u10d3\u10d0\u10e3\u10d9\u10d0\u10d5\u10e8\u10d8\u10e0\u10d3\u10d4\u10d1\u10d0 \u10d7\u10e5\u10d5\u10d4\u10dc."},
-gdm(){return"\u0411\u04b1\u043b \u049b\u043e\u0441\u044b\u043c\u0448\u0430\u0434\u0430 \u049b\u0430\u043b\u0430\u0439 \u04af\u0439\u0440\u0435\u043d\u0443\u0433\u0435 \u0431\u043e\u043b\u0430\u0434\u044b?"},
-gdh(){return"\u0421\u0456\u0437 \u0431\u0430\u0441\u0448\u044b\u043b\u044b\u049b \u043a\u0443\u0440\u0441\u0442\u0430\u0440\u044b\u043d \u043e\u0440\u044b\u043d\u0434\u0430\u043f, AI \u043e\u049b\u044b\u0442\u0443\u0448\u044b\u0441\u044b\u043c\u0435\u043d \u0442\u04d9\u0436\u0456\u0440\u0438\u0431\u0435 \u0436\u0430\u0441\u0430\u043f, \u04e9\u043c\u0456\u0440 \u0441\u04af\u0440\u0443 \u0434\u0435\u04a3\u0433\u0435\u0439\u0456\u043d \u0436\u0435\u04a3\u0456\u043f \u04e9\u0442\u0443\u0433\u0435 \u0431\u043e\u043b\u0430\u0434\u044b."},
-gcU(){return"\u0416\u0435\u043a\u0435\u043c\u0435\u043d\u0448\u0456\u043a\u0442\u0456\u043a \u0441\u0430\u044f\u0441\u0430\u0442"},
-gcT(){return"\u041f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430 \u0435\u0440\u0435\u0436\u0435\u043b\u0435\u0440\u0456"},
-gcV(){return"\u049a\u044b\u0437\u043c\u0435\u0442 \u043a\u04e9\u0440\u0441\u0435\u0442\u0443 \u0448\u0430\u0440\u0442\u0442\u0430\u0440\u044b"},
-gck(){return"\u0416\u0438\u0456 \u049b\u043e\u0439\u044b\u043b\u0430\u0442\u044b\u043d \u0441\u04b1\u0440\u0430\u049b\u0442\u0430\u0440"},
-gcN(){return"\u049a\u04b1\u049b\u044b\u049b\u0442\u044b\u049b \u0430\u049b\u043f\u0430\u0440\u0430\u0442"},
-gcI(){return"\u0411\u0430\u0440\u043b\u044b\u049b \u049b\u04b1\u049b\u044b\u049b\u0442\u0430\u0440 \u0441\u0430\u049b\u0442\u0430\u043b\u0493\u0430\u043d"},
+gcl(){return"\u10e8\u10d4\u10e3\u10d4\u10e0\u10d7\u10d3\u10d8\u10d7 \u10d0\u10e5!"},
+gcF(){return"\u10db\u10e0\u10d0\u10d5\u10d0\u10da\u10d4\u10dc\u10dd\u10d5\u10d0\u10dc\u10d8 AI \u10e0\u10d4\u10de\u10d4\u10e2\u10d8\u10e2\u10dd\u10e0\u10d8"},
+gcG(){return"\u10d0\u10db\u10d1\u10d4\u10d1\u10d8\u10e1 \u10d7\u10ee\u10e0\u10dd\u10d1\u10d8\u10e1 \u10d5\u10d8\u10d3\u10d4\u10dd\u10d4\u10d1\u10d8"},
+gcH(){return"\u10d3\u10d8\u10dc\u10d0\u10db\u10d8\u10d9\u10e3\u10e0\u10d8 \u10d5\u10d8\u10e5\u10e2\u10dd\u10e0\u10d8\u10dc\u10d4\u10d1\u10d8"},
+gcB(){return"\u10d2\u10d0\u10dc\u10d0\u10d5\u10d8\u10d7\u10d0\u10e0\u10d4\u10d7 \u10d3\u10d0 \u10d2\u10d0\u10d0\u10e3\u10db\u10ef\u10dd\u10d1\u10d4\u10e1\u10d4\u10d7 \u10da\u10d0\u10de\u10d0\u10e0\u10d0\u10d9\u10d8\u10e1 \u10e3\u10dc\u10d0\u10e0\u10d4\u10d1\u10d8 \u10ee\u10d4\u10da\u10dd\u10d5\u10dc\u10e3\u10e0\u10d8 \u10d8\u10dc\u10e2\u10d4\u10da\u10d4\u10e5\u10e2\u10d8\u10e1 \u10d2\u10d0\u10db\u10dd\u10e7\u10d4\u10dc\u10d4\u10d1\u10d8\u10d7. \u10d2\u10d0\u10d3\u10d0\u10d7\u10d0\u10e0\u10d2\u10db\u10dc\u10d4\u10d7 \u10e8\u10d4\u10e2\u10e7\u10dd\u10d1\u10d8\u10dc\u10d4\u10d1\u10d4\u10d1\u10d8 \u10db\u10e7\u10d8\u10e1\u10d8\u10d4\u10e0\u10d0\u10d3, \u10d8\u10e1\u10d0\u10e3\u10d1\u10e0\u10d4\u10d7 \u10d7\u10e5\u10d5\u10d4\u10dc\u10e1 \u10db\u10e8\u10dd\u10d1\u10da\u10d8\u10e3\u10e0 \u10d4\u10dc\u10d0\u10d6\u10d4 (\u10e0\u10e3\u10e1\u10e3\u10da\u10d8, \u10d2\u10d4\u10e0\u10db\u10d0\u10dc\u10e3\u10da\u10d8, \u10e4\u10e0\u10d0\u10dc\u10d2\u10e3\u10da\u10d8, \u10d4\u10e1\u10de\u10d0\u10dc\u10e3\u10e0\u10d8, \u10d8\u10e2\u10d0\u10da\u10d8\u10e3\u10e0\u10d8 \u10d0\u10dc \u10d8\u10dc\u10d2\u10da\u10d8\u10e1\u10e3\u10e0\u10d8) \u10d3\u10d0 \u10d8\u10e1\u10ec\u10d0\u10d5\u10da\u10d4\u10d7 \u10d8\u10dc\u10d2\u10da\u10d8\u10e1\u10e3\u10e0\u10d8 \u10da\u10d4\u10e5\u10e1\u10d8\u10d9\u10d0 \u10e0\u10d4\u10d0\u10da\u10e3\u10e0 \u10d3\u10e0\u10dd\u10e8\u10d8 \u10d7\u10e5\u10d5\u10d4\u10dc\u10d8 AI \u10e0\u10d4\u10de\u10d4\u10e2\u10d8\u10e2\u10dd\u10e0\u10d8\u10e1 \u10db\u10d4\u10e8\u10d5\u10d4\u10dd\u10d1\u10d8\u10d7, \u10e6\u10d8\u10da\u10d0\u10d9\u10d4\u10d1\u10d6\u10d4 \u10d3\u10d0\u10ed\u10d4\u10e0\u10d8\u10e1 \u10d2\u10d0\u10e0\u10d4\u10e8\u10d4."},
+gcC(){return"\u10d7\u10d5\u10d0\u10da\u10d8 \u10d0\u10d3\u10d4\u10d5\u10dc\u10d4\u10d7 \u10e1\u10ee\u10d5\u10d0\u10d3\u10d0\u10e1\u10ee\u10d5\u10d0 \u10de\u10d4\u10e0\u10e1\u10dd\u10dc\u10d0\u10df\u10d8\u10e1 \u10e1\u10d0\u10d8\u10dc\u10e2\u10d4\u10e0\u10d4\u10e1\u10dd \u10d8\u10e1\u10e2\u10dd\u10e0\u10d8\u10d4\u10d1\u10e1, \u10d2\u10d0\u10ee\u10d0\u10d3\u10d4\u10d7 \u10d4\u10dc\u10d8\u10e1 \u10e1\u10ec\u10d0\u10d5\u10da\u10d0 \u10e3\u10e4\u10e0\u10dd \u10d4\u10e4\u10d4\u10e5\u10e2\u10e3\u10e0\u10d8 \u10d3\u10d0 \u10d2\u10d0\u10dc\u10d0\u10d5\u10d8\u10d7\u10d0\u10e0\u10d4\u10d7 \u10da\u10d4\u10e5\u10e1\u10d8\u10d9\u10d0 \u10e1\u10ee\u10d5\u10d0\u10d3\u10d0\u10e1\u10ee\u10d5\u10d0 \u10e1\u10d8\u10e2\u10e3\u10d0\u10ea\u10d8\u10d8\u10e1\u10d7\u10d5\u10d8\u10e1."},
+gcD(){return"\u10e3\u10e7\u10e3\u10e0\u10d4\u10d7 \u10d8\u10e1\u10e2\u10dd\u10e0\u10d8\u10d4\u10d1\u10e1 \u10d3\u10d0 \u10e8\u10d4\u10d0\u10db\u10dd\u10ec\u10db\u10d4\u10d7 \u10d7\u10e5\u10d5\u10d4\u10dc\u10d8 \u10ea\u10dd\u10d3\u10dc\u10d0 \u10d3\u10d8\u10dc\u10d0\u10db\u10d8\u10d9\u10e3\u10e0\u10d8 \u10d9\u10d8\u10d7\u10ee\u10d5\u10d4\u10d1\u10d8\u10d7\u10d0 \u10d3\u10d0 \u10d5\u10d8\u10e5\u10e2\u10dd\u10e0\u10d8\u10dc\u10d4\u10d1\u10d8\u10d7 \u10e7\u10dd\u10d5\u10d4\u10da\u10d8 \u10d2\u10d0\u10d9\u10d5\u10d4\u10d7\u10d8\u10da\u10d8\u10e1 \u10e8\u10d4\u10db\u10d3\u10d4\u10d2."},
+gdn(){return"\u10d7\u10e3 \u10d2\u10d0\u10e5\u10d5\u10d7 \u10e8\u10d4\u10d9\u10d8\u10d7\u10ee\u10d5\u10d4\u10d1\u10d8 \u10e9\u10d5\u10d4\u10dc\u10d8 \u10d9\u10dd\u10db\u10de\u10d0\u10dc\u10d8\u10d8\u10e1 \u10e8\u10d4\u10e1\u10d0\u10ee\u10d4\u10d1, \u10e8\u10d4\u10d0\u10d5\u10e1\u10d4\u10d7 \u10e5\u10d5\u10d4\u10db\u10dd\u10d7 \u10db\u10dd\u10ea\u10d4\u10db\u10e3\u10da\u10d8 \u10e4\u10dd\u10e0\u10db\u10d0 \u10d3\u10d0 \u10d3\u10d0\u10d2\u10d5\u10d8\u10d9\u10d0\u10d5\u10e8\u10d8\u10e0\u10d3\u10d8\u10d7."},
+gdc(){return"\u10d3\u10d0\u10ec\u10d4\u10e0\u10d4\u10d7 \u10e8\u10d4\u10e2\u10e7\u10dd\u10d1\u10d8\u10dc\u10d4\u10d1\u10d0 \u10d0\u10e5"},
+gd2(){return"\u10d2\u10d0\u10d2\u10d6\u10d0\u10d5\u10dc\u10d0"},
+gd3(){return"\u10d8\u10d2\u10d6\u10d0\u10d5\u10dc\u10d4\u10d1\u10d0"},
+gdd(){return"\u10d3\u10d0\u10ec\u10d4\u10e0\u10d4\u10d7 \u10d7\u10e5\u10d5\u10d4\u10dc\u10d8 \u10e1\u10d0\u10ee\u10d4\u10da\u10d8 \u10d0\u10e5"},
+gda(){return"\u10d3\u10d0\u10ec\u10d4\u10e0\u10d4\u10d7 \u10d7\u10e5\u10d5\u10d4\u10dc\u10d8 \u10d4\u10da\u10e4\u10dd\u10e1\u10e2\u10d0 \u10d0\u10e5"},
+gd7(){return"\u10e8\u10d4\u10d8\u10e7\u10d5\u10d0\u10dc\u10d4\u10d7 \u10d7\u10e5\u10d5\u10d4\u10dc\u10d8 \u10e1\u10d0\u10ee\u10d4\u10da\u10d8 \u10d3\u10d0 \u10d2\u10d5\u10d0\u10e0\u10d8"},
+gd5(){return"\u10e8\u10d4\u10d8\u10e7\u10d5\u10d0\u10dc\u10d4\u10d7 \u10d7\u10e5\u10d5\u10d4\u10dc\u10d8 \u10d4\u10da\u10e4\u10dd\u10e1\u10e2\u10d0"},
+gd6(){return"\u10e8\u10d4\u10d8\u10e7\u10d5\u10d0\u10dc\u10d4\u10d7 \u10d7\u10e5\u10d5\u10d4\u10dc\u10d8 \u10e8\u10d4\u10e2\u10e7\u10dd\u10d1\u10d8\u10dc\u10d4\u10d1\u10d0"},
+gcK(){return"\u10d2\u10d0\u10db\u10dd\u10d2\u10d5\u10e7\u10d4\u10d5\u10d8\u10d7"},
+gdv(){return"\u10e8\u10d4\u10e2\u10e7\u10dd\u10d1\u10d8\u10dc\u10d4\u10d1\u10d0 \u10ec\u10d0\u10e0\u10db\u10d0\u10e2\u10d4\u10d1\u10d8\u10d7 \u10d2\u10d0\u10d8\u10d2\u10d6\u10d0\u10d5\u10dc\u10d0"},
+gdk(){return"\u10e8\u10d4\u10ea\u10d3\u10dd\u10db\u10d0. \u10d2\u10d7\u10ee\u10dd\u10d5\u10d7, \u10e1\u10ea\u10d0\u10d3\u10dd\u10d7 \u10ee\u10d4\u10da\u10d0\u10ee\u10da\u10d0"},
+gd9(){return"\u10d2\u10d0\u10d2\u10d6\u10d0\u10d5\u10dc\u10d0\u10db\u10d3\u10d4 \u10e8\u10d4\u10d0\u10d5\u10e1\u10d4\u10d7 \u10e7\u10d5\u10d4\u10da\u10d0 \u10d5\u10d4\u10da\u10d8"},
+gcR(){return"\u10db\u10d4\u10e2\u10d8"},
+gcO(){return"\u10dc\u10d0\u10d9\u10da\u10d4\u10d1\u10d8"},
+gcU(){return"\u10d9\u10dd\u10dc\u10e4\u10d8\u10d3\u10d4\u10dc\u10ea\u10d8\u10d0\u10da\u10e3\u10e0\u10dd\u10d1\u10d8\u10e1 \u10de\u10dd\u10da\u10d8\u10e2\u10d8\u10d9\u10d0"},
+gcT(){return"\u10de\u10da\u10d0\u10e2\u10e4\u10dd\u10e0\u10db\u10d8\u10e1 \u10ec\u10d4\u10e1\u10d4\u10d1\u10d8"},
+gcV(){return"\u10db\u10dd\u10db\u10e1\u10d0\u10ee\u10e3\u10e0\u10d4\u10d1\u10d8\u10e1 \u10de\u10d8\u10e0\u10dd\u10d1\u10d4\u10d1\u10d8"},
+gck(){return"\u10ee\u10e8\u10d8\u10e0\u10d0\u10d3 \u10d3\u10d0\u10e1\u10db\u10e3\u10da\u10d8 \u10d9\u10d8\u10d7\u10ee\u10d5\u10d4\u10d1\u10d8"},
+gcN(){return"\u10e1\u10d0\u10db\u10d0\u10e0\u10d7\u10da\u10d4\u10d1\u10e0\u10d8\u10d5\u10d8 \u10d8\u10dc\u10e4\u10dd\u10e0\u10db\u10d0\u10ea\u10d8\u10d0"},
+gcI(){return"\u10e7\u10d5\u10d4\u10da\u10d0 \u10e3\u10e4\u10da\u10d4\u10d1\u10d0 \u10d3\u10d0\u10ea\u10e3\u10da\u10d8\u10d0"},
 gcM(){return"Instagram"},
 gd1(){return"YouTube"},
 gcY(){return"Tiktok"},
 gcP(){return"LinkedIn"},
-gcA(){return"\u049a\u0430\u0443\u0456\u043f\u0441\u0456\u0437\u0434\u0456\u043a \u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u0442\u0430\u0440\u044b"},
-gcW(){return"\u049a\u043e\u043b\u0434\u0430\u043d\u0443 \u0448\u0430\u0440\u0442\u0442\u0430\u0440\u044b"},
-gcf(){return"Android \u04af\u0448\u0456\u043d \u0436\u04af\u043a\u0442\u0435\u0443"},
-gcg(){return"iOS \u04af\u0448\u0456\u043d \u0436\u04af\u043a\u0442\u0435\u0443"},
-gco(){return"macOS \u04af\u0448\u0456\u043d \u0436\u04af\u043a\u0442\u0435\u0443"}}
+gcA(){return"\u10e3\u10e1\u10d0\u10e4\u10e0\u10d7\u10ee\u10dd\u10d4\u10d1\u10d8\u10e1 \u10e1\u10e2\u10d0\u10dc\u10d3\u10d0\u10e0\u10e2\u10d4\u10d1\u10d8"},
+gcW(){return"\u10d2\u10d0\u10db\u10dd\u10e7\u10d4\u10dc\u10d4\u10d1\u10d8\u10e1 \u10de\u10d8\u10e0\u10dd\u10d1\u10d4\u10d1\u10d8"},
+gcf(){return"\u10e9\u10d0\u10db\u10dd\u10e2\u10d5\u10d8\u10e0\u10d7\u10d5\u10d0 Android-\u10d8\u10e1\u10d7\u10d5\u10d8\u10e1"},
+gcg(){return"\u10e9\u10d0\u10db\u10dd\u10e2\u10d5\u10d8\u10e0\u10d7\u10d5\u10d0 iOS-\u10d8\u10e1\u10d7\u10d5\u10d8\u10e1"},
+gco(){return"\u10e9\u10d0\u10db\u10dd\u10e2\u10d5\u10d8\u10e0\u10d7\u10d5\u10d0 macOS-\u10d8\u10e1\u10d7\u10d5\u10d8\u10e1"},
+gdr(){return"\u10e0\u10dd\u10d2\u10dd\u10e0 \u10db\u10e3\u10e8\u10d0\u10dd\u10d1\u10e1 AI \u10de\u10e0\u10d0\u10e5\u10e2\u10d8\u10d9\u10d8\u10e1 \u10e0\u10d4\u10de\u10d4\u10e2\u10d8\u10e2\u10dd\u10e0\u10d8?"},
+gdg(){return"\u10e8\u10d4\u10d2\u10d8\u10eb\u10da\u10d8\u10d0\u10d7 \u10d2\u10d0\u10db\u10d0\u10e0\u10d7\u10dd\u10d7 \u10ee\u10db\u10dd\u10d5\u10d0\u10dc\u10d8 \u10e1\u10d0\u10e3\u10d1\u10e0\u10d4\u10d1\u10d8 \u10e0\u10d4\u10d0\u10da\u10e3\u10e0 \u10d3\u10e0\u10dd\u10e8\u10d8 \u10dc\u10d4\u10d1\u10d8\u10e1\u10db\u10d8\u10d4\u10e0 \u10d7\u10d4\u10db\u10d0\u10d6\u10d4 \u10e1\u10ee\u10d5\u10d0\u10d3\u10d0\u10e1\u10ee\u10d5\u10d0 \u10d3\u10dd\u10dc\u10d4\u10d6\u10d4. AI \u10d2\u10d0\u10ec\u10d5\u10d3\u10d8\u10d7 \u10db\u10e7\u10d8\u10e1\u10d8\u10d4\u10e0 \u10e3\u10d9\u10e3\u10d9\u10d0\u10d5\u10e8\u10d8\u10e0\u10e1 \u10d7\u10e5\u10d5\u10d4\u10dc\u10e1 \u10d2\u10d0\u10d2\u10d4\u10d1\u10d0\u10d6\u10d4, \u10d2\u10e0\u10d0\u10db\u10d0\u10e2\u10d8\u10d9\u10d0\u10e1\u10d0 \u10d3\u10d0 \u10da\u10d4\u10e5\u10e1\u10d8\u10d9\u10d0\u10d6\u10d4."},
+gds(){return"\u10e8\u10d4\u10d0\u10e1\u10ec\u10dd\u10e0\u10d4\u10d1\u10e1 \u10d7\u10e3 \u10d0\u10e0\u10d0 AI \u10e9\u10d4\u10db\u10e1 \u10e8\u10d4\u10ea\u10d3\u10dd\u10db\u10d4\u10d1\u10e1 \u10e1\u10d0\u10e3\u10d1\u10e0\u10d8\u10e1\u10d0\u10e1?"},
+gdh(){return"\u10d3\u10d8\u10d0\u10ee. AI \u10dc\u10d0\u10d6\u10d0\u10d3 \u10d0\u10e1\u10ec\u10dd\u10e0\u10d4\u10d1\u10e1 \u10d7\u10e5\u10d5\u10d4\u10dc\u10e1 \u10d2\u10e0\u10d0\u10db\u10d0\u10e2\u10d8\u10d9\u10d0\u10e1\u10d0 \u10d3\u10d0 \u10da\u10d4\u10e5\u10e1\u10d8\u10d9\u10d0\u10e1 \u10e0\u10d4\u10d0\u10da\u10e3\u10e0 \u10d3\u10e0\u10dd\u10e8\u10d8, \u10e0\u10d0\u10d7\u10d0 \u10e1\u10e2\u10e0\u10d4\u10e1\u10d8\u10e1 \u10d2\u10d0\u10e0\u10d4\u10e8\u10d4 \u10e8\u10d4\u10d8\u10eb\u10d8\u10dc\u10dd\u10d7 \u10e1\u10d0\u10e3\u10d1\u10e0\u10d8\u10e1 \u10d3\u10d0\u10e0\u10ec\u10db\u10e3\u10dc\u10d4\u10d1\u10e3\u10da\u10dd\u10d1\u10d0."},
+gdt(){return"\u10d0\u10e0\u10d8\u10e1 \u10d7\u10e3 \u10d0\u10e0\u10d0 Edhomy AI Languages \u10e3\u10e4\u10d0\u10e1\u10dd?"},
+gdi(){return"\u10d0\u10de\u10da\u10d8\u10d9\u10d0\u10ea\u10d8\u10d8\u10e1 \u10e9\u10d0\u10db\u10dd\u10e2\u10d5\u10d8\u10e0\u10d7\u10d5\u10d0 \u10e3\u10e4\u10d0\u10e1\u10dd\u10d0 \u10d3\u10d0 \u10db\u10dd\u10d8\u10ea\u10d0\u10d5\u10e1 \u10e7\u10dd\u10d5\u10d4\u10da\u10d3\u10e6\u10d8\u10e3\u10e0 \u10de\u10e0\u10d0\u10e5\u10e2\u10d8\u10d9\u10e3\u10da \u10d8\u10dc\u10e1\u10e2\u10e0\u10e3\u10db\u10d4\u10dc\u10e2\u10d4\u10d1\u10e1. AI-\u10d7\u10d0\u10dc \u10e3\u10da\u10d8\u10db\u10d8\u10e2\u10dd \u10e1\u10d0\u10e3\u10d1\u10e0\u10d8\u10e1 \u10de\u10e0\u10d0\u10e5\u10e2\u10d8\u10d9\u10d0 \u10d3\u10d0 \u10d5\u10d8\u10d3\u10d4\u10dd \u10d2\u10d0\u10d9\u10d5\u10d4\u10d7\u10d8\u10da\u10d4\u10d1\u10d8 \u10db\u10dd\u10d8\u10d7\u10ee\u10dd\u10d5\u10e1 \u10de\u10e0\u10d4\u10db\u10d8\u10e3\u10db \u10d0\u10dc\u10d2\u10d0\u10e0\u10d8\u10e8\u10e1."},
+gdu(){return"\u10e0\u10dd\u10d2\u10dd\u10e0 \u10d5\u10d8\u10e7\u10d8\u10d3\u10dd \u10de\u10e0\u10d4\u10db\u10d8\u10e3\u10db \u10d0\u10dc\u10d2\u10d0\u10e0\u10d8\u10e8\u10d8?"},
+gdj(){return"\u10d2\u10d0\u10d3\u10d0\u10d3\u10d8\u10d7 \u10de\u10d0\u10e0\u10d0\u10db\u10d4\u10e2\u10e0\u10d4\u10d1\u10e8\u10d8, \u10d3\u10d0\u10d0\u10ed\u10d8\u10e0\u10d4\u10d7 '\u10de\u10e0\u10d4\u10db\u10d8\u10e3\u10db \u10d0\u10dc\u10d2\u10d0\u10e0\u10d8\u10e8\u10d8', \u10d0\u10d8\u10e0\u10e9\u10d8\u10d4\u10d7 \u10e1\u10d0\u10e1\u10e3\u10e0\u10d5\u10d4\u10da\u10d8 \u10d2\u10d4\u10d2\u10db\u10d0 \u10d3\u10d0 \u10e3\u10e1\u10d0\u10e4\u10e0\u10d7\u10ee\u10dd\u10d3 \u10e8\u10d4\u10d0\u10e1\u10e0\u10e3\u10da\u10d4\u10d7 \u10d2\u10d0\u10d3\u10d0\u10ee\u10d3\u10d0 Apple-\u10d8\u10e1, Google-\u10d8\u10e1 \u10d0\u10dc \u10e1\u10d0\u10d9\u10e0\u10d4\u10d3\u10d8\u10e2\u10dd \u10d1\u10d0\u10e0\u10d0\u10d7\u10d8\u10e1 \u10d2\u10d0\u10db\u10dd\u10e7\u10d4\u10dc\u10d4\u10d1\u10d8\u10d7."}}
 A.JX.prototype={
 gcn(){return"\ubb38\uc758\ud558\uae30"},
 gcS(){return"\ucd94\uac00 \uc635\uc158"},
@@ -92156,19 +92156,11 @@ gd7(){return"\uc774\ub984\uc744 \uc785\ub825\ud558\uc138\uc694"},
 gd5(){return"\uc774\uba54\uc77c\uc744 \uc785\ub825\ud558\uc138\uc694"},
 gd6(){return"\uba54\uc2dc\uc9c0\ub97c \uc785\ub825\ud558\uc138\uc694"},
 gcK(){return"\ud314\ub85c\uc6b0\ud558\uae30"},
-gdu(){return"\uba54\uc2dc\uc9c0\uac00 \uc131\uacf5\uc801\uc73c\ub85c \uc804\uc1a1\ub418\uc5c8\uc2b5\ub2c8\ub2e4"},
-gdj(){return"\uc624\ub958\uac00 \ubc1c\uc0dd\ud588\uc2b5\ub2c8\ub2e4. \ub2e4\uc2dc \uc2dc\ub3c4\ud574 \uc8fc\uc138\uc694"},
+gdv(){return"\uba54\uc2dc\uc9c0\uac00 \uc131\uacf5\uc801\uc73c\ub85c \uc804\uc1a1\ub418\uc5c8\uc2b5\ub2c8\ub2e4"},
+gdk(){return"\uc624\ub958\uac00 \ubc1c\uc0dd\ud588\uc2b5\ub2c8\ub2e4. \ub2e4\uc2dc \uc2dc\ub3c4\ud574 \uc8fc\uc138\uc694"},
 gd9(){return"\uc804\uc1a1 \uc804\uc5d0 \ubaa8\ub4e0 \ud56d\ubaa9\uc744 \uc791\uc131\ud574 \uc8fc\uc138\uc694"},
 gcR(){return"\ub354 \ubcf4\uae30"},
 gcO(){return"\ub35c \ubcf4\uae30"},
-gdv(){return"Edhomy AI Languages\ub780 \ubb34\uc5c7\uc778\uac00\uc694?"},
-gdi(){return"Edhomy AI Languages\ub294 AI\ub97c \ud1b5\ud574 \uc5b8\uc5b4\ub97c \ubc30\uc6b8 \uc218 \uc788\ub294 \uc560\ud50c\ub9ac\ucf00\uc774\uc158\uc785\ub2c8\ub2e4. \ubc1c\uc74c \uc5f0\uc2b5\uc744 \uc704\ud55c AI \ud29c\ud130\uc640 100\uac1c\uc758 \ub808\uc2a8\uc73c\ub85c \uad6c\uc131\ub41c \uc2a4\ud1a0\ub9ac\ud154\ub9c1 \ucf54\uc2a4\uac00 \uc788\uc5b4 \uc5b8\uc5b4\ub97c \ub9c8\uc2a4\ud130\ud558\ub294 \ub370 \ub3c4\uc6c0\uc774 \ub429\ub2c8\ub2e4."},
-gdg(){return"\uc5b8\uc5b4\ub97c \ubc30\uc6b8 \uc218 \uc788\ub098\uc694?"},
-gdt(){return"\ub124, \uac00\ub2a5\ud569\ub2c8\ub2e4. \uc6b0\ub9ac\ub294 \uba40\ud2f0\ubbf8\ub514\uc5b4 \ucf54\uc2a4\ub97c \ud1b5\ud574 \uac00\uc7a5 \ud6a8\uacfc\uc801\uc778 \ud559\uc2b5 \uae30\uc220\uc744 \uc54c\uace0 \uc788\ub294 \uc804\ubb38\uac00\ub4e4\uacfc \ud611\ub825\ud569\ub2c8\ub2e4."},
-gdr(){return"\uc774 \ud50c\ub7ab\ud3fc\uc740 \uc548\uc804\ud55c\uac00\uc694?"},
-gdq(){return"\uc6b0\ub9ac\ub294 \uadc0\ud558\uc758 \ub370\uc774\ud130\ub97c \uc81c3\uc790\uc5d0\uac8c \ud310\ub9e4\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4. \ube44\ubc00\ubc88\ud638\uc640 \uc774\uba54\uc77c\uc740 \uc644\uc804\ud788 \uc554\ud638\ud654\ub418\uc5b4 \uc788\uc2b5\ub2c8\ub2e4. \uadc0\ud558\ub9cc\uc774 \ubcf4\uc548\uc5d0 \uc601\ud5a5\uc744 \ubbf8\uce58\ub294 \uc758\uc2ec\uc2a4\ub7ec\uc6b4 \uc0c1\ud669\uc744 \uc2e0\uace0\ud560 \uc218 \uc788\uc73c\uba70, \uc9c0\uc6d0 \ud300\uc774 \uadc0\ud558\uc5d0\uac8c \uc5f0\ub77d\ud560 \uac83\uc785\ub2c8\ub2e4."},
-gdm(){return"\uc774 \uc571\uc5d0\uc11c \uc5b4\ub5bb\uac8c \ud559\uc2b5\ud558\ub098\uc694?"},
-gdh(){return"\uac00\uc774\ub4dc\ub41c \ucf54\uc2a4\ub97c \ub530\ub974\uace0, AI \ud29c\ud130\uc640 \uc5f0\uc2b5\ud558\uba70 \uc0dd\uc874 \uc218\uc900\uc744 \ucd08\uacfc\ud558\uc5ec \uacc4\uc18d \uc9c4\ud589\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4."},
 gcU(){return"\uac1c\uc778\uc815\ubcf4 \ubcf4\ud638\uc815\ucc45"},
 gcT(){return"\ud50c\ub7ab\ud3fc \uaddc\uce59"},
 gcV(){return"\uc11c\ube44\uc2a4 \uc774\uc6a9\uc57d\uad00"},
@@ -92183,7 +92175,15 @@ gcA(){return"\uc548\uc804 \uae30\uc900"},
 gcW(){return"\uc774\uc6a9 \uc57d\uad00"},
 gcf(){return"Android\uc6a9 \ub2e4\uc6b4\ub85c\ub4dc"},
 gcg(){return"iOS\uc6a9 \ub2e4\uc6b4\ub85c\ub4dc"},
-gco(){return"macOS\uc6a9 \ub2e4\uc6b4\ub85c\ub4dc"}}
+gco(){return"macOS\uc6a9 \ub2e4\uc6b4\ub85c\ub4dc"},
+gdr(){return"AI \uc5f0\uc2b5 \ud29c\ud130\ub294 \uc5b4\ub5bb\uac8c \uc791\ub3d9\ud558\ub098\uc694?"},
+gdg(){return"\ub2e4\uc591\ud55c \ub09c\uc774\ub3c4\uc5d0\uc11c \uc5b4\ub5a4 \uc8fc\uc81c\ub85c\ub4e0 \uc2e4\uc2dc\uac04 \uc74c\uc131 \ub300\ud654\ub97c \ub098\ub20c \uc218 \uc788\uc2b5\ub2c8\ub2e4. AI\uac00 \uc774\ud574\ub3c4, \ubb38\ubc95, \uc5b4\ud718\uc5d0 \ub300\ud55c \uc989\uac01\uc801\uc778 \ud53c\ub4dc\ubc31\uc744 \uc81c\uacf5\ud569\ub2c8\ub2e4."},
+gds(){return"\ub9d0\ud558\ub294 \ub3d9\uc548 AI\uac00 \uc81c \uc2e4\uc218\ub4e4\uc744 \uad50\uc815\ud574 \uc8fc\ub098\uc694?"},
+gdh(){return"\ub124. AI\uac00 \uc2e4\uc2dc\uac04\uc73c\ub85c \ubb38\ubc95\uacfc \uc5b4\ud718\ub97c \ubd80\ub4dc\ub7fd\uac8c \uad50\uc815\ud574 \uc8fc\ubbc0\ub85c \ubd80\ub2f4 \uc5c6\uc774 \ub9d0\ud558\uae30 \uc790\uc2e0\uac10\uc744 \ud0a4\uc6b8 \uc218 \uc788\uc2b5\ub2c8\ub2e4."},
+gdt(){return"Edhomy AI Languages\ub294 \ubb34\ub8cc\ub85c \uc0ac\uc6a9\ud560 \uc218 \uc788\ub098\uc694?"},
+gdi(){return"\uc571\uc740 \ubb34\ub8cc\ub85c \ub2e4\uc6b4\ub85c\ub4dc\ud560 \uc218 \uc788\uc73c\uba70 \ub9e4\uc77c \uc0ac\uc6a9\ud560 \uc218 \uc788\ub294 \uc5f0\uc2b5 \ub3c4\uad6c\uac00 \ud3ec\ud568\ub418\uc5b4 \uc788\uc2b5\ub2c8\ub2e4. \ubb34\uc81c\ud55c AI \ub300\ud654 \uc5f0\uc2b5 \ubc0f \uac00\uc774\ub4dc \ube44\ub514\uc624 \uac15\uc88c\ub97c \uc774\uc6a9\ud558\ub824\uba74 \ud504\ub9ac\ubbf8\uc5c4 \uacc4\uc815\uc774 \ud544\uc694\ud569\ub2c8\ub2e4."},
+gdu(){return"\ud504\ub9ac\ubbf8\uc5c4 \uacc4\uc815\uc740 \uc5b4\ub5bb\uac8c \uad6c\ub9e4\ud558\ub098\uc694?"},
+gdj(){return"\uc124\uc815\uc73c\ub85c \uc774\ub3d9\ud558\uc5ec '\ud504\ub9ac\ubbf8\uc5c4 \uacc4\uc815'\uc744 \ud0ed\ud558\uace0 \uc6d0\ud558\ub294 \uc694\uae08\uc81c\ub97c \uc120\ud0dd\ud55c \ud6c4 Apple, Google \ub610\ub294 \uc2e0\uc6a9\uce74\ub4dc\ub97c \uc0ac\uc6a9\ud558\uc5ec \uc548\uc804\ud558\uac8c \uacb0\uc81c\ud558\uc138\uc694."}}
 A.JY.prototype={
 gcn(){return"Susisiekite su mumis"},
 gcS(){return"Daugiau parink\u010di\u0173"},
@@ -92207,19 +92207,11 @@ gd7(){return"\u012eveskite vard\u0105"},
 gd5(){return"\u012eveskite el. pa\u0161t\u0105"},
 gd6(){return"\u012eveskite \u017einut\u0119"},
 gcK(){return"Sekite mus"},
-gdu(){return"\u017dinut\u0117 s\u0117kmingai i\u0161si\u0173sta"},
-gdj(){return"Klaida. Pra\u0161ome bandyti v\u0117l"},
+gdv(){return"\u017dinut\u0117 s\u0117kmingai i\u0161si\u0173sta"},
+gdk(){return"Klaida. Pra\u0161ome bandyti v\u0117l"},
 gd9(){return"Pra\u0161ome u\u017epildyti visus laukus prie\u0161 siun\u010diant"},
 gcR(){return"daugiau"},
 gcO(){return"ma\u017eiau"},
-gdv(){return"Kas yra Edhomy AI Languages?"},
-gdi(){return"Edhomy AI Languages \u2013 tai program\u0117l\u0117, kurioje galite i\u0161mokti kalb\u0105 su dirbtiniu intelektu. Ji suteikia AI mokytoj\u0105 tarimo praktikai ir pasakojim\u0173 kurs\u0105 su 100 pamok\u0173, padedan\u010di\u0173 \u012fvaldyti kalb\u0105."},
-gdg(){return"Ar galiu i\u0161mokti kalb\u0105?"},
-gdt(){return"Taip, galite. Mes bendradarbiaujame su ekspertais, kurie \u017eino geriausias mokymosi technikas per multimedijos kursus."},
-gdr(){return"Ar \u0161i platforma saugi?"},
-gdq(){return"Mes neparduodame j\u016bs\u0173 duomen\u0173 tre\u010diosioms \u0161alims. Slapta\u017eod\u017eiai ir el. pa\u0161tai yra visi\u0161kai u\u017e\u0161ifruoti. Tik j\u016bs galite prane\u0161ti apie bet kokias \u012ftartinas situacijas, kurios gali tur\u0117ti \u012ftakos j\u016bs\u0173 saugumui, o palaikymo komanda susisieks su jumis."},
-gdm(){return"Kaip galiu mokytis \u0161ioje programoje?"},
-gdh(){return"Galite sekti vedamus kursus, praktikuoti su AI mokytoju ir t\u0119sti pa\u017eang\u0105, kol pasieksite i\u0161gyvenimo lyg\u012f."},
 gcU(){return"Privatumo politika"},
 gcT(){return"Platformos taisykl\u0117s"},
 gcV(){return"Naudojimo s\u0105lygos"},
@@ -92234,7 +92226,15 @@ gcA(){return"Saugumo standartai"},
 gcW(){return"Naudojimo s\u0105lygos"},
 gcf(){return"Atsisi\u0173sti Android"},
 gcg(){return"Atsisi\u0173sti iOS"},
-gco(){return"Atsisi\u0173sti macOS"}}
+gco(){return"Atsisi\u0173sti macOS"},
+gdr(){return"Kaip veikia AI praktikos repetitorius?"},
+gdg(){return"Galite vesti pokalbius balsu realiuoju laiku bet kokia tema skirtingais lygiais. DI suteikia momentin\u012f gr\u012f\u017etam\u0105j\u012f ry\u0161\u012f apie j\u016bs\u0173 supratim\u0105, gramatik\u0105 ir \u017eodyn\u0105."},
+gds(){return"Ar DI i\u0161taisys mano klaidas, kai kalb\u0117siu?"},
+gdh(){return"Taip. DI \u0161velniai taiso j\u016bs\u0173 gramatik\u0105 ir \u017eodyn\u0105 realiuoju laiku, kad gal\u0117tum\u0117te be streso \u012fgyti pasitik\u0117jimo kalb\u0117dami."},
+gdt(){return"Ar \u201eEdhomy AI Languages\u201c yra nemokama?"},
+gdi(){return"Program\u0117l\u0119 galima atsisi\u0173sti nemokamai, joje yra kasdien\u0117s praktikos \u012franki\u0173. Neribotai AI pokalbi\u0173 praktikai ir vaizdo pamokoms reikalinga premium paskyra."},
+gdu(){return"Kaip \u012fsigyti premium paskyr\u0105?"},
+gdj(){return"Eikite \u012f Nustatymus, bakstel\u0117kite 'Premium paskyra', pasirinkite norim\u0105 plan\u0105 ir saugiai atlikite mok\u0117jim\u0105 naudodami \u201eApple\u201c, \u201eGoogle\u201c arba kredito kortel\u0119."}}
 A.JZ.prototype={
 gcn(){return"\u041a\u043e\u043d\u0442\u0430\u043a\u0442\u0438\u0440\u0430\u0458\u0442\u0435 \u043d\u0435"},
 gcS(){return"\u041f\u043e\u0432\u0435\u045c\u0435 \u043e\u043f\u0446\u0438\u0438"},
@@ -92258,19 +92258,11 @@ gd7(){return"\u0412\u043d\u0435\u0441\u0435\u0442\u0435 \u0438\u043c\u0435"},
 gd5(){return"\u0412\u043d\u0435\u0441\u0435\u0442\u0435 \u0435\u043c\u0430\u0438\u043b"},
 gd6(){return"\u0412\u043d\u0435\u0441\u0435\u0442\u0435 \u043f\u043e\u0440\u0430\u043a\u0430"},
 gcK(){return"\u0421\u043b\u0435\u0434\u0435\u0442\u0435 \u043d\xe8"},
-gdu(){return"\u041f\u043e\u0440\u0430\u043a\u0430\u0442\u0430 \u0431\u0435\u0448\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0438\u0441\u043f\u0440\u0430\u0442\u0435\u043d\u0430"},
-gdj(){return"\u0413\u0440\u0435\u0448\u043a\u0430. \u0412\u0435 \u043c\u043e\u043b\u0438\u043c\u0435 \u043e\u0431\u0438\u0434\u0435\u0442\u0435 \u0441\u0435 \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u043e"},
+gdv(){return"\u041f\u043e\u0440\u0430\u043a\u0430\u0442\u0430 \u0431\u0435\u0448\u0435 \u0443\u0441\u043f\u0435\u0448\u043d\u043e \u0438\u0441\u043f\u0440\u0430\u0442\u0435\u043d\u0430"},
+gdk(){return"\u0413\u0440\u0435\u0448\u043a\u0430. \u0412\u0435 \u043c\u043e\u043b\u0438\u043c\u0435 \u043e\u0431\u0438\u0434\u0435\u0442\u0435 \u0441\u0435 \u043f\u043e\u0432\u0442\u043e\u0440\u043d\u043e"},
 gd9(){return"\u041f\u043e\u043f\u043e\u043b\u043d\u0435\u0442\u0435 \u0441\xe8 \u043f\u0440\u0435\u0434 \u0434\u0430 \u0438\u0441\u043f\u0440\u0430\u0442\u0438\u0442\u0435"},
 gcR(){return"\u043f\u043e\u0432\u0435\u045c\u0435"},
 gcO(){return"\u043f\u043e\u043c\u0430\u043b\u043a\u0443"},
-gdv(){return"\u0428\u0442\u043e \u0435 Edhomy AI \u0458\u0430\u0437\u0438\u0446\u0438?"},
-gdi(){return"Edhomy AI \u0458\u0430\u0437\u0438\u0446\u0438 \u0435 \u0430\u043f\u043b\u0438\u043a\u0430\u0446\u0438\u0458\u0430 \u043a\u0430\u0434\u0435 \u0448\u0442\u043e \u043c\u043e\u0436\u0435\u0442\u0435 \u0434\u0430 \u043d\u0430\u0443\u0447\u0438\u0442\u0435 \u0458\u0430\u0437\u0438\u043a \u0441\u043e \u0410\u0418. \u0422\u0430\u0430 \u043d\u0443\u0434\u0438 \u0410\u0418 \u043c\u0435\u043d\u0442\u043e\u0440 \u0437\u0430 \u0432\u0435\u0436\u0431\u0430\u045a\u0435 \u043d\u0430 \u0438\u0437\u0433\u043e\u0432\u043e\u0440\u043e\u0442 \u0438 \u043a\u0443\u0440\u0441 \u0437\u0430 \u0440\u0430\u0441\u043a\u0430\u0436\u0443\u0432\u0430\u045a\u0435 \u043f\u0440\u0438\u043a\u0430\u0437\u043d\u0438 \u0441\u043e 100 \u043b\u0435\u043a\u0446\u0438\u0438 \u0437\u0430 \u0434\u0430 \u0432\u0438 \u043f\u043e\u043c\u043e\u0433\u043d\u0435 \u0434\u0430 \u0433\u043e \u0441\u043e\u0432\u043b\u0430\u0434\u0430\u0442\u0435 \u0458\u0430\u0437\u0438\u043a\u043e\u0442."},
-gdg(){return"\u041c\u043e\u0436\u0430\u043c \u043b\u0438 \u0434\u0430 \u043d\u0430\u0443\u0447\u0430\u043c \u0458\u0430\u0437\u0438\u043a?"},
-gdt(){return"\u0414\u0430, \u043c\u043e\u0436\u0435\u0442\u0435. \u0421\u043e\u0440\u0430\u0431\u043e\u0442\u0443\u0432\u0430\u043c\u0435 \u0441\u043e \u0435\u043a\u0441\u043f\u0435\u0440\u0442\u0438 \u043a\u043e\u0438 \u0437\u043d\u0430\u0430\u0442 \u043a\u043e\u0438 \u0441\u0435 \u043d\u0430\u0458\u0434\u043e\u0431\u0440\u0438\u0442\u0435 \u0442\u0435\u0445\u043d\u0438\u043a\u0438 \u0437\u0430 \u0443\u0447\u0435\u045a\u0435 \u043f\u0440\u0435\u043a\u0443 \u043c\u0443\u043b\u0442\u0438\u043c\u0435\u0434\u0438\u0458\u0430\u043b\u043d\u0438 \u043a\u0443\u0440\u0441\u0435\u0432\u0438."},
-gdr(){return"\u0414\u0430\u043b\u0438 \u043e\u0432\u0430\u0430 \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430 \u0435 \u0431\u0435\u0437\u0431\u0435\u0434\u043d\u0430?"},
-gdq(){return"\u041d\u0438\u0435 \u043d\u0435 \u0433\u0438 \u043f\u0440\u043e\u0434\u0430\u0432\u0430\u043c\u0435 \u0432\u0430\u0448\u0438\u0442\u0435 \u043f\u043e\u0434\u0430\u0442\u043e\u0446\u0438 \u043d\u0430 \u0442\u0440\u0435\u0442\u0438 \u0441\u0442\u0440\u0430\u043d\u0438. \u041b\u043e\u0437\u0438\u043d\u043a\u0438\u0442\u0435 \u0438 \u0435-\u043f\u043e\u0448\u0442\u0430\u0442\u0430 \u0441\u0435 \u0446\u0435\u043b\u043e\u0441\u043d\u043e \u0448\u0438\u0444\u0440\u0438\u0440\u0430\u043d\u0438. \u0421\u0430\u043c\u043e \u0432\u0438\u0435 \u043c\u043e\u0436\u0435\u0442\u0435 \u0434\u0430 \u043f\u0440\u0438\u0458\u0430\u0432\u0438\u0442\u0435 \u0431\u0438\u043b\u043e \u043a\u0430\u043a\u0432\u0438 \u0441\u043e\u043c\u043d\u0438\u0442\u0435\u043b\u043d\u0438 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u0438 \u043a\u043e\u0438 \u0432\u043b\u0438\u0458\u0430\u0430\u0442 \u043d\u0430 \u0432\u0430\u0448\u0430\u0442\u0430 \u0431\u0435\u0437\u0431\u0435\u0434\u043d\u043e\u0441\u0442, \u0430 \u0442\u0438\u043c\u043e\u0442 \u0437\u0430 \u043f\u043e\u0434\u0434\u0440\u0448\u043a\u0430 \u045c\u0435 \u0441\u0442\u0430\u043f\u0438 \u0432\u043e \u043a\u043e\u043d\u0442\u0430\u043a\u0442 \u0441\u043e \u0432\u0430\u0441."},
-gdm(){return"\u041a\u0430\u043a\u043e \u043c\u043e\u0436\u0430\u043c \u0434\u0430 \u0443\u0447\u0430\u043c \u043d\u0430 \u043e\u0432\u0430\u0430 \u0430\u043f\u043b\u0438\u043a\u0430\u0446\u0438\u0458\u0430?"},
-gdh(){return"\u041c\u043e\u0436\u0435\u0442\u0435 \u0434\u0430 \u0441\u043b\u0435\u0434\u0438\u0442\u0435 \u0432\u043e\u0434\u0435\u043d\u0438 \u043a\u0443\u0440\u0441\u0435\u0432\u0438, \u0434\u0430 \u0432\u0435\u0436\u0431\u0430\u0442\u0435 \u0441\u043e \u0410\u0418 \u043c\u0435\u043d\u0442\u043e\u0440 \u0438 \u0434\u0430 \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0438\u0442\u0435 \u0441\u043e \u043d\u0430\u043f\u0440\u0435\u0434\u0443\u0432\u0430\u045a\u0435 \u0437\u0430 \u0434\u0430 \u0433\u043e \u043d\u0430\u0434\u043c\u0438\u043d\u0435\u0442\u0435 \u043d\u0438\u0432\u043e \u043d\u0430 \u043f\u0440\u0435\u0436\u0438\u0432\u0443\u0432\u0430\u045a\u0435."},
 gcU(){return"\u041f\u043e\u043b\u0438\u0442\u0438\u043a\u0430 \u0437\u0430 \u043f\u0440\u0438\u0432\u0430\u0442\u043d\u043e\u0441\u0442"},
 gcT(){return"\u041f\u0440\u0430\u0432\u0438\u043b\u0430 \u043d\u0430 \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430\u0442\u0430"},
 gcV(){return"\u0423\u0441\u043b\u043e\u0432\u0438 \u0437\u0430 \u043a\u043e\u0440\u0438\u0441\u0442\u0435\u045a\u0435"},
@@ -92285,7 +92277,15 @@ gcA(){return"\u0421\u0442\u0430\u043d\u0434\u0430\u0440\u0434\u0438 \u0437\u0430
 gcW(){return"\u0423\u0441\u043b\u043e\u0432\u0438 \u0437\u0430 \u043a\u043e\u0440\u0438\u0441\u0442\u0435\u045a\u0435"},
 gcf(){return"\u041f\u0440\u0435\u0437\u0435\u043c\u0438 \u0437\u0430 Android"},
 gcg(){return"\u041f\u0440\u0435\u0437\u0435\u043c\u0438 \u0437\u0430 iOS"},
-gco(){return"\u041f\u0440\u0435\u0437\u0435\u043c\u0438 \u0437\u0430 macOS"}}
+gco(){return"\u041f\u0440\u0435\u0437\u0435\u043c\u0438 \u0437\u0430 macOS"},
+gdr(){return"\u041a\u0430\u043a\u043e \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0438\u0440\u0430 AI \u0442\u0443\u0442\u043e\u0440\u043e\u0442 \u0437\u0430 \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0443\u0432\u0430\u045a\u0435?"},
+gdg(){return"\u041c\u043e\u0436\u0435\u0442\u0435 \u0434\u0430 \u0438\u043c\u0430\u0442\u0435 \u0433\u043b\u0430\u0441\u043e\u0432\u043d\u0438 \u0440\u0430\u0437\u0433\u043e\u0432\u043e\u0440 \u0432\u043e \u0440\u0435\u0430\u043b\u043d\u043e \u0432\u0440\u0435\u043c\u0435 \u043d\u0430 \u043a\u043e\u0458\u0430 \u0431\u0438\u043b\u043e \u0442\u0435\u043c\u0430 \u043d\u0430 \u0440\u0430\u0437\u043b\u0438\u0447\u043d\u0438 \u043d\u0438\u0432\u043e\u0430. AI \u0432\u0438 \u0434\u0430\u0432\u0430 \u0438\u043d\u0441\u0442\u0430\u043d\u0442 \u043f\u043e\u0432\u0440\u0430\u0442\u043d\u0438 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0438 \u0437\u0430 \u0432\u0430\u0448\u0435\u0442\u043e \u0440\u0430\u0437\u0431\u0438\u0440\u0430\u045a\u0435, \u0433\u0440\u0430\u043c\u0430\u0442\u0438\u043a\u0430 \u0438 \u0432\u043e\u043a\u0430\u0431\u0443\u043b\u0430\u0440."},
+gds(){return"\u0414\u0430\u043b\u0438 AI \u045c\u0435 \u0433\u0438 \u043f\u043e\u043f\u0440\u0430\u0432\u0430 \u043c\u043e\u0438\u0442\u0435 \u0433\u0440\u0435\u0448\u043a\u0438 \u0434\u043e\u0434\u0435\u043a\u0430 \u0437\u0431\u043e\u0440\u0443\u0432\u0430\u043c?"},
+gdh(){return"\u0414\u0430. AI \u043d\u0435\u0436\u043d\u043e \u0458\u0430 \u043a\u043e\u0440\u0438\u0433\u0438\u0440\u0430 \u0432\u0430\u0448\u0430\u0442\u0430 \u0433\u0440\u0430\u043c\u0430\u0442\u0438\u043a\u0430 \u0438 \u0432\u043e\u043a\u0430\u0431\u0443\u043b\u0430\u0440 \u0432\u043e \u0440\u0435\u0430\u043b\u043d\u043e \u0432\u0440\u0435\u043c\u0435 \u0437\u0430 \u0434\u0430 \u043c\u043e\u0436\u0435\u0442\u0435 \u0434\u0430 \u0433\u0440\u0430\u0434\u0438\u0442\u0435 \u0441\u0430\u043c\u043e\u0434\u043e\u0432\u0435\u0440\u0431\u0430 \u0432\u043e \u0437\u0431\u043e\u0440\u0443\u0432\u0430\u045a\u0435\u0442\u043e \u0431\u0435\u0437 \u0441\u0442\u0440\u0435\u0441."},
+gdt(){return"\u0414\u0430\u043b\u0438 Edhomy AI Languages \u0435 \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e \u0437\u0430 \u043a\u043e\u0440\u0438\u0441\u0442\u0435\u045a\u0435?"},
+gdi(){return"\u0410\u043f\u043b\u0438\u043a\u0430\u0446\u0438\u0458\u0430\u0442\u0430 \u0435 \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u0430 \u0437\u0430 \u043f\u0440\u0435\u0437\u0435\u043c\u0430\u045a\u0435 \u0438 \u0432\u043a\u043b\u0443\u0447\u0443\u0432\u0430 \u0430\u043b\u0430\u0442\u043a\u0438 \u0437\u0430 \u0441\u0435\u043a\u043e\u0458\u0434\u043d\u0435\u0432\u043d\u0430 \u043f\u0440\u0430\u043a\u0441\u0430. \u041d\u0435\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0430\u0442\u0430 \u043f\u0440\u0430\u043a\u0441\u0430 \u0437\u0430 \u0440\u0430\u0437\u0433\u043e\u0432\u043e\u0440 \u0441\u043e AI \u0438 \u0432\u043e\u0434\u0435\u043d\u0438\u0442\u0435 \u0432\u0438\u0434\u0435\u043e \u043b\u0435\u043a\u0446\u0438\u0438 \u0431\u0430\u0440\u0430\u0430\u0442 \u043f\u0440\u0435\u043c\u0438\u0443\u043c \u0441\u043c\u0435\u0442\u043a\u0430."},
+gdu(){return"\u041a\u0430\u043a\u043e \u0434\u0430 \u043a\u0443\u043f\u0430\u043c \u043f\u0440\u0435\u043c\u0438\u0443\u043c \u0441\u043c\u0435\u0442\u043a\u0430?"},
+gdj(){return"\u041e\u0434\u0435\u0442\u0435 \u0432\u043e \u041f\u043e\u0441\u0442\u0430\u0432\u043a\u0438, \u0434\u043e\u043f\u0440\u0435\u0442\u0435 '\u041f\u0440\u0435\u043c\u0438\u0443\u043c \u0441\u043c\u0435\u0442\u043a\u0430', \u0438\u0437\u0431\u0435\u0440\u0435\u0442\u0435 \u0433\u043e \u0432\u0430\u0448\u0438\u043e\u0442 \u043e\u043c\u0438\u043b\u0435\u043d \u043f\u043b\u0430\u043d \u0438 \u043a\u043e\u043c\u043f\u043b\u0435\u0442\u0438\u0440\u0430\u0458\u0442\u0435 \u0433\u043e \u043f\u043b\u0430\u045c\u0430\u045a\u0435\u0442\u043e \u0431\u0435\u0437\u0431\u0435\u0434\u043d\u043e \u043f\u0440\u0435\u043a\u0443 Apple, Google \u0438\u043b\u0438 \u043a\u0440\u0435\u0434\u0438\u0442\u043d\u0430 \u043a\u0430\u0440\u0442\u0438\u0447\u043a\u0430."}}
 A.K_.prototype={
 gcn(){return"\u0411\u0438\u0434\u044d\u043d\u0442\u044d\u0439 \u0445\u043e\u043b\u0431\u043e\u0433\u0434\u043e\u0445"},
 gcS(){return"\u0418\u043b\u04af\u04af \u043e\u043b\u043e\u043d \u0441\u043e\u043d\u0433\u043e\u043b\u0442"},
@@ -92309,19 +92309,11 @@ gd7(){return"\u041d\u044d\u0440\u044d\u044d \u043e\u0440\u0443\u0443\u043b\u043d
 gd5(){return"\u0418\u043c\u044d\u0439\u043b\u0438\u0439\u0433 \u043e\u0440\u0443\u0443\u043b\u043d\u0430 \u0443\u0443"},
 gd6(){return"\u041c\u0435\u0441\u0441\u0435\u0436\u0438\u0439\u0433 \u043e\u0440\u0443\u0443\u043b\u043d\u0430 \u0443\u0443"},
 gcK(){return"\u0411\u0438\u0434\u043d\u0438\u0439\u0433 \u0434\u0430\u0433\u0430\u0430\u0440\u0430\u0439"},
-gdu(){return"\u041c\u0435\u0441\u0441\u0435\u0436 \u0430\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439 \u0438\u043b\u0433\u044d\u044d\u0433\u0434\u0441\u044d\u043d"},
-gdj(){return"\u0410\u043b\u0434\u0430\u0430 \u0433\u0430\u0440\u043b\u0430\u0430. \u0414\u0430\u0445\u0438\u043d \u043e\u0440\u043e\u043b\u0434\u043e\u043d\u043e \u0443\u0443"},
+gdv(){return"\u041c\u0435\u0441\u0441\u0435\u0436 \u0430\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439 \u0438\u043b\u0433\u044d\u044d\u0433\u0434\u0441\u044d\u043d"},
+gdk(){return"\u0410\u043b\u0434\u0430\u0430 \u0433\u0430\u0440\u043b\u0430\u0430. \u0414\u0430\u0445\u0438\u043d \u043e\u0440\u043e\u043b\u0434\u043e\u043d\u043e \u0443\u0443"},
 gd9(){return"\u0418\u043b\u0433\u044d\u044d\u0445\u0438\u0439\u043d \u04e9\u043c\u043d\u04e9 \u0431\u04af\u0445 \u0442\u0430\u043b\u0431\u0430\u0440\u0443\u0443\u0434\u044b\u0433 \u0431\u04e9\u0433\u043b\u04e9\u043d\u04e9 \u04af\u04af"},
 gcR(){return"\u0418\u043b\u04af\u04af"},
 gcO(){return"\u0411\u0430\u0433\u0430"},
-gdv(){return"Edhomy AI \u0445\u044d\u043b \u0433\u044d\u0436 \u044e\u0443 \u0432\u044d?"},
-gdi(){return"Edhomy AI \u0445\u044d\u043b \u043d\u044c \u0445\u044d\u043b \u0441\u0443\u0440\u0430\u0445\u0430\u0434 \u0437\u043e\u0440\u0438\u0443\u043b\u0441\u0430\u043d AI-\u0442\u044d\u0439 \u0430\u043f\u043f\u043b\u0438\u043a\u0435\u0439\u0448\u043d \u044e\u043c. \u0422\u0443\u0441\u043b\u0430\u0445 AI \u0431\u0430\u0433\u0448 \u043d\u044c \u0442\u0430\u043d\u044b \u044f\u0440\u0438\u0430\u043d\u044b \u0437\u04e9\u0432 \u0434\u0443\u0443\u0434\u043b\u0430\u0433\u0430\u0430\u0440 \u0431\u044d\u043b\u0442\u0433\u044d\u043b \u0445\u0438\u0439\u0436, 100 \u0445\u0438\u0447\u044d\u044d\u043b\u0442\u044d\u0439 \u0442\u04af\u04af\u0445\u0438\u0439\u043d \u0445\u0438\u0447\u044d\u044d\u043b\u0438\u0439\u0433 \u0430\u0448\u0438\u0433\u043b\u0430\u043d \u0445\u044d\u043b\u044d\u044d \u044d\u0437\u044d\u043c\u0448\u0438\u0445 \u0431\u043e\u043b\u043e\u043c\u0436\u0438\u0439\u0433 \u043e\u043b\u0433\u043e\u0434\u043e\u0433."},
-gdg(){return"\u0411\u0438 \u0445\u044d\u043b \u0441\u0443\u0440\u0430\u0445 \u0431\u043e\u043b\u043e\u043c\u0436\u0442\u043e\u0439 \u044e\u0443?"},
-gdt(){return"\u0422\u0438\u0439\u043c\u044d\u044d, \u0442\u0430 \u0441\u0443\u0440\u0430\u0445 \u0431\u043e\u043b\u043e\u043c\u0436\u0442\u043e\u0439. \u0411\u0438\u0434 \u043e\u043b\u043e\u043d \u0442\u04e9\u0440\u043b\u0438\u0439\u043d \u043c\u0443\u043b\u044c\u0442\u0438\u043c\u0435\u0434\u0438\u0430 \u0445\u0438\u0447\u044d\u044d\u043b\u04af\u04af\u0434\u044d\u044d\u0440 \u0441\u0443\u0440\u0430\u0445 \u0445\u0430\u043c\u0433\u0438\u0439\u043d \u0441\u0430\u0439\u043d \u0442\u0435\u0445\u043d\u0438\u043a\u0438\u0439\u0433 \u043c\u044d\u0434\u0434\u044d\u0433 \u043c\u044d\u0440\u0433\u044d\u0436\u0438\u043b\u0442\u043d\u04af\u04af\u0434\u0442\u044d\u0439 \u0445\u0430\u043c\u0442\u0440\u0430\u043d \u0430\u0436\u0438\u043b\u043b\u0430\u0434\u0430\u0433."},
-gdr(){return"\u042d\u043d\u044d \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430 \u0430\u044e\u0443\u043b\u0433\u04af\u0439 \u044e\u0443?"},
-gdq(){return"\u0411\u0438\u0434 \u0442\u0430\u043d\u044b \u04e9\u0433\u04e9\u0433\u0434\u043b\u0438\u0439\u0433 \u0433\u0443\u0440\u0430\u0432\u0434\u0430\u0433\u0447 \u0442\u0430\u043b\u0434 \u0437\u0430\u0440\u0434\u0430\u0433\u0433\u04af\u0439. \u041d\u0443\u0443\u0446 \u04af\u0433\u0441 \u0431\u043e\u043b\u043e\u043d \u0438\u043c\u044d\u0439\u043b\u04af\u04af\u0434 \u043d\u044c \u0431\u04af\u0440\u044d\u043d \u0438\u043b \u0442\u043e\u0434 \u0448\u0438\u0444\u0440\u043b\u044d\u0433\u0434\u0441\u044d\u043d. \u0422\u0430\u043d\u044b \u0430\u044e\u0443\u043b\u0433\u04af\u0439 \u0431\u0430\u0439\u0434\u0430\u043b\u0434 \u043d\u04e9\u043b\u04e9\u04e9\u043b\u0436 \u0431\u043e\u043b\u043e\u0445 \u044f\u043c\u0430\u0440 \u0447 \u0441\u044d\u0436\u0438\u0433\u0442\u044d\u0439 \u043d\u04e9\u0445\u0446\u04e9\u043b \u0431\u0430\u0439\u0434\u043b\u044b\u0433 \u0437\u04e9\u0432\u0445\u04e9\u043d \u0442\u0430 \u043b \u043c\u044d\u0434\u044d\u0433\u0434\u044d\u0436 \u0447\u0430\u0434\u043d\u0430, \u0434\u044d\u043c\u0436\u043b\u044d\u0433\u0438\u0439\u043d \u0431\u0430\u0433 \u0442\u0430\u043d\u044b\u0433 \u0445\u043e\u043b\u0431\u043e\u0433\u0434\u043e\u0445 \u0431\u043e\u043b\u043d\u043e."},
-gdm(){return"\u042d\u043d\u044d \u0430\u043f\u043f \u0434\u044d\u044d\u0440 \u0445\u044d\u0440\u0445\u044d\u043d \u0441\u0443\u0440\u0430\u0445 \u0432\u044d?"},
-gdh(){return"\u0422\u0430 \u0443\u0434\u0438\u0440\u0434\u0441\u0430\u043d \u0445\u0438\u0447\u044d\u044d\u043b\u04af\u04af\u0434\u0438\u0439\u0433 \u0434\u0430\u0433\u0430\u0436, AI \u0431\u0430\u0433\u0448\u0442\u0430\u0439 \u043f\u0440\u0430\u043a\u0442\u0438\u043a \u0445\u0438\u0439\u0436, \u0430\u043c\u044c\u0434\u0440\u0430\u043b\u044b\u043d \u0442\u04af\u0432\u0448\u043d\u044d\u044d\u0441 \u0434\u0430\u0432\u0436 \u0433\u0430\u0440\u0430\u0445 \u0437\u043e\u0440\u0438\u043b\u0433\u043e\u043e\u0440 \u0430\u043c\u0436\u0438\u043b\u0442\u0442\u0430\u0439 \u0441\u0443\u0440\u0430\u043b\u0446\u0430\u0445 \u0431\u043e\u043b\u043e\u043c\u0436\u0442\u043e\u0439."},
 gcU(){return"\u041d\u0443\u0443\u0446\u043b\u0430\u043b\u044b\u043d \u0431\u043e\u0434\u043b\u043e\u0433\u043e"},
 gcT(){return"\u041f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u044b\u043d \u0434\u04af\u0440\u044d\u043c"},
 gcV(){return"\u04ae\u0439\u043b\u0447\u0438\u043b\u0433\u044d\u044d\u043d\u0438\u0439 \u043d\u04e9\u0445\u0446\u04e9\u043b"},
@@ -92336,7 +92328,15 @@ gcA(){return"\u0410\u044e\u0443\u043b\u0433\u04af\u0439 \u0431\u0430\u0439\u0434
 gcW(){return"\u0425\u044d\u0440\u044d\u0433\u043b\u044d\u044d\u043d\u0438\u0439 \u043d\u04e9\u0445\u0446\u04e9\u043b"},
 gcf(){return"Android-\u0434 \u0437\u043e\u0440\u0438\u0443\u043b\u0430\u043d \u0442\u0430\u0442\u0430\u0436 \u0430\u0432\u0430\u0445"},
 gcg(){return"iOS-\u0434 \u0437\u043e\u0440\u0438\u0443\u043b\u0430\u043d \u0442\u0430\u0442\u0430\u0436 \u0430\u0432\u0430\u0445"},
-gco(){return"macOS-\u0434 \u0437\u043e\u0440\u0438\u0443\u043b\u0430\u043d \u0442\u0430\u0442\u0430\u0436 \u0430\u0432\u0430\u0445"}}
+gco(){return"macOS-\u0434 \u0437\u043e\u0440\u0438\u0443\u043b\u0430\u043d \u0442\u0430\u0442\u0430\u0436 \u0430\u0432\u0430\u0445"},
+gdr(){return"AI \u0434\u0430\u0434\u043b\u0430\u0433\u044b\u043d \u0431\u0430\u0433\u0448 \u0445\u044d\u0440\u0445\u044d\u043d \u0430\u0436\u0438\u043b\u043b\u0430\u0434\u0430\u0433 \u0432\u044d?"},
+gdg(){return"\u0422\u0430 \u044f\u043c\u0430\u0440 \u0447 \u0441\u044d\u0434\u0432\u044d\u044d\u0440 \u04e9\u04e9\u0440 \u04e9\u04e9\u0440 \u0442\u04af\u0432\u0448\u0438\u043d\u0434 \u0431\u043e\u0434\u0438\u0442 \u0446\u0430\u0433\u0438\u0439\u043d \u0434\u0443\u0443\u043d\u044b \u044f\u0440\u0438\u0430 \u0445\u0438\u0439\u0445 \u0431\u043e\u043b\u043e\u043c\u0436\u0442\u043e\u0439. AI \u043d\u044c \u0442\u0430\u043d\u044b \u043e\u0439\u043b\u0433\u043e\u043b\u0442, \u0433\u0440\u0430\u043c\u043c\u0430\u0442\u0438\u043a \u0431\u043e\u043b\u043e\u043d \u04af\u0433\u0441\u0438\u0439\u043d \u0441\u0430\u043d\u0434 \u0448\u0443\u0443\u0434 \u0441\u0430\u043d\u0430\u043b \u0445\u04af\u0441\u044d\u043b\u0442 \u04e9\u0433\u0434\u04e9\u0433."},
+gds(){return"\u041d\u0430\u043c\u0430\u0439\u0433 \u044f\u0440\u044c\u0436 \u0431\u0430\u0439\u0445\u0430\u0434 AI \u043c\u0438\u043d\u0438\u0439 \u0430\u043b\u0434\u0430\u0430\u0433 \u0437\u0430\u0441\u0430\u0445 \u0443\u0443?"},
+gdh(){return"\u0422\u0438\u0439\u043c. AI \u043d\u044c \u0442\u0430\u043d\u044b \u0433\u0440\u0430\u043c\u043c\u0430\u0442\u0438\u043a \u0431\u043e\u043b\u043e\u043d \u04af\u0433\u0441\u0438\u0439\u043d \u0441\u0430\u043d\u0433 \u0431\u043e\u0434\u0438\u0442 \u0446\u0430\u0433\u0442 \u0430\u0430\u0436\u043c\u0430\u0430\u0440 \u0437\u0430\u0441\u0430\u0436, \u0441\u0442\u0440\u0435\u0441\u0441\u0433\u04af\u0439\u0433\u044d\u044d\u0440 \u044f\u0440\u0438\u0430\u043d\u044b \u0438\u0442\u0433\u044d\u043b\u0438\u0439\u0433 \u0442\u0430\u043d\u044c \u043d\u044d\u043c\u044d\u0433\u0434\u04af\u04af\u043b\u043d\u044d."},
+gdt(){return"Edhomy AI Languages-\u0438\u0439\u0433 \u04af\u043d\u044d\u0433\u04af\u0439 \u0430\u0448\u0438\u0433\u043b\u0430\u0445 \u0431\u043e\u043b\u043e\u043c\u0436\u0442\u043e\u0439 \u044e\u0443?"},
+gdi(){return"\u0410\u043f\u043f\u043b\u0438\u043a\u0435\u0439\u0448\u043d\u044b\u0433 \u04af\u043d\u044d\u0433\u04af\u0439 \u0442\u0430\u0442\u0430\u0445 \u0431\u043e\u043b\u043e\u043c\u0436\u0442\u043e\u0439 \u0431\u04e9\u0433\u04e9\u04e9\u0434 \u04e9\u0434\u04e9\u0440 \u0442\u0443\u0442\u043c\u044b\u043d \u0434\u0430\u0434\u043b\u0430\u0433\u044b\u043d \u0445\u044d\u0440\u044d\u0433\u0441\u043b\u04af\u04af\u0434\u0438\u0439\u0433 \u0430\u0433\u0443\u0443\u043b\u0441\u0430\u043d. \u0425\u044f\u0437\u0433\u0430\u0430\u0440\u0433\u04af\u0439 AI \u044f\u0440\u0438\u0430\u043d\u044b \u0434\u0430\u0434\u043b\u0430\u0433\u0430 \u0431\u043e\u043b\u043e\u043d \u0447\u0438\u0433\u043b\u04af\u04af\u043b\u044d\u0433\u0447\u0442\u044d\u0439 \u0432\u0438\u0434\u0435\u043e \u0445\u0438\u0447\u044d\u044d\u043b\u04af\u04af\u0434\u044d\u0434 \u043f\u0440\u0435\u043c\u0438\u0443\u043c \u044d\u0440\u0445 \u0448\u0430\u0430\u0440\u0434\u043b\u0430\u0433\u0430\u0442\u0430\u0439."},
+gdu(){return"\u041f\u0440\u0435\u043c\u0438\u0443\u043c \u044d\u0440\u0445\u0438\u0439\u0433 \u0445\u044d\u0440\u0445\u044d\u043d \u0445\u0443\u0434\u0430\u043b\u0434\u0430\u0436 \u0430\u0432\u0430\u0445 \u0432\u044d?"},
+gdj(){return"\u0422\u043e\u0445\u0438\u0440\u0433\u043e\u043e \u0440\u04af\u04af \u043e\u0440\u0436, '\u041f\u0440\u0435\u043c\u0438\u0443\u043c \u044d\u0440\u0445' \u0434\u044d\u044d\u0440 \u0434\u0430\u0440\u0436, \u0445\u04af\u0441\u0441\u044d\u043d \u0431\u0430\u0433\u0446\u0430\u0430 \u0441\u043e\u043d\u0433\u043e\u043d Apple, Google \u044d\u0441\u0432\u044d\u043b \u043a\u0440\u0435\u0434\u0438\u0442 \u043a\u0430\u0440\u0442 \u0430\u0448\u0438\u0433\u043b\u0430\u043d \u0430\u044e\u0443\u043b\u0433\u04af\u0439 \u0445\u0443\u0434\u0430\u043b\u0434\u0430\u043d \u0430\u0432\u0430\u043b\u0442\u0430\u0430 \u0445\u0438\u0439\u043d\u044d \u04af\u04af."}}
 A.K0.prototype={
 gcn(){return"Kontakt oss"},
 gcS(){return"Flere alternativer"},
@@ -92360,19 +92360,11 @@ gd7(){return"Skriv inn navn"},
 gd5(){return"Skriv inn e-post"},
 gd6(){return"Skriv inn melding"},
 gcK(){return"F\xf8lg oss"},
-gdu(){return"Meldingen ble sendt"},
-gdj(){return"Feil. Vennligst pr\xf8v igjen"},
+gdv(){return"Meldingen ble sendt"},
+gdk(){return"Feil. Vennligst pr\xf8v igjen"},
 gd9(){return"Fyll ut alt f\xf8r du sender"},
 gcR(){return"Mer"},
 gcO(){return"Mindre"},
-gdv(){return"Hva er Edhomy AI spr\xe5k?"},
-gdi(){return"Edhomy AI spr\xe5k er en app hvor du kan l\xe6re et spr\xe5k med AI. Den tilbyr en AI-l\xe6rer for \xe5 \xf8ve uttale og et historiefortellingskurs med 100 leksjoner for \xe5 hjelpe deg med \xe5 mestre spr\xe5ket."},
-gdg(){return"Kan jeg l\xe6re et spr\xe5k?"},
-gdt(){return"Ja, du kan. Vi samarbeider med eksperter som kjenner de beste teknikkene for \xe5 l\xe6re gjennom multimediakurs."},
-gdr(){return"Er denne plattformen sikker?"},
-gdq(){return"Vi selger ikke dataene dine til tredjepart. Passord og e-post er fullt kryptert. Bare du kan rapportere mistenkelige situasjoner som p\xe5virker sikkerheten din, og supportteamet vil kontakte deg."},
-gdm(){return"Hvordan kan jeg l\xe6re i denne appen?"},
-gdh(){return"Du kan f\xf8lge de guidede kursene, \xf8ve med AI-l\xe6reren og fortsette \xe5 gj\xf8re fremgang for \xe5 overvinne overlevelsesniv\xe5et."},
 gcU(){return"Personvernpolitikk"},
 gcT(){return"Plattformregler"},
 gcV(){return"Vilk\xe5r for tjeneste"},
@@ -92387,7 +92379,15 @@ gcA(){return"Sikkerhetsstandarder"},
 gcW(){return"Bruksvilk\xe5r"},
 gcf(){return"Last ned for Android"},
 gcg(){return"Last ned for iOS"},
-gco(){return"Last ned for macOS"}}
+gco(){return"Last ned for macOS"},
+gdr(){return"Hvordan fungerer AI-\xf8vingsl\xe6reren?"},
+gdg(){return"Du kan ha talesamtaler i sanntid om hvilket som helst tema p\xe5 ulike niv\xe5er. AI-en gir deg umiddelbar tilbakemelding p\xe5 forst\xe5else, grammatikk og vokabular."},
+gds(){return"Vil AI-en rette feilene mine mens jeg snakker?"},
+gdh(){return"Ja. AI-en retter grammatikken og vokabularet ditt sk\xe5nsomt i sanntid slik at du kan certified bygge selvtillit til \xe5 snakke uten stress."},
+gdt(){return"Er Edhomy AI Languages gratis \xe5 bruke?"},
+gdi(){return"Appen er gratis \xe5 laste ned og inkluderer daglige \xf8vingsverkt\xf8y. Ubegrenset AI-samtale\xf8ving og guidede videoleksjoner krever en premiumkonto."},
+gdu(){return"Hvordan kj\xf8per jeg en premiumkonto?"},
+gdj(){return"G\xe5 til Innstillinger, trykk p\xe5 'Premiumkonto', velg abonnementet du \xf8nsker og fullf\xf8r betalingen trygt med Apple, Google eller et kredittkort."}}
 A.K1.prototype={
 gcn(){return"Skontaktuj si\u0119 z nami"},
 gcS(){return"Wi\u0119cej opcji"},
@@ -92411,19 +92411,11 @@ gd7(){return"Wpisz imi\u0119"},
 gd5(){return"Wpisz email"},
 gd6(){return"Wpisz wiadomo\u015b\u0107"},
 gcK(){return"\u015aled\u017a nas"},
-gdu(){return"Wiadomo\u015b\u0107 zosta\u0142a wys\u0142ana pomy\u015blnie"},
-gdj(){return"B\u0142\u0105d. Prosz\u0119 spr\xf3bowa\u0107 ponownie"},
+gdv(){return"Wiadomo\u015b\u0107 zosta\u0142a wys\u0142ana pomy\u015blnie"},
+gdk(){return"B\u0142\u0105d. Prosz\u0119 spr\xf3bowa\u0107 ponownie"},
 gd9(){return"Wype\u0142nij wszystkie pola przed wys\u0142aniem"},
 gcR(){return"Wi\u0119cej"},
 gcO(){return"Mniej"},
-gdv(){return"Czym jest Edhomy AI languages?"},
-gdi(){return"Edhomy AI languages to aplikacja, w kt\xf3rej mo\u017cesz uczy\u0107 si\u0119 j\u0119zyka z pomoc\u0105 AI. Oferuje ona AI nauczyciela do \u0107wiczenia wymowy oraz kurs opowiadania historii z 100 lekcjami, kt\xf3re pomog\u0105 Ci opanowa\u0107 j\u0119zyk."},
-gdg(){return"Czy mog\u0119 nauczy\u0107 si\u0119 j\u0119zyka?"},
-gdt(){return"Tak, mo\u017cesz. Wsp\xf3\u0142pracujemy z ekspertami, kt\xf3rzy znaj\u0105 najlepsze techniki nauki przez kursy multimedialne."},
-gdr(){return"Czy ta platforma jest bezpieczna?"},
-gdq(){return"Nie sprzedajemy twoich danych osobom trzecim. Has\u0142a i e-maile s\u0105 w pe\u0142ni zaszyfrowane. Tylko ty mo\u017cesz zg\u0142osi\u0107 wszelkie podejrzane sytuacje, kt\xf3re mog\u0105 wp\u0142yn\u0105\u0107 na twoje bezpiecze\u0144stwo, a zesp\xf3\u0142 wsparcia skontaktuje si\u0119 z tob\u0105."},
-gdm(){return"Jak mog\u0119 si\u0119 uczy\u0107 w tej aplikacji?"},
-gdh(){return"Mo\u017cesz \u015bledzi\u0107 kursy prowadzone, \u0107wiczy\u0107 z nauczycielem AI i kontynuowa\u0107 post\u0119py, aby przej\u015b\u0107 przez poziom przetrwania."},
 gcU(){return"Polityka prywatno\u015bci"},
 gcT(){return"Zasady platformy"},
 gcV(){return"Warunki us\u0142ugi"},
@@ -92438,7 +92430,15 @@ gcA(){return"Standardy bezpiecze\u0144stwa"},
 gcW(){return"Warunki u\u017cytkowania"},
 gcf(){return"Pobierz dla Androida"},
 gcg(){return"Pobierz dla iOS"},
-gco(){return"Pobierz dla macOS"}}
+gco(){return"Pobierz dla macOS"},
+gdr(){return"Jak dzia\u0142a korepetytor do praktyki AI?"},
+gdg(){return"Mo\u017cesz prowadzi\u0107 rozmowy g\u0142osowe w czasie rzeczywistym na dowolny temat na r\xf3\u017cnych poziomach. Sztuczna inteligencja daje natychmiastow\u0105 informacj\u0119 zwrotn\u0105 na temat Twojego zrozumienia, gramatyki i s\u0142ownictwa."},
+gds(){return"Czy AI b\u0119dzie poprawia\u0107 moje b\u0142\u0119dy podczas m\xf3wienia?"},
+gdh(){return"Tak. AI delikatnie poprawia Twoj\u0105 gramatyk\u0119 i s\u0142ownictwo w czasie rzeczywistym, dzi\u0119ki czemu mo\u017cesz bez stresu budowa\u0107 pewno\u015b\u0107 siebie w m\xf3wieniu."},
+gdt(){return"Czy Edhomy AI Languages jest darmowe?"},
+gdi(){return"Aplikacja jest darmowa do pobrania i zawiera codzienne narz\u0119dzia do \u0107wicze\u0144. Nielimitowana praktyka konwersacji z AI oraz prowadzone lekcje wideo wymagaj\u0105 konta premium."},
+gdu(){return"Jak kupi\u0107 konto premium?"},
+gdj(){return"Przejd\u017a do Ustawie\u0144, dotknij 'Konto premium', wybierz preferowany plan i bezpiecznie sfinalizuj p\u0142atno\u015b\u0107 za pomoc\u0105 Apple, Google lub karty kredytowej."}}
 A.K2.prototype={
 gcn(){return"Contate-nos"},
 gcS(){return"Mais op\xe7\xf5es"},
@@ -92462,19 +92462,11 @@ gd7(){return"Digite o nome"},
 gd5(){return"Digite o e-mail"},
 gd6(){return"Digite a mensagem"},
 gcK(){return"Siga-nos"},
-gdu(){return"A mensagem foi enviada com sucesso"},
-gdj(){return"Erro. Por favor, tente novamente"},
+gdv(){return"A mensagem foi enviada com sucesso"},
+gdk(){return"Erro. Por favor, tente novamente"},
 gd9(){return"Preencha tudo antes de enviar"},
 gcR(){return"mais"},
 gcO(){return"menos"},
-gdv(){return"O que \xe9 Edhomy AI languages?"},
-gdi(){return"Edhomy AI languages \xe9 um aplicativo onde voc\xea pode aprender um idioma com IA. Ele oferece um tutor de IA para praticar pron\xfancia e um curso de conta\xe7\xe3o de hist\xf3rias com 100 li\xe7\xf5es para ajud\xe1-lo a dominar o idioma."},
-gdg(){return"Posso aprender um idioma?"},
-gdt(){return"Sim, voc\xea pode. Trabalhamos com especialistas que conhecem as melhores t\xe9cnicas de aprendizado atrav\xe9s de cursos multim\xeddia."},
-gdr(){return"Esta plataforma \xe9 segura?"},
-gdq(){return"N\xf3s n\xe3o vendemos seus dados para terceiros. Senhas e e-mails est\xe3o totalmente criptografados. Somente voc\xea pode relatar quaisquer situa\xe7\xf5es suspeitas que possam afetar sua seguran\xe7a, e a equipe de suporte entrar\xe1 em contato com voc\xea."},
-gdm(){return"Como posso aprender neste aplicativo?"},
-gdh(){return"Voc\xea pode seguir os cursos guiados, praticar com o tutor de IA e continuar progredindo para superar o n\xedvel de sobreviv\xeancia."},
 gcU(){return"Pol\xedtica de Privacidade"},
 gcT(){return"Regras da plataforma"},
 gcV(){return"Termos de servi\xe7o"},
@@ -92489,7 +92481,15 @@ gcA(){return"Padr\xf5es de seguran\xe7a"},
 gcW(){return"Termos de uso"},
 gcf(){return"Baixar para Android"},
 gcg(){return"Baixar para iOS"},
-gco(){return"Baixar para macOS"}}
+gco(){return"Baixar para macOS"},
+gdr(){return"Como funciona o tutor de pr\xe1tica por IA?"},
+gdg(){return"Voc\xea pode ter conversas de voz em tempo real sobre qualquer t\xf3pico em diferentes n\xedveis. A IA oferece feedback instant\xe2neo sobre sua compreens\xe3o, gram\xe1tica e vocabul\xe1rio."},
+gds(){return"A IA corrigir\xe1 meus erros enquanto eu falo?"},
+gdh(){return"Sim. A IA corrige suavemente sua gram\xe1tica e vocabul\xe1rio em tempo real para que voc\xea possa desenvolver confian\xe7a para falar sem estresse."},
+gdt(){return"O Edhomy AI Languages \xe9 gratuito?"},
+gdi(){return"O aplicativo \xe9 gratuito para baixar e inclui ferramentas de pr\xe1tica di\xe1ria. Pr\xe1tica de conversa\xe7\xe3o ilimitada com IA e videoaulas guiadas exigem uma conta premium."},
+gdu(){return"Como compro uma conta premium?"},
+gdj(){return"V\xe1 para Configura\xe7\xf5es, toque em 'Conta premium', escolha seu plano preferido e conclua o pagamento com seguran\xe7a usando Apple, Google ou cart\xe3o de cr\xe9dito."}}
 A.K3.prototype={
 gcn(){return"Contacteaz\u0103-ne"},
 gcS(){return"Mai multe op\u021biuni"},
@@ -92513,20 +92513,12 @@ gd7(){return"Introdu numele"},
 gd5(){return"Introdu e-mailul"},
 gd6(){return"Introdu mesajul"},
 gcK(){return"Urm\u0103re\u0219te-ne"},
-gdu(){return"Mesajul a fost trimis cu succes"},
-gdj(){return"Eroare. Te rug\u0103m s\u0103 \xeencerci din nou"},
+gdv(){return"Mesajul a fost trimis cu succes"},
+gdk(){return"Eroare. Te rug\u0103m s\u0103 \xeencerci din nou"},
 gd9(){return"Completeaz\u0103 tot \xeenainte de a trimite"},
 gcR(){return"mai mult"},
 gcO(){return"mai pu\u021bin"},
-gdv(){return"Ce este Edhomy AI languages?"},
-gdi(){return"Edhomy AI languages este o aplica\u021bie unde po\u021bi \xeenv\u0103\u021ba un limbaj cu IA. Ofer\u0103 un tutor AI pentru a exersa pronun\u021bia \u0219i un curs de storytelling cu 100 de lec\u021bii pentru a te ajuta s\u0103 st\u0103p\xe2ne\u0219ti limba."},
-gdg(){return"Pot \xeenv\u0103\u021ba o limb\u0103?"},
-gdt(){return"Da, po\u021bi. Colabor\u0103m cu exper\u021bi care cunosc cele mai bune tehnici de \xeenv\u0103\u021bare prin cursuri multimedia."},
-gdr(){return"Este aceast\u0103 platform\u0103 sigur\u0103?"},
-gdq(){return"Nu vindem datele tale c\u0103tre ter\u021be p\u0103r\u021bi. Parolele \u0219i adresele de e-mail sunt complet criptate. Doar tu po\u021bi raporta orice situa\u021bii suspecte care afecteaz\u0103 securitatea ta, iar echipa de suport te va contacta."},
-gdm(){return"Cum pot \xeenv\u0103\u021ba \xeen aceast\u0103 aplica\u021bie?"},
-gdh(){return"Po\u021bi urma cursuri ghidate, exersa cu tutorul AI \u0219i continua s\u0103 progresezi pentru a dep\u0103\u0219i nivelul de supravie\u021buire."},
-gcU(){return"Politica de confiden\u021bialitate"},
+gcU(){return"Privacy policy"},
 gcT(){return"Regulile platformei"},
 gcV(){return"Termeni \u0219i condi\u021bii"},
 gck(){return"\xcentreb\u0103ri frecvente"},
@@ -92540,7 +92532,15 @@ gcA(){return"Standarde de siguran\u021b\u0103"},
 gcW(){return"Termeni de utilizare"},
 gcf(){return"Descarc\u0103 pentru Android"},
 gcg(){return"Descarc\u0103 pentru iOS"},
-gco(){return"Descarc\u0103 pentru macOS"}}
+gco(){return"Descarc\u0103 pentru macOS"},
+gdr(){return"Cum func\u021bioneaz\u0103 tutorele de practic\u0103 IA?"},
+gdg(){return"Po\u021bi avea conversa\u021bii vocale \xeen timp real pe orice subiect, la niveluri diferite. IA \xee\u021bi ofer\u0103 feedback instantaneu despre \xeen\u021belegerea, gramatica \u0219i vocabularul t\u0103u."},
+gds(){return"\xcemi va corecta IA gre\u0219elile \xeen timp ce vorbesc?"},
+gdh(){return"Da. IA \xee\u021bi corecteaz\u0103 cu bl\xe2nde\u021be gramatica \u0219i vocabularul \xeen timp real, astfel \xeenc\xe2t s\u0103 po\u021bi c\u0103p\u0103ta \xeencredere \xeen vorbire f\u0103r\u0103 stres."},
+gdt(){return"Este Edhomy AI Languages gratuit?"},
+gdi(){return"Aplica\u021bia este gratuit\u0103 de desc\u0103rcat \u0219i include instrumente de practic\u0103 zilnic\u0103. Practica nelimitat\u0103 de conversa\u021bie cu IA \u0219i lec\u021biile video ghidate necesit\u0103 un cont premium."},
+gdu(){return"Cum cump\u0103r un cont premium?"},
+gdj(){return"Merg\u0103 la Set\u0103ri, apas\u0103 pe 'Cont premium', alege planul preferat \u0219i finalizeaz\u0103 plata \xeen siguran\u021b\u0103 folosind Apple, Google sau un card de credit."}}
 A.K4.prototype={
 gcn(){return"\u0421\u0432\u044f\u0436\u0438\u0442\u0435\u0441\u044c \u0441 \u043d\u0430\u043c\u0438"},
 gcS(){return"\u0411\u043e\u043b\u044c\u0448\u0435 \u043e\u043f\u0446\u0438\u0439"},
@@ -92564,19 +92564,11 @@ gd7(){return"\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0438\u043c\u044f"},
 gd5(){return"\u0412\u0432\u0435\u0434\u0438\u0442\u0435 e-mail"},
 gd6(){return"\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435"},
 gcK(){return"\u0421\u043b\u0435\u0434\u0438\u0442\u0435 \u0437\u0430 \u043d\u0430\u043c\u0438"},
-gdu(){return"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e \u0443\u0441\u043f\u0435\u0448\u043d\u043e"},
-gdj(){return"\u041e\u0448\u0438\u0431\u043a\u0430. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0435\u0449\u0435 \u0440\u0430\u0437"},
+gdv(){return"\u0421\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u0435 \u043e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e \u0443\u0441\u043f\u0435\u0448\u043d\u043e"},
+gdk(){return"\u041e\u0448\u0438\u0431\u043a\u0430. \u041f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0435\u0449\u0435 \u0440\u0430\u0437"},
 gd9(){return"\u0417\u0430\u043f\u043e\u043b\u043d\u0438\u0442\u0435 \u0432\u0441\u0435 \u043f\u0435\u0440\u0435\u0434 \u043e\u0442\u043f\u0440\u0430\u0432\u043a\u043e\u0439"},
 gcR(){return"\u0431\u043e\u043b\u044c\u0448\u0435"},
 gcO(){return"\u043c\u0435\u043d\u044c\u0448\u0435"},
-gdv(){return"\u0427\u0442\u043e \u0442\u0430\u043a\u043e\u0435 Edhomy AI languages?"},
-gdi(){return"Edhomy AI languages - \u044d\u0442\u043e \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435, \u0432 \u043a\u043e\u0442\u043e\u0440\u043e\u043c \u0432\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u0438\u0437\u0443\u0447\u0430\u0442\u044c \u044f\u0437\u044b\u043a \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u0418\u0418. \u041e\u043d \u043f\u0440\u0435\u0434\u043b\u0430\u0433\u0430\u0435\u0442 \u043d\u0430\u0441\u0442\u0430\u0432\u043d\u0438\u043a\u0430 \u0418\u0418 \u0434\u043b\u044f \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0438 \u043f\u0440\u043e\u0438\u0437\u043d\u043e\u0448\u0435\u043d\u0438\u044f \u0438 \u043a\u0443\u0440\u0441 \u0441\u0442\u043e\u0440\u0438\u0442\u0435\u043b\u043b\u0438\u043d\u0433\u0430 \u0441 100 \u0443\u0440\u043e\u043a\u0430\u043c\u0438, \u0447\u0442\u043e\u0431\u044b \u043f\u043e\u043c\u043e\u0447\u044c \u0432\u0430\u043c \u043e\u0441\u0432\u043e\u0438\u0442\u044c \u044f\u0437\u044b\u043a."},
-gdg(){return"\u041c\u043e\u0433\u0443 \u043b\u0438 \u044f \u0438\u0437\u0443\u0447\u0430\u0442\u044c \u044f\u0437\u044b\u043a?"},
-gdt(){return"\u0414\u0430, \u0432\u044b \u043c\u043e\u0436\u0435\u0442\u0435. \u041c\u044b \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u043c \u0441 \u044d\u043a\u0441\u043f\u0435\u0440\u0442\u0430\u043c\u0438, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u0437\u043d\u0430\u044e\u0442 \u043b\u0443\u0447\u0448\u0438\u0435 \u043c\u0435\u0442\u043e\u0434\u044b \u043e\u0431\u0443\u0447\u0435\u043d\u0438\u044f \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u043c\u0443\u043b\u044c\u0442\u0438\u043c\u0435\u0434\u0438\u0439\u043d\u044b\u0445 \u043a\u0443\u0440\u0441\u043e\u0432."},
-gdr(){return"\u042d\u0442\u0430 \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u0430?"},
-gdq(){return"\u041c\u044b \u043d\u0435 \u043f\u0440\u043e\u0434\u0430\u0435\u043c \u0432\u0430\u0448\u0438 \u0434\u0430\u043d\u043d\u044b\u0435 \u0442\u0440\u0435\u0442\u044c\u0438\u043c \u043b\u0438\u0446\u0430\u043c. \u041f\u0430\u0440\u043e\u043b\u0438 \u0438 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u044b\u0435 \u0430\u0434\u0440\u0435\u0441\u0430 \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u0437\u0430\u0448\u0438\u0444\u0440\u043e\u0432\u0430\u043d\u044b. \u0422\u043e\u043b\u044c\u043a\u043e \u0432\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u0441\u043e\u043e\u0431\u0449\u0438\u0442\u044c \u043e \u043f\u043e\u0434\u043e\u0437\u0440\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u0441\u0438\u0442\u0443\u0430\u0446\u0438\u044f\u0445, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043c\u043e\u0433\u0443\u0442 \u043f\u043e\u0432\u043b\u0438\u044f\u0442\u044c \u043d\u0430 \u0432\u0430\u0448\u0443 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u044c, \u0438 \u043a\u043e\u043c\u0430\u043d\u0434\u0430 \u043f\u043e\u0434\u0434\u0435\u0440\u0436\u043a\u0438 \u0441\u0432\u044f\u0436\u0435\u0442\u0441\u044f \u0441 \u0432\u0430\u043c\u0438."},
-gdm(){return"\u041a\u0430\u043a \u044f \u043c\u043e\u0433\u0443 \u0443\u0447\u0438\u0442\u044c\u0441\u044f \u0432 \u044d\u0442\u043e\u043c \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0438?"},
-gdh(){return"\u0412\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u0441\u043b\u0435\u0434\u043e\u0432\u0430\u0442\u044c \u043d\u0430\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u043c\u044b\u043c \u043a\u0443\u0440\u0441\u0430\u043c, \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u043e\u0432\u0430\u0442\u044c\u0441\u044f \u0441 \u043d\u0430\u0441\u0442\u0430\u0432\u043d\u0438\u043a\u043e\u043c \u0418\u0418 \u0438 \u043f\u0440\u043e\u0434\u043e\u043b\u0436\u0430\u0442\u044c \u0440\u0430\u0437\u0432\u0438\u0432\u0430\u0442\u044c\u0441\u044f, \u0447\u0442\u043e\u0431\u044b \u043f\u0440\u0435\u043e\u0434\u043e\u043b\u0435\u0442\u044c \u0443\u0440\u043e\u0432\u0435\u043d\u044c \u0432\u044b\u0436\u0438\u0432\u0430\u043d\u0438\u044f."},
 gcU(){return"\u041f\u043e\u043b\u0438\u0442\u0438\u043a\u0430 \u043a\u043e\u043d\u0444\u0438\u0434\u0435\u043d\u0446\u0438\u0430\u043b\u044c\u043d\u043e\u0441\u0442\u0438"},
 gcT(){return"\u041f\u0440\u0430\u0432\u0438\u043b\u0430 \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u044b"},
 gcV(){return"\u0423\u0441\u043b\u043e\u0432\u0438\u044f \u043e\u0431\u0441\u043b\u0443\u0436\u0438\u0432\u0430\u043d\u0438\u044f"},
@@ -92591,7 +92583,15 @@ gcA(){return"\u0421\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u044b \u0431\u0435
 gcW(){return"\u0423\u0441\u043b\u043e\u0432\u0438\u044f \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u043d\u0438\u044f"},
 gcf(){return"\u0421\u043a\u0430\u0447\u0430\u0442\u044c \u0434\u043b\u044f Android"},
 gcg(){return"\u0421\u043a\u0430\u0447\u0430\u0442\u044c \u0434\u043b\u044f iOS"},
-gco(){return"\u0421\u043a\u0430\u0447\u0430\u0442\u044c \u0434\u043b\u044f macOS"}}
+gco(){return"\u0421\u043a\u0430\u0447\u0430\u0442\u044c \u0434\u043b\u044f macOS"},
+gdr(){return"\u041a\u0430\u043a \u0440\u0430\u0431\u043e\u0442\u0430\u0435\u0442 \u0418\u0418-\u0440\u0435\u043f\u0435\u0442\u0438\u0442\u043e\u0440 \u0434\u043b\u044f \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0438?"},
+gdg(){return"\u0412\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u0432\u0435\u0441\u0442\u0438 \u0433\u043e\u043b\u043e\u0441\u043e\u0432\u044b\u0435 \u0440\u0430\u0437\u0433\u043e\u0432\u043e\u0440\u044b \u0432 \u0440\u0435\u0430\u043b\u044c\u043d\u043e\u043c \u0432\u0440\u0435\u043c\u0435\u043d\u0438 \u043d\u0430 \u043b\u044e\u0431\u0443\u044e \u0442\u0435\u043c\u0443 \u043d\u0430 \u0440\u0430\u0437\u043d\u044b\u0445 \u0443\u0440\u043e\u0432\u043d\u044f\u0445. \u0418\u0418 \u0434\u0430\u0435\u0442 \u043c\u0433\u043d\u043e\u0432\u0435\u043d\u043d\u0443\u044e \u043e\u0431\u0440\u0430\u0442\u043d\u0443\u044e \u0441\u0432\u044f\u0437\u044c \u043f\u043e \u0432\u0430\u0448\u0435\u043c\u0443 \u043f\u043e\u043d\u0438\u043c\u0430\u043d\u0438\u044e, \u0433\u0440\u0430\u043c\u043c\u0430\u0442\u0438\u043a\u0435 \u0438 \u0441\u043b\u043e\u0432\u0430\u0440\u043d\u043e\u043c\u0443 \u0437\u0430\u043f\u0430\u0441\u0443."},
+gds(){return"\u0411\u0443\u0434\u0435\u0442 \u043b\u0438 \u0418\u0418 \u0438\u0441\u043f\u0440\u0430\u0432\u043b\u044f\u0442\u044c \u043c\u043e\u0438 \u043e\u0448\u0438\u0431\u043a\u0438 \u0432\u043e \u0432\u0440\u0435\u043c\u044f \u0440\u0430\u0437\u0433\u043e\u0432\u043e\u0440\u0430?"},
+gdh(){return"\u0414\u0430. \u0418\u0418 \u043c\u044f\u0433\u043a\u043e \u0438\u0441\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u0442 \u0432\u0430\u0448\u0443 \u0433\u0440\u0430\u043c\u043c\u0430\u0442\u0438\u043a\u0443 \u0438 \u0441\u043b\u043e\u0432\u0430\u0440\u043d\u044b\u0439 \u0437\u0430\u043f\u0430\u0441 \u0432 \u0440\u0435\u0430\u043b\u044c\u043d\u043e\u043c \u0432\u0440\u0435\u043c\u0435\u043d\u0438, \u0447\u0442\u043e\u0431\u044b \u0432\u044b \u043c\u043e\u0433\u043b\u0438 \u0443\u0432\u0435\u0440\u0435\u043d\u043d\u043e \u0433\u043e\u0432\u043e\u0440\u0438\u0442\u044c \u0431\u0435\u0437 \u0441\u0442\u0440\u0435\u0441\u0441\u0430."},
+gdt(){return"\u042f\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u043b\u0438 Edhomy AI Languages \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u044b\u043c?"},
+gdi(){return"\u041f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435 \u043c\u043e\u0436\u043d\u043e \u0441\u043a\u0430\u0447\u0430\u0442\u044c \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e, \u0438 \u043e\u043d\u043e \u0432\u043a\u043b\u044e\u0447\u0430\u0435\u0442 \u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u044b \u0434\u043b\u044f \u0435\u0436\u0435\u0434\u043d\u0435\u0432\u043d\u043e\u0439 \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0438. \u041d\u0435\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u043d\u0430\u044f \u0440\u0430\u0437\u0433\u043e\u0432\u043e\u0440\u043d\u0430\u044f \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0430 \u0441 \u0418\u0418 \u0438 \u0443\u043f\u0440\u0430\u0432\u043b\u044f\u0435\u043c\u044b\u0435 \u0432\u0438\u0434\u0435\u043e\u0443\u0440\u043e\u043a\u0438 \u0442\u0440\u0435\u0431\u0443\u044e\u0442 \u043f\u0440\u0435\u043c\u0438\u0443\u043c-\u0430\u043a\u043a\u0430\u0443\u043d\u0442\u0430."},
+gdu(){return"\u041a\u0430\u043a \u043f\u0440\u0438\u043e\u0431\u0440\u0435\u0441\u0442\u0438 \u043f\u0440\u0435\u043c\u0438\u0443\u043c-\u0430\u043a\u043a\u0430\u0443\u043d\u0442?"},
+gdj(){return"\u041f\u0435\u0440\u0435\u0439\u0434\u0438\u0442\u0435 \u0432 \u041d\u0430\u0441\u0442\u0440\u043e\u0439\u043a\u0438, \u043d\u0430\u0436\u043c\u0438\u0442\u0435 '\u041f\u0440\u0435\u043c\u0438\u0443\u043c-\u0430\u043a\u043a\u0430\u0443\u043d\u0442', \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u043f\u0440\u0435\u0434\u043f\u043e\u0447\u0438\u0442\u0430\u0435\u043c\u044b\u0439 \u0442\u0430\u0440\u0438\u0444 \u0438 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e \u043e\u043f\u043b\u0430\u0442\u0438\u0442\u0435 \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e Apple, Google \u0438\u043b\u0438 \u0431\u0430\u043d\u043a\u043e\u0432\u0441\u043a\u043e\u0439 \u043a\u0430\u0440\u0442\u044b."}}
 A.K5.prototype={
 gcn(){return"Kontaktujte n\xe1s"},
 gcS(){return"\u010eal\u0161ie mo\u017enosti"},
@@ -92615,19 +92615,11 @@ gd7(){return"Zadajte meno"},
 gd5(){return"Zadajte email"},
 gd6(){return"Zadajte spr\xe1vu"},
 gcK(){return"Sledujte n\xe1s"},
-gdu(){return"Spr\xe1va bola \xfaspe\u0161ne odoslan\xe1"},
-gdj(){return"Chyba. Sk\xfaste to pros\xedm znova"},
+gdv(){return"Spr\xe1va bola \xfaspe\u0161ne odoslan\xe1"},
+gdk(){return"Chyba. Sk\xfaste to pros\xedm znova"},
 gd9(){return"Vypl\u0148te v\u0161etko pred odoslan\xedm"},
 gcR(){return"viac"},
 gcO(){return"menej"},
-gdv(){return"\u010co je Edhomy AI languages?"},
-gdi(){return"Edhomy AI languages je aplik\xe1cia, v ktorej sa m\xf4\u017eete nau\u010di\u0165 jazyk s IA. Pon\xfaka AI mentora na precvi\u010dovanie v\xfdslovnosti a kurz storytellingu so 100 lekciami, ktor\xe9 v\xe1m pom\xf4\u017eu zvl\xe1dnu\u0165 jazyk."},
-gdg(){return"M\xf4\u017eem sa nau\u010di\u0165 jazyk?"},
-gdt(){return"\xc1no, m\xf4\u017eete. Spolupracujeme s odborn\xedkmi, ktor\xed poznaj\xfa najlep\u0161ie techniky u\u010denia pomocou multimedi\xe1lnych kurzov."},
-gdr(){return"Je t\xe1to platforma bezpe\u010dn\xe1?"},
-gdq(){return"Nepred\xe1vame va\u0161e \xfadaje tret\xedm stran\xe1m. Hesl\xe1 a e-maily s\xfa \xfaplne \u0161ifrovan\xe9. Iba vy m\xf4\u017eete nahl\xe1si\u0165 ak\xe9ko\u013evek podozriv\xe9 situ\xe1cie, ktor\xe9 m\xf4\u017eu ovplyvni\u0165 va\u0161u bezpe\u010dnos\u0165, a podporn\xfd t\xedm sa s vami skontaktuje."},
-gdm(){return"Ako sa m\xf4\u017eem u\u010di\u0165 v tejto aplik\xe1cii?"},
-gdh(){return"M\xf4\u017eete sledova\u0165 veden\xe9 kurzy, cvi\u010di\u0165 s AI mentorom a pokra\u010dova\u0165 v pokroku, aby ste prekro\u010dili \xfarove\u0148 pre\u017eitia."},
 gcU(){return"Z\xe1sady ochrany osobn\xfdch \xfadajov"},
 gcT(){return"Pravidl\xe1 platformy"},
 gcV(){return"Podmienky slu\u017eby"},
@@ -92642,7 +92634,15 @@ gcA(){return"Bezpe\u010dnostn\xe9 \u0161tandardy"},
 gcW(){return"Podmienky pou\u017eitia"},
 gcf(){return"Stiahnu\u0165 pre Android"},
 gcg(){return"Stiahnu\u0165 pre iOS"},
-gco(){return"Stiahnu\u0165 pre macOS"}}
+gco(){return"Stiahnu\u0165 pre macOS"},
+gdr(){return"Ako funguje AI lektor na precvi\u010dovanie?"},
+gdg(){return"M\xf4\u017eete vies\u0165 hlasov\xe9 rozhovory v re\xe1lnom \u010dase na ak\xfako\u013evek t\xe9mu na r\xf4znych \xfarovniach. AI v\xe1m poskytuje okam\u017eit\xfa sp\xe4tn\xfa v\xe4zbu o va\u0161om porozumen\xed, gramatike a slovnej z\xe1sobe."},
+gds(){return"Oprav\xed AI moje chyby po\u010das hovorenia?"},
+gdh(){return"\xc1no. AI jemne opravuje \u0432\u0430\u0448\u0443 gramatiku a slovn\xfa z\xe1sobu v re\xe1lnom \u010dase, tak\u017ee si m\xf4\u017eete bez stresu budova\u0165 sebavedomie pri hovoren\xed."},
+gdt(){return"Je aplik\xe1cia Edhomy AI Languages bezplatn\xe1?"},
+gdi(){return"Aplik\xe1cia je zadarmo na stiahnutie a obsahuje n\xe1stroje na daily precvi\u010dovanie. Neobmedzen\xe1 prax konverz\xe1cie s AI a sprievodn\xe9 videolekcie vy\u017eaduj\xfa pr\xe9miov\xfd \xfa\u010det."},
+gdu(){return"Ako si k\xfapim pr\xe9miov\xfd \xfa\u010det?"},
+gdj(){return"Prejdite do Nastaven\xed, \u0165uknite na 'Pr\xe9miov\xfd \xfa\u010det', vyberte po\u017eadovan\xfd pl\xe1n a bezpe\u010dne dokon\u010dite platbu pomocou Apple, Google alebo kreditnej karty."}}
 A.K6.prototype={
 gcn(){return"Kontaktirajte nas"},
 gcS(){return"Ve\u010d mo\u017enosti"},
@@ -92666,19 +92666,11 @@ gd7(){return"Vnesite ime"},
 gd5(){return"Vnesite e-po\u0161to"},
 gd6(){return"Vnesite sporo\u010dilo"},
 gcK(){return"Spremljajte nas"},
-gdu(){return"Sporo\u010dilo je bilo uspe\u0161no poslano"},
-gdj(){return"Napaka. Poskusite znova"},
+gdv(){return"Sporo\u010dilo je bilo uspe\u0161no poslano"},
+gdk(){return"Napaka. Poskusite znova"},
 gd9(){return"Izpolnite vse pred po\u0161iljanjem"},
 gcR(){return"ve\u010d"},
 gcO(){return"manj"},
-gdv(){return"Kaj je Edhomy AI languages?"},
-gdi(){return"Edhomy AI languages je aplikacija, kjer se lahko u\u010dite jezik z AI. Ponuja AI mentorja za vadbo izgovarjave in te\u010daj pripovedovanja zgodb z 100 lekcijami, da vam pomaga obvladati jezik."},
-gdg(){return"Ali se lahko nau\u010dim jezika?"},
-gdt(){return"Da, lahko. Sodelujemo z eksperti, ki poznajo najbolj\u0161e tehnike u\u010denja s pomo\u010djo multimedi\u010dnih te\u010dajev."},
-gdr(){return"Je ta platforma varna?"},
-gdq(){return"Va\u0161ih podatkov ne prodajamo tretjim osebam. Gesla in e-po\u0161tni naslovi so popolnoma \u0161ifrirani. Le vi lahko prijavite kakr\u0161ne koli sumljive situacije, ki vplivajo na va\u0161o varnost, in ekipa za podporo vas bo kontaktirala."},
-gdm(){return"Kako se lahko u\u010dim v tej aplikaciji?"},
-gdh(){return"Sledite vodeni u\u010dni poti, vadite z AI mentorjem in nadaljujte z napredovanjem, da premagate nivo pre\u017eivetja."},
 gcU(){return"Politika zasebnosti"},
 gcT(){return"Pravila platforme"},
 gcV(){return"Pogoji storitve"},
@@ -92693,7 +92685,15 @@ gcA(){return"Varnostni standardi"},
 gcW(){return"Pogoji uporabe"},
 gcf(){return"Prenesi za Android"},
 gcg(){return"Prenesi za iOS"},
-gco(){return"Prenesi za macOS"}}
+gco(){return"Prenesi za macOS"},
+gdr(){return"Kako deluje AI u\u010ditelj za underground vajo?"},
+gdg(){return"Imate lahko glasovne pogovore v realnem \u010dasu o kateri koli temi na razli\u010dnih ravneh. AI vam daje takoj\u0161nje povratne informacije o va\u0161em razumevanju, slovnici in besedi\u0161\u010du."},
+gds(){return"Ali bo AI popravljal moje napake med govorjenjem?"},
+gdh(){return"Da. AI ne\u017eno popravlja va\u0161o slovnico in besedi\u0161\u010de v realnem \u010dasu, da lahko brez stresa gradite samozavest pri govoru."},
+gdt(){return"Ali je Edhomy AI Languages brezpla\u010den?"},
+gdi(){return"Aplikacija je brezpla\u010dna za prenos in vklju\u010duje orodja za vsakodnevno vajo. Neomejena vaja pogovora z AI in vodene video lekcije zahtevajo premium ra\u010dun."},
+gdu(){return"Kako kupim premium ra\u010dun?"},
+gdj(){return"Pojdite v Nastavitve, tapnite 'Premium ra\u010dun', izberite \u017eeleni paket in varno dokon\u010dajte pla\u010dilo z Apple, Google ali kreditno kartico."}}
 A.K7.prototype={
 gcn(){return"Kontaktirajte nas"},
 gcS(){return"Vi\u0161e opcija"},
@@ -92717,19 +92717,11 @@ gd7(){return"Unesite ime"},
 gd5(){return"Unesite e-mail"},
 gd6(){return"Unesite poruku"},
 gcK(){return"Pratite nas"},
-gdu(){return"Poruka je uspe\u0161no poslata"},
-gdj(){return"Gre\u0161ka. Molimo poku\u0161ajte ponovo"},
+gdv(){return"Poruka je uspe\u0161no poslata"},
+gdk(){return"Gre\u0161ka. Molimo poku\u0161ajte ponovo"},
 gd9(){return"Ispunite sve pre slanja"},
 gcR(){return"vi\u0161e"},
 gcO(){return"manje"},
-gdv(){return"\u0160ta je Edhomy AI languages?"},
-gdi(){return"Edhomy AI languages je aplikacija u kojoj mo\u017eete u\u010diti jezik sa AI. Pru\u017ea AI mentora za ve\u017ebanje izgovora i kurs pripovedanja sa 100 lekcija koje vam poma\u017eu da savladate jezik."},
-gdg(){return"Mogu li nau\u010diti jezik?"},
-gdt(){return"Da, mo\u017eete. Saradjujemo sa ekspertima koji znaju najbolje tehnike za u\u010denje pomo\u0107u multimedijalnih kurseva."},
-gdr(){return"Da li je ova platforma sigurna?"},
-gdq(){return"Ne prodajemo va\u0161e podatke tre\u0107im stranama. Lozinke i e-mailovi su potpuno \u0161ifrovani. Samo vi mo\u017eete prijaviti bilo koju sumnjivu situaciju koja uti\u010de na va\u0161u sigurnost, a tim za podr\u0161ku \u0107e vas kontaktirati."},
-gdm(){return"Kako mogu u\u010diti u ovoj aplikaciji?"},
-gdh(){return"Mo\u017eete pratiti vo\u0111ene kurseve, ve\u017ebati sa AI mentorom i nastaviti sa napredovanjem dok ne prevazi\u0111ete nivo pre\u017eivljavanja."},
 gcU(){return"Politika privatnosti"},
 gcT(){return"Pravila platforme"},
 gcV(){return"Uslovi kori\u0161\u0107enja"},
@@ -92744,7 +92736,15 @@ gcA(){return"Bezbednosni standardi"},
 gcW(){return"Uslovi kori\u0161\u0107enja"},
 gcf(){return"Preuzmi za Android"},
 gcg(){return"Preuzmi za iOS"},
-gco(){return"Preuzmi za macOS"}}
+gco(){return"Preuzmi za macOS"},
+gdr(){return"\u041a\u0430\u043a\u043e \u0444\u0443\u043d\u043a\u0446\u0438\u043e\u043d\u0438\u0448\u0435 AI \u043f\u0440\u0435\u0434\u0430\u0432\u0430\u0447 \u0437\u0430 \u0432\u0435\u0436\u0431\u0430\u045a\u0435?"},
+gdg(){return"\u041c\u043e\u0436\u0435\u0442\u0435 \u0432\u043e\u0434\u0438\u0442\u0438 \u0433\u043b\u0430\u0441\u043e\u0432\u043d\u0435 \u0440\u0430\u0437\u0433\u043e\u0432\u043e\u0440\u0435 \u0443 \u0440\u0435\u0430\u043b\u043d\u043e\u043c \u0432\u0440\u0435\u043c\u0435\u043d\u0443 \u043d\u0430 \u0431\u0438\u043b\u043e \u043a\u043e\u0458\u0443 \u0442\u0435\u043c\u0443 \u043d\u0430 \u0440\u0430\u0437\u043b\u0438\u0447\u0438\u0442\u0438\u043c \u043d\u0438\u0432\u043e\u0438\u043c\u0430. \u0410\u0418 \u0432\u0430\u043c \u0434\u0430\u0458\u0435 \u0442\u0440\u0435\u043d\u0443\u0442\u043d\u0435 \u043f\u043e\u0432\u0440\u0430\u0442\u043d\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u0458\u0435 \u043e \u0432\u0430\u0448\u0435\u043c \u0440\u0430\u0437\u0443\u043c\u0435\u0432\u0430\u045a\u0443, \u0433\u0440\u0430\u043c\u0430\u0442\u0438\u0446\u0438 \u0438 \u0440\u0435\u0447\u043d\u0438\u043a\u0443."},
+gds(){return"\u0414\u0430 \u043b\u0438 \u045b\u0435 AI \u0438\u0441\u043f\u0440\u0430\u0432\u0459\u0430\u0442\u0438 \u043c\u043e\u0458\u0435 \u0433\u0440\u0435\u0448\u043a\u0435 \u0434\u043e\u043a \u0433\u043e\u0432\u043e\u0440\u0438\u043c?"},
+gdh(){return"\u0414\u0430. \u0410\u0418 \u043d\u0435\u0436\u043d\u043e \u0438\u0441\u043f\u0440\u0430\u0432\u0459\u0430 \u0432\u0430\u0448\u0443 \u0433\u0440\u0430\u043c\u0430\u0442\u0438\u043a\u0443 \u0438 \u0440\u0435\u0447\u043d\u0438\u043a \u0443 \u0440\u0435\u0430\u043b\u043d\u043e\u043c \u0432\u0440\u0435\u043c\u0435\u043d\u0443 \u043a\u0430\u043a\u043e \u0431\u0438\u0441\u0442\u0435 \u0431\u0435\u0437 \u0441\u0442\u0440\u0435\u0441\u0430 \u0433\u0440\u0430\u0434\u0438\u043b\u0438 \u0441\u0430\u043c\u043e\u043f\u043e\u0443\u0437\u0434\u0430\u045a\u0435 \u0443 \u0433\u043e\u0432\u043e\u0440\u0443."},
+gdt(){return"\u0414\u0430 \u043b\u0438 \u0458\u0435 Edhomy AI Languages \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u0430\u043d \u0437\u0430 \u043a\u043e\u0440\u0438\u0448\u045b\u0435\u045a\u0435?"},
+gdi(){return"\u0410\u043f\u043b\u0438\u043a\u0430\u0446\u0438\u0458\u0430 \u0458\u0435 \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u0430 \u0437\u0430 \u043f\u0440\u0435\u0443\u0437\u0438\u043c\u0430\u045a\u0435 \u0438 \u0443\u043a\u0459\u0443\u0447\u0443\u0458\u0435 \u0430\u043b\u0430\u0442\u0435 \u0437\u0430 \u0441\u0432\u0430\u043a\u043e\u0434\u043d\u0435\u0432\u043d\u043e \u0432\u0435\u0436\u0431\u0430\u045a\u0435. \u041d\u0435\u043e\u0433\u0440\u0430\u043d\u0438\u0447\u0435\u043d\u0430 \u043f\u0440\u0430\u043a\u0441\u0430 \u0440\u0430\u0437\u0433\u043e\u0432\u043e\u0440\u0430 \u0441\u0430 \u0410\u0418 \u0438 \u0432\u043e\u0452\u0435\u043d\u0435 \u0432\u0438\u0434\u0435\u043e \u043b\u0435\u043a\u0446\u0438\u0458\u0435 \u0437\u0430\u0445\u0442\u0435\u0432\u0430\u0458\u0443 \u043f\u0440\u0435\u043c\u0438\u0443\u043c \u043d\u0430\u043b\u043e\u0433."},
+gdu(){return"\u041a\u0430\u043a\u043e \u0434\u0430 \u043a\u0443\u043f\u0438\u043c \u043f\u0440\u0435\u043c\u0438\u0443\u043c \u043d\u0430\u043b\u043e\u0433?"},
+gdj(){return"\u0418\u0434\u0438\u0442\u0435 \u0443 \u041f\u043e\u0434\u0435\u0448\u0430\u0432\u0430\u045a\u0430, \u0434\u043e\u0434\u0438\u0440\u043d\u0438\u0442\u0435 '\u041f\u0440\u0435\u043c\u0438\u0443\u043c \u043d\u0430\u043b\u043e\u0433', \u0438\u0437\u0430\u0431\u0435\u0440\u0438\u0442\u0435 \u0436\u0435\u0459\u0435\u043d\u0438 \u043f\u043b\u0430\u043d \u0438 \u0431\u0435\u0437\u0431\u0435\u0434\u043d\u043e \u0437\u0430\u0432\u0440\u0448\u0438\u0442\u0435 \u043f\u043b\u0430\u045b\u0430\u045a\u0435 \u043f\u0443\u0442\u0435\u043c Apple, Google \u0438\u043b\u0438 \u043a\u0440\u0435\u0434\u0438\u0442\u043d\u0435 \u043a\u0430\u0440\u0442\u0438\u0446\u0435."}}
 A.K8.prototype={
 gcn(){return"Kontakta oss"},
 gcS(){return"Fler alternativ"},
@@ -92768,19 +92768,11 @@ gd7(){return"Ange namn"},
 gd5(){return"Ange e-post"},
 gd6(){return"Ange meddelande"},
 gcK(){return"F\xf6lj oss"},
-gdu(){return"Meddelandet har skickats framg\xe5ngsrikt"},
-gdj(){return"Fel. F\xf6rs\xf6k igen"},
+gdv(){return"Meddelandet har skickats framg\xe5ngsrikt"},
+gdk(){return"Fel. F\xf6rs\xf6k igen"},
 gd9(){return"Fyll i allt innan du skickar"},
 gcR(){return"mer"},
 gcO(){return"mindre"},
-gdv(){return"Vad \xe4r Edhomy AI languages?"},
-gdi(){return"Edhomy AI languages \xe4r en app d\xe4r du kan l\xe4ra dig ett spr\xe5k med AI. Den erbjuder en AI-tutor f\xf6r att \xf6va uttal och en kurs f\xf6r ber\xe4ttande med 100 lektioner f\xf6r att hj\xe4lpa dig att bem\xe4stra spr\xe5ket."},
-gdg(){return"Kan jag l\xe4ra mig ett spr\xe5k?"},
-gdt(){return"Ja, det kan du. Vi samarbetar med experter som vet de b\xe4sta teknikerna f\xf6r att l\xe4ra sig genom multimediakurser."},
-gdr(){return"\xc4r denna plattform s\xe4ker?"},
-gdq(){return"Vi s\xe4ljer inte dina data till tredje part. L\xf6senord och e-post \xe4r helt krypterade. Endast du kan rapportera n\xe5gra misst\xe4nkta situationer som p\xe5verkar din s\xe4kerhet, och supportteamet kommer att kontakta dig."},
-gdm(){return"Hur kan jag l\xe4ra mig i den h\xe4r appen?"},
-gdh(){return"Du kan f\xf6lja de guidade kurserna, \xf6va med AI-tutorn och forts\xe4tta att g\xf6ra framsteg tills du \xf6vervinner \xf6verlevnadsniv\xe5n."},
 gcU(){return"Integritetspolicy"},
 gcT(){return"Plattformens regler"},
 gcV(){return"Anv\xe4ndarvillkor"},
@@ -92795,7 +92787,15 @@ gcA(){return"S\xe4kerhetsstandarder"},
 gcW(){return"Anv\xe4ndarvillkor"},
 gcf(){return"Ladda ner f\xf6r Android"},
 gcg(){return"Ladda ner f\xf6r iOS"},
-gco(){return"Ladda ner f\xf6r macOS"}}
+gco(){return"Ladda ner f\xf6r macOS"},
+gdr(){return"Hur fungerar AI-\xf6vningsl\xe4raren?"},
+gdg(){return"Du kan ha r\xf6stsamtal i realtid om vilket \xe4mne som helst p\xe5 olika niv\xe5er. AI:n ger dig omedelbar feedback p\xe5 din f\xf6rst\xe5else, gramatik och ditt ordf\xf6rr\xe5d."},
+gds(){return"Kommer AI:n att r\xe4tta mina misstag medan jag talar?"},
+gdh(){return"Ja. AI:n r\xe4ttar skonsamt din grammatik och ditt ordf\xf6rr\xe5d i realtid s\xe5 att du kan certified bygga talarsj\xe4lvf\xf6rtroende utan stress."},
+gdt(){return"\xc4r Edhomy AI Languages gratis att anv\xe4nda?"},
+gdi(){return"Appen er gratis att ladda ned och inneh\xe5ller dagliga \xf6vningsverktyg. Obegr\xe4nsad AI-konversations\xf6vning och guidade videolektioner kr\xe4ver ett premiumkonto."},
+gdu(){return"Hur k\xf6per jag ett premiumkonto?"},
+gdj(){return"G\xe5 till Inst\xe4llningar, tryck p\xe5 'Premiumkonto', v\xe4lj din preferred plan och slutf\xf6r betalningen s\xe4kert med Apple, Google eller ett kreditkort."}}
 A.K9.prototype={
 gcn(){return"Makipag-ugnayan sa Amin"},
 gcS(){return"Higit pang mga Opsyon"},
@@ -92819,19 +92819,11 @@ gd7(){return"Ilagay ang pangalan"},
 gd5(){return"Ilagay ang email"},
 gd6(){return"Ilagay ang mensahe"},
 gcK(){return"Sundan kami"},
-gdu(){return"Matagumpay na naipadala ang mensahe"},
-gdj(){return"Error. Pakisubukang muli"},
+gdv(){return"Matagumpay na naipadala ang mensahe"},
+gdk(){return"Error. Pakisubukang muli"},
 gd9(){return"Punan ang lahat bago magpadala"},
 gcR(){return"Higit pa"},
 gcO(){return"Mas kaunti"},
-gdv(){return"Ano ang Edhomy AI languages?"},
-gdi(){return"Ang Edhomy AI languages ay isang app kung saan maaari kang matuto ng wika gamit ang AI. Nagbibigay ito ng AI tutor upang magsanay ng bigkas at isang kurso sa storytelling na may 100 leksyon upang matulungan kang pag-aralan ang wika."},
-gdg(){return"Maaari ba akong matuto ng wika?"},
-gdt(){return"Oo, maaari. Nakikipagtulungan kami sa mga eksperto na nakakaalam ng pinakamahusay na mga teknik upang matuto sa pamamagitan ng multimedia course."},
-gdr(){return"Ang platform ba na ito ay ligtas?"},
-gdq(){return"Hindi namin ibinebenta ang iyong mga datos sa mga third party. Ang mga password at email ay ganap na naka-encrypt. Tanging ikaw lamang ang maaaring mag-ulat ng anumang mga kahina-hinalang sitwasyon na nakakaapekto sa iyong seguridad, at makikipag-ugnayan sa iyo ang support team."},
-gdm(){return"Paano ako matututo sa app na ito?"},
-gdh(){return"Maaari mong sundan ang mga guided course, magpraktis sa AI tutor, at magpatuloy sa pag-unlad upang malampasan ang survival level."},
 gcU(){return"Patakaran sa Privacy"},
 gcT(){return"Mga Alituntunin ng Platform"},
 gcV(){return"Mga Tuntunin ng Serbisyo"},
@@ -92846,7 +92838,15 @@ gcA(){return"Mga Pamantayan sa Kaligtasan"},
 gcW(){return"Mga Tuntunin ng Paggamit"},
 gcf(){return"I-download para sa Android"},
 gcg(){return"I-download para sa iOS"},
-gco(){return"I-download para sa macOS"}}
+gco(){return"I-download para sa macOS"},
+gdr(){return"Paano gumagana ang AI practice tutor?"},
+gdg(){return"Maaari kang magkaroon ng real-time voice conversation sa anumang paksa sa iba't ibang antas. Nagbibigay ang AI ng agarang feedback sa iyong pag-unawa, gramatika, at bokabularyo."},
+gds(){return"Ico-correct ba ng AI ang mga mali ko habang nagsasalita ako?"},
+gdh(){return"Oo. Mahinay na itinutuwid ng AI ang iyong gramatika at bokabularyo nang real-time para makabuo ka ng tiwala sa pagsasalita nang walang stress."},
+gdt(){return"Bure ba ang Edhomy AI Languages?"},
+gdi(){return"Libreng i-download ang app at may kasamang pang-araw-araw na tool sa pagsasanay. Ang walang limitasyong pagsasanay sa pakikipag-usap sa AI at mga guided video lesson ay nangangailangan ng premium account."},
+gdu(){return"Paano ako bibili ng premium account?"},
+gdj(){return"Pumunta sa Settings, i-tap ang 'Premium account', piliin ang gusto mong plan, at kumpletuhin ang iyong pagbabayad nang ligtas gamit ang Apple, Google, o credit card."}}
 A.Ka.prototype={
 gcn(){return"Bize Ula\u015f\u0131n"},
 gcS(){return"Daha Fazla Se\xe7enek"},
@@ -92870,19 +92870,11 @@ gd7(){return"Ad\u0131 girin"},
 gd5(){return"E-postay\u0131 girin"},
 gd6(){return"Mesaj\u0131 girin"},
 gcK(){return"Bizi takip edin"},
-gdu(){return"Mesaj ba\u015far\u0131yla g\xf6nderildi"},
-gdj(){return"Hata. L\xfctfen tekrar deneyin"},
+gdv(){return"Mesaj ba\u015far\u0131yla g\xf6nderildi"},
+gdk(){return"Hata. L\xfctfen tekrar deneyin"},
 gd9(){return"G\xf6ndermeden \xf6nce her \u015feyi doldurun"},
 gcR(){return"daha fazla"},
 gcO(){return"daha az"},
-gdv(){return"Edhomy AI languages nedir?"},
-gdi(){return"Edhomy AI languages, yapay zeka ile dil \xf6\u011frenebilece\u011finiz bir uygulamad\u0131r. Telaffuz \xe7al\u0131\u015fmak i\xe7in bir AI e\u011fitmeni ve dili \xf6\u011frenmenize yard\u0131mc\u0131 olacak 100 ders i\xe7eren hikaye anlat\u0131m\u0131 kursu sunar."},
-gdg(){return"Bir dil \xf6\u011frenebilir miyim?"},
-gdt(){return"Evet, \xf6\u011frenebilirsiniz. En iyi \xf6\u011frenme tekniklerini bilen uzmanlarla \xe7al\u0131\u015f\u0131yoruz."},
-gdr(){return"Bu platform g\xfcvenli mi?"},
-gdq(){return"Verilerinizi \xfc\xe7\xfcnc\xfc \u015fah\u0131slara satm\u0131yoruz. Parolalar ve e-postalar tamamen \u015fifrelenmi\u015ftir. G\xfcvenli\u011finizi etkileyebilecek \u015f\xfcpheli durumlar\u0131 yaln\u0131zca siz bildirebilirsiniz ve destek ekibi sizinle ileti\u015fime ge\xe7ecektir."},
-gdm(){return"Bu uygulamada nas\u0131l \xf6\u011frenebilirim?"},
-gdh(){return"Y\xf6nlendirilmi\u015f kurslar\u0131 takip edebilir, AI e\u011fitmeniyle pratik yapabilir ve hayatta kalma seviyesini a\u015fmaya devam edebilirsiniz."},
 gcU(){return"Gizlilik Politikas\u0131"},
 gcT(){return"Platform Kurallar\u0131"},
 gcV(){return"Hizmet \u015eartlar\u0131"},
@@ -92897,7 +92889,15 @@ gcA(){return"G\xfcvenlik Standartlar\u0131"},
 gcW(){return"Kullan\u0131m \u015eartlar\u0131"},
 gcf(){return"Android i\xe7in \u0130ndir"},
 gcg(){return"iOS i\xe7in \u0130ndir"},
-gco(){return"macOS i\xe7in \u0130ndir"}}
+gco(){return"macOS i\xe7in \u0130ndir"},
+gdr(){return"Yapay zeka pratik e\u011fitmeni nas\u0131l \xe7al\u0131\u015f\u0131r?"},
+gdg(){return"Farkl\u0131 seviyelerde herhangi bir konuda ger\xe7ek zamanl\u0131 sesli konu\u015fmalar yapabilirsiniz. Yapay zeka anlama, dil bilgisi ve kelime bilginiz hakk\u0131nda an\u0131nda geri bildirim sa\u011flar."},
+gds(){return"Yapay zeka konu\u015furken hatalar\u0131m\u0131 d\xfczeltecek mi?"},
+gdh(){return"Evet. Yapay zeka, stres olmadan konu\u015fma \xf6zg\xfcveni kazanabilmeniz i\xe7in dil bilginizi ve kelime bilginizi ger\xe7ek zamanl\u0131 olarak nazik\xe7e d\xfczeltir."},
+gdt(){return"Edhomy AI Languages uygulamas\u0131n\u0131 kullanmak \xfccretsiz mi?"},
+gdi(){return"Uygulamay\u0131 indirmek \xfccretsizdir ve g\xfcnl\xfck pratik ara\xe7lar\u0131 i\xe7erir. S\u0131n\u0131rs\u0131z yapay zeka konu\u015fma prati\u011fi ve rehberli video dersleri bir premium hesap gerektirir."},
+gdu(){return"Nas\u0131l premium hesap sat\u0131n alabilirim?"},
+gdj(){return"Ayarlar'a gidin, 'Premium hesap' se\xe7ene\u011fine dokunun, tercih etti\u011finiz plan\u0131 se\xe7in ve \xf6demenizi Apple, Google veya kredi kart\u0131 kullanarak g\xfcvenle tamamlay\u0131n."}}
 A.Kb.prototype={
 gcn(){return"\u0417\u0432'\u044f\u0436\u0456\u0442\u044c\u0441\u044f \u0437 \u043d\u0430\u043c\u0438"},
 gcS(){return"\u0411\u0456\u043b\u044c\u0448\u0435 \u043e\u043f\u0446\u0456\u0439"},
@@ -92921,19 +92921,11 @@ gd7(){return"\u0412\u0432\u0435\u0434\u0456\u0442\u044c \u0456\u043c'\u044f"},
 gd5(){return"\u0412\u0432\u0435\u0434\u0456\u0442\u044c \u0435\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u0443 \u043f\u043e\u0448\u0442\u0443"},
 gd6(){return"\u0412\u0432\u0435\u0434\u0456\u0442\u044c \u043f\u043e\u0432\u0456\u0434\u043e\u043c\u043b\u0435\u043d\u043d\u044f"},
 gcK(){return"\u0421\u043b\u0456\u0434\u043a\u0443\u0439\u0442\u0435 \u0437\u0430 \u043d\u0430\u043c\u0438"},
-gdu(){return"\u041f\u043e\u0432\u0456\u0434\u043e\u043c\u043b\u0435\u043d\u043d\u044f \u0443\u0441\u043f\u0456\u0448\u043d\u043e \u043d\u0430\u0434\u0456\u0441\u043b\u0430\u043d\u043e"},
-gdj(){return"\u041f\u043e\u043c\u0438\u043b\u043a\u0430. \u0421\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0449\u0435 \u0440\u0430\u0437"},
+gdv(){return"\u041f\u043e\u0432\u0456\u0434\u043e\u043c\u043b\u0435\u043d\u043d\u044f \u0443\u0441\u043f\u0456\u0448\u043d\u043e \u043d\u0430\u0434\u0456\u0441\u043b\u0430\u043d\u043e"},
+gdk(){return"\u041f\u043e\u043c\u0438\u043b\u043a\u0430. \u0421\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u0449\u0435 \u0440\u0430\u0437"},
 gd9(){return"\u0417\u0430\u043f\u043e\u0432\u043d\u0456\u0442\u044c \u0432\u0441\u0456 \u043f\u043e\u043b\u044f \u043f\u0435\u0440\u0435\u0434 \u0432\u0456\u0434\u043f\u0440\u0430\u0432\u043a\u043e\u044e"},
 gcR(){return"\u0431\u0456\u043b\u044c\u0448\u0435"},
 gcO(){return"\u043c\u0435\u043d\u0448\u0435"},
-gdv(){return"\u0429\u043e \u0442\u0430\u043a\u0435 Edhomy AI languages?"},
-gdi(){return"Edhomy AI languages \u2014 \u0446\u0435 \u0434\u043e\u0434\u0430\u0442\u043e\u043a, \u0434\u0435 \u0432\u0438 \u043c\u043e\u0436\u0435\u0442\u0435 \u0432\u0438\u0432\u0447\u0430\u0442\u0438 \u043c\u043e\u0432\u0443 \u0437\u0430 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u043e\u044e \u0428\u0406. \u0412\u0456\u043d \u043f\u0440\u043e\u043f\u043e\u043d\u0443\u0454 \u0428\u0406-\u043d\u0430\u0441\u0442\u0430\u0432\u043d\u0438\u043a\u0430 \u0434\u043b\u044f \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0438 \u0432\u0438\u043c\u043e\u0432\u0438 \u0442\u0430 \u043a\u0443\u0440\u0441 \u0440\u043e\u0437\u043f\u043e\u0432\u0456\u0434\u0430\u043d\u043d\u044f \u0456\u0441\u0442\u043e\u0440\u0456\u0439 \u0437 100 \u0443\u0440\u043e\u043a\u0430\u043c\u0438 \u0434\u043b\u044f \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u0438 \u0432 \u043e\u0441\u0432\u043e\u0454\u043d\u043d\u0456 \u043c\u043e\u0432\u0438."},
-gdg(){return"\u0427\u0438 \u043c\u043e\u0436\u0443 \u044f \u0432\u0438\u0432\u0447\u0438\u0442\u0438 \u043c\u043e\u0432\u0443?"},
-gdt(){return"\u0422\u0430\u043a, \u043c\u043e\u0436\u0435\u0442\u0435. \u041c\u0438 \u043f\u0440\u0430\u0446\u044e\u0454\u043c\u043e \u0437 \u0435\u043a\u0441\u043f\u0435\u0440\u0442\u0430\u043c\u0438, \u044f\u043a\u0456 \u0437\u043d\u0430\u044e\u0442\u044c \u043d\u0430\u0439\u043a\u0440\u0430\u0449\u0456 \u0442\u0435\u0445\u043d\u0456\u043a\u0438 \u0434\u043b\u044f \u043d\u0430\u0432\u0447\u0430\u043d\u043d\u044f \u0437\u0430 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u043e\u044e \u043c\u0443\u043b\u044c\u0442\u0438\u043c\u0435\u0434\u0456\u0439\u043d\u0438\u0445 \u043a\u0443\u0440\u0441\u0456\u0432."},
-gdr(){return"\u0427\u0438 \u0431\u0435\u0437\u043f\u0435\u0447\u043d\u0430 \u0446\u044f \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0430?"},
-gdq(){return"\u041c\u0438 \u043d\u0435 \u043f\u0440\u043e\u0434\u0430\u0454\u043c\u043e \u0432\u0430\u0448\u0456 \u0434\u0430\u043d\u0456 \u0442\u0440\u0435\u0442\u0456\u043c \u043e\u0441\u043e\u0431\u0430\u043c. \u041f\u0430\u0440\u043e\u043b\u0456 \u0442\u0430 \u0435\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u0456 \u0430\u0434\u0440\u0435\u0441\u0438 \u043f\u043e\u0432\u043d\u0456\u0441\u0442\u044e \u0437\u0430\u0448\u0438\u0444\u0440\u043e\u0432\u0430\u043d\u0456. \u0422\u0456\u043b\u044c\u043a\u0438 \u0432\u0438 \u043c\u043e\u0436\u0435\u0442\u0435 \u043f\u043e\u0432\u0456\u0434\u043e\u043c\u0438\u0442\u0438 \u043f\u0440\u043e \u0431\u0443\u0434\u044c-\u044f\u043a\u0456 \u043f\u0456\u0434\u043e\u0437\u0440\u0456\u043b\u0456 \u0441\u0438\u0442\u0443\u0430\u0446\u0456\u0457, \u044f\u043a\u0456 \u043c\u043e\u0436\u0443\u0442\u044c \u0432\u043f\u043b\u0438\u043d\u0443\u0442\u0438 \u043d\u0430 \u0432\u0430\u0448\u0443 \u0431\u0435\u0437\u043f\u0435\u043a\u0443, \u0456 \u043a\u043e\u043c\u0430\u043d\u0434\u0430 \u043f\u0456\u0434\u0442\u0440\u0438\u043c\u043a\u0438 \u0437\u0432'\u044f\u0436\u0435\u0442\u044c\u0441\u044f \u0437 \u0432\u0430\u043c\u0438."},
-gdm(){return"\u042f\u043a \u044f \u043c\u043e\u0436\u0443 \u043d\u0430\u0432\u0447\u0430\u0442\u0438\u0441\u044f \u0432 \u0446\u044c\u043e\u043c\u0443 \u0434\u043e\u0434\u0430\u0442\u043a\u0443?"},
-gdh(){return"\u0412\u0438 \u043c\u043e\u0436\u0435\u0442\u0435 \u0441\u043b\u0456\u0434\u0443\u0432\u0430\u0442\u0438 \u043a\u0435\u0440\u043e\u0432\u0430\u043d\u0438\u043c \u043a\u0443\u0440\u0441\u0430\u043c, \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0443\u0432\u0430\u0442\u0438\u0441\u044f \u0437 \u0428\u0406-\u043d\u0430\u0441\u0442\u0430\u0432\u043d\u0438\u043a\u043e\u043c \u0442\u0430 \u043f\u0440\u043e\u0434\u043e\u0432\u0436\u0443\u0432\u0430\u0442\u0438 \u0440\u043e\u0437\u0432\u0438\u0432\u0430\u0442\u0438\u0441\u044f, \u0449\u043e\u0431 \u043f\u043e\u0434\u043e\u043b\u0430\u0442\u0438 \u0440\u0456\u0432\u0435\u043d\u044c \u0432\u0438\u0436\u0438\u0432\u0430\u043d\u043d\u044f."},
 gcU(){return"\u041f\u043e\u043b\u0456\u0442\u0438\u043a\u0430 \u043a\u043e\u043d\u0444\u0456\u0434\u0435\u043d\u0446\u0456\u0439\u043d\u043e\u0441\u0442\u0456"},
 gcT(){return"\u041f\u0440\u0430\u0432\u0438\u043b\u0430 \u043f\u043b\u0430\u0442\u0444\u043e\u0440\u043c\u0438"},
 gcV(){return"\u0423\u043c\u043e\u0432\u0438 \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u0430\u043d\u043d\u044f"},
@@ -92948,7 +92940,15 @@ gcA(){return"\u0421\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u0438 \u0431\u0435
 gcW(){return"\u0423\u043c\u043e\u0432\u0438 \u0432\u0438\u043a\u043e\u0440\u0438\u0441\u0442\u0430\u043d\u043d\u044f"},
 gcf(){return"\u0417\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0438\u0442\u0438 \u0434\u043b\u044f Android"},
 gcg(){return"\u0417\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0438\u0442\u0438 \u0434\u043b\u044f iOS"},
-gco(){return"\u0417\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0438\u0442\u0438 \u0434\u043b\u044f macOS"}}
+gco(){return"\u0417\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0438\u0442\u0438 \u0434\u043b\u044f macOS"},
+gdr(){return"\u042f\u043a \u043f\u0440\u0430\u0446\u044e\u0454 \u0428\u0406-\u0440\u0435\u043f\u0435\u0442\u0438\u0442\u043e\u0440 \u0434\u043b\u044f \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0438?"},
+gdg(){return"\u0412\u0438 \u043c\u043e\u0436\u0435\u0442\u0435 \u0432\u0435\u0441\u0442\u0438 \u0433\u043e\u043b\u043e\u0441\u043e\u0432\u0456 \u0440\u043e\u0437\u043c\u043e\u0432\u0438 \u0432 \u0440\u0435\u0430\u043b\u044c\u043d\u043e\u043c\u0443 \u0447\u0430\u0441\u0456 \u043d\u0430 \u0431\u0443\u0434\u044c-\u044f\u043a\u0443 \u0442\u0435\u043c\u0443 \u043d\u0430 \u0440\u0456\u0437\u043d\u0438\u0445 \u0440\u0456\u0432\u043d\u044f\u0445. \u0428\u0406 \u043d\u0430\u0434\u0430\u0454 \u043c\u0438\u0442\u0442\u0454\u0432\u0438\u0439 \u0437\u0432\u043e\u0440\u043e\u0442\u043d\u0438\u0439 \u0437\u0432'\u044f\u0437\u043e\u043a \u0449\u043e\u0434\u043e \u0432\u0430\u0448\u043e\u0433\u043e \u0440\u043e\u0437\u0443\u043c\u0456\u043d\u043d\u044f, \u0433\u0440\u0430\u043c\u0430\u0442\u0438\u043a\u0438 \u0442\u0430 \u0441\u043b\u043e\u0432\u043d\u0438\u043a\u043e\u0432\u043e\u0433\u043e \u0437\u0430\u043f\u0430\u0441\u0443."},
+gds(){return"\u0427\u0438 \u0431\u0443\u0434\u0435 \u0428\u0406 \u0432\u0438\u043f\u0440\u0430\u0432\u043b\u044f\u0442\u0438 \u043c\u043e\u0457 \u043f\u043e\u043c\u0438\u043b\u043a\u0438 \u043f\u0456\u0434 \u0447\u0430\u0441 \u0440\u043e\u0437\u043c\u043e\u0432\u0438?"},
+gdh(){return"\u0422\u0430\u043a. \u0428\u0406 \u043c'\u044f\u043a\u043e \u0432\u0438\u043f\u0440\u0430\u0432\u043b\u044f\u0454 \u0432\u0430\u0448\u0443 \u0433\u0440\u0430\u043c\u0430\u0442\u0438\u043a\u0443 \u0442\u0430 \u0441\u043b\u043e\u0432\u043d\u0438\u043a\u043e\u0432\u0438\u0439 \u0437\u0430\u043f\u0430\u0441 \u0443 \u0440\u0435\u0430\u043b\u044c\u043d\u043e\u043c\u0443 \u0447\u0430\u0441\u0456, \u0449\u043e\u0431 \u0432\u0438 \u043c\u043e\u0433\u043b\u0438 \u0432\u043f\u0435\u0432\u043d\u0435\u043d\u043e \u0440\u043e\u0437\u043c\u043e\u0432\u043b\u044f\u0442\u0438 \u0431\u0435\u0437 \u0441\u0442\u0440\u0435\u0441\u0443."},
+gdt(){return"\u0427\u0438 \u0454 Edhomy AI Languages \u0431\u0435\u0437\u043a\u043e\u0448\u0442\u043e\u0432\u043d\u0438\u043c?"},
+gdi(){return"\u0414\u043e\u0434\u0430\u0442\u043e\u043a \u043c\u043e\u0436\u043d\u0430 \u0437\u0430\u0432\u0430\u043d\u0442\u0430\u0436\u0438\u0442\u0438 \u0431\u0435\u0437\u043a\u043e\u0448\u0442\u043e\u0432\u043d\u043e, \u0456 \u0432\u0456\u043d \u05db\u05d5\u05dc\u05dc \u0456\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442\u0438 \u0434\u043b\u044f \u0449\u043e\u0434\u0435\u043d\u043d\u043e\u0457 \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0438. \u041d\u0435\u043e\u0431\u043c\u0435\u0436\u0435\u043d\u0430 \u0440\u043e\u0437\u043c\u043e\u0432\u043d\u0430 \u043f\u0440\u0430\u043a\u0442\u0438\u043a\u0430 \u0437 \u0428\u0406 \u0442\u0430 \u043a\u0435\u0440\u043e\u0432\u0430\u043d\u0456 \u0432\u0456\u0434\u0435\u043e\u0443\u0440\u043e\u043a\u0438 \u0432\u0438\u043c\u0430\u0433\u0430\u044e\u0442\u044c \u043f\u0440\u0435\u043c\u0456\u0443\u043c-\u0430\u043a\u0430\u0443\u043d\u0442\u0430."},
+gdu(){return"\u042f\u043a \u043f\u0440\u0438\u0434\u0431\u0430\u0442\u0438 \u043f\u0440\u0435\u043c\u0456\u0443\u043c-\u0430\u043a\u0430\u0443\u043d\u0442?"},
+gdj(){return"\u041f\u0435\u0440\u0435\u0439\u0434\u0456\u0442\u044c \u0443 \u041d\u0430\u043b\u0430\u0448\u0442\u0443\u0432\u0430\u043d\u043d\u044f, \u043d\u0430\u0442\u0438\u0441\u043d\u0456\u0442\u044c '\u041f\u0440\u0435\u043c\u0456\u0443\u043c-\u0430\u043a\u0430\u0443\u043d\u0442', \u0432\u0438\u0431\u0435\u0440\u0456\u0442\u044c \u0431\u0430\u0436\u0430\u043d\u0438\u0439 \u0442\u0430\u0440\u0438\u0444 \u0456 \u0431\u0435\u0437\u043f\u0435\u0447\u043d\u043e \u0441\u043f\u043b\u0430\u0442\u0456\u0442\u044c \u0437\u0430 \u0434\u043e\u043f\u043e\u043c\u043e\u0433\u043e\u044e Apple, Google \u0430\u0431\u043e \u0431\u0430\u043d\u043a\u0456\u0432\u0441\u044c\u043a\u043e\u0457 \u043a\u0430\u0440\u0442\u043a\u0438."}}
 A.Kc.prototype={
 gcn(){return"\u8054\u7cfb\u6211\u4eec"},
 gcS(){return"\u66f4\u591a\u9009\u9879"},
@@ -92972,19 +92972,11 @@ gd7(){return"\u8bf7\u8f93\u5165\u59d3\u540d"},
 gd5(){return"\u8bf7\u8f93\u5165\u7535\u5b50\u90ae\u4ef6"},
 gd6(){return"\u8bf7\u8f93\u5165\u6d88\u606f"},
 gcK(){return"\u5173\u6ce8\u6211\u4eec"},
-gdu(){return"\u6d88\u606f\u5df2\u6210\u529f\u53d1\u9001"},
-gdj(){return"\u9519\u8bef\u3002\u8bf7\u518d\u8bd5\u4e00\u6b21"},
+gdv(){return"\u6d88\u606f\u5df2\u6210\u529f\u53d1\u9001"},
+gdk(){return"\u9519\u8bef\u3002\u8bf7\u518d\u8bd5\u4e00\u6b21"},
 gd9(){return"\u8bf7\u5728\u53d1\u9001\u524d\u586b\u5199\u6240\u6709\u4fe1\u606f"},
 gcR(){return"\u66f4\u591a"},
 gcO(){return"\u66f4\u5c11"},
-gdv(){return"\u4ec0\u4e48\u662fEdhomy AI\u8bed\u8a00\u5e73\u53f0\uff1f"},
-gdi(){return"Edhomy AI\u8bed\u8a00\u5e73\u53f0\u662f\u4e00\u4e2a\u5e94\u7528\u7a0b\u5e8f\uff0c\u60a8\u53ef\u4ee5\u901a\u8fc7\u4eba\u5de5\u667a\u80fd\u5b66\u4e60\u8bed\u8a00\u3002\u5b83\u63d0\u4f9bAI\u5bfc\u5e08\u5e2e\u52a9\u60a8\u7ec3\u4e60\u53d1\u97f3\uff0c\u5e76\u901a\u8fc7100\u8282\u8bfe\u7a0b\u5e2e\u52a9\u60a8\u638c\u63e1\u8bed\u8a00\u3002"},
-gdg(){return"\u6211\u53ef\u4ee5\u5b66\u4e60\u8bed\u8a00\u5417\uff1f"},
-gdt(){return"\u662f\u7684\uff0c\u60a8\u53ef\u4ee5\u3002\u6211\u4eec\u4e0e\u4e13\u5bb6\u5408\u4f5c\uff0c\u4ed6\u4eec\u77e5\u9053\u901a\u8fc7\u591a\u5a92\u4f53\u8bfe\u7a0b\u5b66\u4e60\u7684\u6700\u4f73\u6280\u672f\u3002"},
-gdr(){return"\u8fd9\u4e2a\u5e73\u53f0\u5b89\u5168\u5417\uff1f"},
-gdq(){return"\u6211\u4eec\u4e0d\u4f1a\u5c06\u60a8\u7684\u6570\u636e\u51fa\u552e\u7ed9\u7b2c\u4e09\u65b9\u3002\u5bc6\u7801\u548c\u7535\u5b50\u90ae\u4ef6\u5b8c\u5168\u52a0\u5bc6\u3002\u53ea\u6709\u60a8\u53ef\u4ee5\u62a5\u544a\u4efb\u4f55\u53ef\u80fd\u5f71\u54cd\u60a8\u5b89\u5168\u7684\u53ef\u7591\u60c5\u51b5\uff0c\u652f\u6301\u56e2\u961f\u5c06\u4e0e\u60a8\u8054\u7cfb\u3002"},
-gdm(){return"\u6211\u5982\u4f55\u5728\u6b64\u5e94\u7528\u7a0b\u5e8f\u4e2d\u5b66\u4e60\uff1f"},
-gdh(){return"\u60a8\u53ef\u4ee5\u8ddf\u968f\u6307\u5bfc\u8bfe\u7a0b\uff0c\u4e0eAI\u5bfc\u5e08\u7ec3\u4e60\uff0c\u5e76\u7ee7\u7eed\u8fdb\u6b65\uff0c\u76f4\u5230\u7a81\u7834\u751f\u5b58\u7ea7\u522b\u3002"},
 gcU(){return"\u9690\u79c1\u653f\u7b56"},
 gcT(){return"\u5e73\u53f0\u89c4\u5219"},
 gcV(){return"\u670d\u52a1\u6761\u6b3e"},
@@ -92999,7 +92991,15 @@ gcA(){return"\u5b89\u5168\u6807\u51c6"},
 gcW(){return"\u4f7f\u7528\u6761\u6b3e"},
 gcf(){return"\u4e0b\u8f7d\u5b89\u5353\u7248\u672c"},
 gcg(){return"\u4e0b\u8f7diOS\u7248\u672c"},
-gco(){return"\u4e0b\u8f7dMac\u7248\u672c"}}
+gco(){return"\u4e0b\u8f7dMac\u7248\u672c"},
+gdr(){return"AI \u7ec3\u4e60\u5bfc\u5e08\u662f\u5982\u4f55\u5de5\u4f5c\u7684\uff1f"},
+gdg(){return"\u60a8\u53ef\u4ee5\u8de8\u8d8a\u4e0d\u540c\u96be\u5ea6\u7ea7\u522b\uff0c\u5c31\u4efb\u4f55\u8bdd\u9898\u5c55\u5f00\u5b9e\u65f6\u8bed\u97f3\u5bf9\u8bdd\u3002AI \u4f1a\u6839\u636e\u60a8\u7684\u7406\u89e3\u80fd\u529b\u3001\u8bed\u6cd5\u548c\u8bcd\u6c47\u7ed9\u51fa\u5373\u65f6\u53cd\u9988\u3002"},
+gds(){return"\u6211\u8bf4\u8bdd\u65f6 AI \u4f1a\u7ea0\u6b63\u6211\u7684\u9519\u8bef\u5417\uff1f"},
+gdh(){return"\u662f\u7684\u3002AI \u4f1a\u5728\u5b9e\u65f6\u5bf9\u8bdd\u4e2d\u6e29\u548c\u5730\u7ea0\u6b63\u60a8\u7684\u8bed\u6cd5\u548c\u8bcd\u6c47\u9519\u8bef\uff0c\u8ba9\u60a8\u6beb\u65e0\u538b\u529b\u5730\u5efa\u7acb\u53e3\u8bed\u81ea\u4fe1\u3002"},
+gdt(){return"Edhomy AI Languages \u53ef\u4ee5\u514d\u8d39\u4f7f\u7528\u5417\uff1f"},
+gdi(){return"\u8be5\u5e94\u7528\u53ef\u514d\u8d39\u4e0b\u8f7d\uff0c\u5e76\u5305\u542b\u6bcf\u65e5\u7ec3\u4e60\u5de5\u5177\u3002\u65e0\u9650\u5236\u7684 AI \u5bf9\u8bdd\u7ec3\u4e60\u548c\u5f15\u5bfc\u5f0f\u89c6\u9891\u8bfe\u7a0b\u9700\u8981\u9ad8\u7ea7\u8d26\u6237\u3002"},
+gdu(){return"\u5982\u4f55\u8d2d\u4e70\u9ad8\u7ea7\u8d26\u6237\uff1f"},
+gdj(){return"\u524d\u5f80\u201c\u8bbe\u7f6e\u201d\uff0c\u70b9\u51fb\u201c\u9ad8\u7ea7\u8d26\u6237\u201d\uff0c\u9009\u62e9\u60a8\u504f\u597d\u7684\u5957\u9910\uff0c\u7136\u540e\u4f7f\u7528 Apple\u3001Google \u6216\u4fe1\u7528\u5361\u5b89\u5168\u5b8c\u6210\u652f\u4ed8\u3002"}}
 A.fK.prototype={
 K(a){var s=this.c
 if(s<=650)return B.JB
@@ -93205,7 +93205,7 @@ return A.o(A.aET("service_2cynpml","template_0ktr8rr",A.an(["user_name",a,"user_
 case 7:m=n.c
 m.toString
 s=8
-return A.o(A.J6(m,A.Y(m,B.o,t.J).gdu(),B.NX,B.a0S,5,!0),$async$pc)
+return A.o(A.J6(m,A.Y(m,B.o,t.J).gdv(),B.NX,B.a0S,5,!0),$async$pc)
 case 8:p=2
 s=6
 break
@@ -93215,7 +93215,7 @@ m=n.c
 m.toString
 k=A.Y(m,B.o,t.J)
 s=9
-return A.o(A.J6(m,k.gdj(),B.mf,B.d,5,!1),$async$pc)
+return A.o(A.J6(m,k.gdk(),B.mf,B.d,5,!1),$async$pc)
 case 9:s=6
 break
 case 3:s=2
@@ -94801,7 +94801,7 @@ a=A.bX()
 i=a4.a
 switch(i.f.a){case 0:if(240<i.ay.length){a0=a1.y?a4.Ht(240,0,q).a:q
 a4=r.a
-a.sdk(A.D(A.b([a0,j,o],t.d),a2,a2,a2,a2,a2,a2,a2,a2,a4,a2))}else a.sdk(q)
+a.sdl(A.D(A.b([a0,j,o],t.d),a2,a2,a2,a2,a2,a2,a2,a2,a4,a2))}else a.sdl(q)
 break
 case 1:if(h.b.a.c.gJj()){a0=a1.y?a4.Ht(b,0,q).a:q
 a4=r.a
@@ -94809,7 +94809,7 @@ r=A.b([a0],t.d)
 if(!d)r.push(B.a6Z)
 r.push(j)
 r.push(o)
-a.sdk(A.D(r,a2,a2,a2,a2,a2,a2,a2,a2,a4,a2))}else a.sdk(q)
+a.sdl(A.D(r,a2,a2,a2,a2,a2,a2,a2,a2,a4,a2))}else a.sdl(q)
 break}a4=A.b([],p)
 a4.push(a.aV())
 return A.aNw(A.D(a4,a2,a2,a2,a2,a2,a2,a2,a2,a2,a2),B.K,!0,a2,m,l,k)},
@@ -96374,7 +96374,7 @@ s.hK=s.l
 s.fp=s.az
 s.fq=s.ap
 s.a3X=s.af
-s.NQ=s.ds
+s.NQ=s.dq
 s.a3Y=s.aT
 s.a3V=s.ee
 s.a3Z=s.ui
