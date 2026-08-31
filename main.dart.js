@@ -93477,7 +93477,7 @@ A.amc.prototype={
 $0(){return A.j3(A.c_("https://www.apple.com/legal/privacy/",0,null))},
 $S:0}
 A.amd.prototype={
-$0(){return A.j3(A.c_("https://policies.google.com/privacy",0,null))},
+$0(){return A.j3(A.c_("https://gemini.google/policy-guidelines/",0,null))},
 $S:0}
 A.ame.prototype={
 $0(){return A.cP(this.a).dz("/closure",null)},
