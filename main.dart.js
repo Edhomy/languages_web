@@ -91855,7 +91855,7 @@ gdk(){return"Hiba t\xf6rt\xe9nt. K\xe9rlek pr\xf3b\xe1ld \xfajra"},
 gd9(){return"T\xf6ltsd ki az \xf6sszes mez\u0151t a k\xfcld\xe9s el\u0151tt"},
 gcR(){return"t\xf6bb"},
 gcO(){return"kevesebb"},
-gcU(){return"Privacy policy"},
+gcU(){return"Adatv\xe9delmi ir\xe1nyelvek"},
 gcT(){return"Platform szab\xe1lyai"},
 gcV(){return"Szolg\xe1ltat\xe1si felt\xe9telek"},
 gck(){return"Gyakran ism\xe9telt k\xe9rd\xe9sek"},
@@ -92518,7 +92518,7 @@ gdk(){return"Eroare. Te rug\u0103m s\u0103 \xeencerci din nou"},
 gd9(){return"Completeaz\u0103 tot \xeenainte de a trimite"},
 gcR(){return"mai mult"},
 gcO(){return"mai pu\u021bin"},
-gcU(){return"Privacy policy"},
+gcU(){return"Politica de confiden\u021bialitate"},
 gcT(){return"Regulile platformei"},
 gcV(){return"Termeni \u0219i condi\u021bii"},
 gck(){return"\xcentreb\u0103ri frecvente"},
@@ -93014,7 +93014,7 @@ s=A.W(B.T,A.cv(A.D(p,p,B.U,p,p,p,p,p,p,A.j(p,p,B.h,p,p,p,p,p,o,p,p,20,p,p,p,p,p,
 r=A.Y(a,B.o,n).gd1()
 r=A.W(B.T,A.cv(A.D(p,p,B.U,p,p,p,p,p,p,A.j(p,p,B.h,p,p,p,p,p,o,p,p,20,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),r),new A.a8s()),B.f,p,p,p,40,p,p,p)
 q=A.Y(a,B.o,n).gcY()
-return A.aG(A.b([l,k,A.bZ(B.R,A.b([j,A.W(p,A.db(A.b([i,B.ke,h,B.ck,s,B.ck,r,B.ck,A.W(B.T,A.cv(A.D(p,p,B.U,p,p,p,p,p,p,A.j(p,p,B.h,p,p,p,p,p,o,p,p,20,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),q),new A.a8j()),B.f,p,p,p,40,p,p,p)],m),B.C,B.dn,B.q),B.f,p,B.V,p,p,p,B.O,p)],m),B.H,B.X),A.bZ(B.R,A.b([A.W(p,p,B.f,B.l9,p,p,300,p,p,1/0),A.W(p,A.db(A.b([A.us(!1,!0,A.aG(A.b([B.abt,B.bP,A.aS("Copyright \xa9 2024. "+A.Y(a,B.o,n).gcI(),p,p,p,B.a9U,p,p)],m),B.L,B.x,B.q),p,!0,p,p,p,p,p,p,new A.a8k(a),p,p,p)],m),B.C,B.dn,B.q),B.f,p,B.V,p,p,p,B.O,p)],m),B.H,B.X)],m),B.L,B.x,B.q)}}
+return A.aG(A.b([l,k,A.bZ(B.R,A.b([j,A.W(p,A.db(A.b([i,B.ke,h,B.ck,s,B.ck,r,B.ck,A.W(B.T,A.cv(A.D(p,p,B.U,p,p,p,p,p,p,A.j(p,p,B.h,p,p,p,p,p,o,p,p,20,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),q),new A.a8j()),B.f,p,p,p,40,p,p,p)],m),B.C,B.dn,B.q),B.f,p,B.V,p,p,p,B.O,p)],m),B.H,B.X),A.bZ(B.R,A.b([A.W(p,p,B.f,B.l9,p,p,300,p,p,1/0),A.W(p,A.db(A.b([A.us(!1,!0,A.aG(A.b([B.abt,B.bP,A.aS("Copyright \xa9 2024-2026. "+A.Y(a,B.o,n).gcI(),p,p,p,B.a9U,p,p)],m),B.L,B.x,B.q),p,!0,p,p,p,p,p,p,new A.a8k(a),p,p,p)],m),B.C,B.dn,B.q),B.f,p,B.V,p,p,p,B.O,p)],m),B.H,B.X)],m),B.L,B.x,B.q)}}
 A.a8g.prototype={
 $0(){A.cP(this.a).dz("/privacy",null)},
 $S:0}
@@ -93062,7 +93062,7 @@ s=A.W(B.T,A.cv(A.D(q,q,B.U,q,q,q,q,q,q,A.j(q,q,B.h,q,q,q,q,q,p,q,q,15,q,q,q,q,q,
 r=A.Y(a,B.o,o).gd1()
 r=A.db(A.b([i,B.ck,s,B.ck,A.W(B.T,A.cv(A.D(q,q,B.U,q,q,q,q,q,q,A.j(q,q,B.h,q,q,q,q,q,p,q,q,15,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),r),new A.a8F()),B.f,q,q,q,25,q,q,q)],n),B.C,B.x,B.q)
 s=A.Y(a,B.o,o).gcY()
-return A.aG(A.b([m,l,A.bZ(B.R,A.b([k,A.W(q,A.aG(A.b([j,B.bP,r,B.bP,A.db(A.b([A.W(B.T,A.cv(A.D(q,q,B.U,q,q,q,q,q,q,A.j(q,q,B.h,q,q,q,q,q,p,q,q,15,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),s),new A.a8w()),B.f,q,q,q,25,q,q,q)],n),B.C,B.x,B.q)],n),B.C,B.x,B.q),B.f,q,B.V,q,q,q,B.O,q)],n),B.H,B.X),A.bZ(B.R,A.b([A.W(q,q,B.f,B.l9,q,q,200,q,q,1/0),A.W(B.T,A.us(!1,!0,A.aG(A.b([B.abu,B.a5N,A.aS("Copyright \xa9 2024. "+A.Y(a,B.o,o).gcI(),q,q,q,B.cG,q,q)],n),B.L,B.x,B.q),q,!0,q,q,q,q,q,q,new A.a8x(a),q,q,q),B.f,q,B.V,q,q,q,B.O,q)],n),B.H,B.X)],n),B.C,B.x,B.q)}}
+return A.aG(A.b([m,l,A.bZ(B.R,A.b([k,A.W(q,A.aG(A.b([j,B.bP,r,B.bP,A.db(A.b([A.W(B.T,A.cv(A.D(q,q,B.U,q,q,q,q,q,q,A.j(q,q,B.h,q,q,q,q,q,p,q,q,15,q,q,q,q,q,!0,q,q,q,q,q,q,q,q),s),new A.a8w()),B.f,q,q,q,25,q,q,q)],n),B.C,B.x,B.q)],n),B.C,B.x,B.q),B.f,q,B.V,q,q,q,B.O,q)],n),B.H,B.X),A.bZ(B.R,A.b([A.W(q,q,B.f,B.l9,q,q,200,q,q,1/0),A.W(B.T,A.us(!1,!0,A.aG(A.b([B.abu,B.a5N,A.aS("Copyright \xa9 2024-2026. "+A.Y(a,B.o,o).gcI(),q,q,q,B.cG,q,q)],n),B.L,B.x,B.q),q,!0,q,q,q,q,q,q,new A.a8x(a),q,q,q),B.f,q,B.V,q,q,q,B.O,q)],n),B.H,B.X)],n),B.C,B.x,B.q)}}
 A.a8t.prototype={
 $0(){A.cP(this.a).dz("/privacy",null)},
 $S:0}
@@ -93110,7 +93110,7 @@ s=A.W(B.T,A.cv(A.D(p,p,B.U,p,p,p,p,p,p,A.j(p,p,B.h,p,p,p,p,p,o,p,p,17.5,p,p,p,p,
 r=A.Y(a,B.o,n).gd1()
 r=A.W(B.T,A.cv(A.D(p,p,B.U,p,p,p,p,p,p,A.j(p,p,B.h,p,p,p,p,p,o,p,p,17.5,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),r),new A.a8S()),B.f,p,p,p,40,p,p,p)
 q=A.Y(a,B.o,n).gcY()
-return A.aG(A.b([l,k,A.bZ(B.R,A.b([j,A.W(p,A.db(A.b([i,B.ke,h,B.ck,s,B.ck,r,B.ck,A.W(B.T,A.cv(A.D(p,p,B.U,p,p,p,p,p,p,A.j(p,p,B.h,p,p,p,p,p,o,p,p,17.5,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),q),new A.a8J()),B.f,p,p,p,40,p,p,p)],m),B.C,B.dn,B.q),B.f,p,B.V,p,p,p,B.O,p)],m),B.H,B.X),A.bZ(B.R,A.b([A.W(p,p,B.f,B.l9,p,p,250,p,p,1/0),A.W(p,A.db(A.b([A.us(!1,!0,A.aG(A.b([B.abq,B.a5I,A.aS("Copyright \xa9 2024. "+A.Y(a,B.o,n).gcI(),1,B.ba,p,B.cG,p,p)],m),B.L,B.x,B.q),p,!0,p,p,p,p,p,p,new A.a8K(a),p,p,p)],m),B.C,B.x,B.q),B.f,p,B.V,p,p,p,B.O,p)],m),B.H,B.X)],m),B.C,B.x,B.q)}}
+return A.aG(A.b([l,k,A.bZ(B.R,A.b([j,A.W(p,A.db(A.b([i,B.ke,h,B.ck,s,B.ck,r,B.ck,A.W(B.T,A.cv(A.D(p,p,B.U,p,p,p,p,p,p,A.j(p,p,B.h,p,p,p,p,p,o,p,p,17.5,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),q),new A.a8J()),B.f,p,p,p,40,p,p,p)],m),B.C,B.dn,B.q),B.f,p,B.V,p,p,p,B.O,p)],m),B.H,B.X),A.bZ(B.R,A.b([A.W(p,p,B.f,B.l9,p,p,250,p,p,1/0),A.W(p,A.db(A.b([A.us(!1,!0,A.aG(A.b([B.abq,B.a5I,A.aS("Copyright \xa9 2024-2026. "+A.Y(a,B.o,n).gcI(),1,B.ba,p,B.cG,p,p)],m),B.L,B.x,B.q),p,!0,p,p,p,p,p,p,new A.a8K(a),p,p,p)],m),B.C,B.x,B.q),B.f,p,B.V,p,p,p,B.O,p)],m),B.H,B.X)],m),B.C,B.x,B.q)}}
 A.a8G.prototype={
 $0(){A.cP(this.a).dz("/privacy",null)},
 $S:0}
@@ -93345,7 +93345,7 @@ $0(){return A.kJ(A.c3("mailto:business@edhomy.com",0,null))},
 $S:0}
 A.Ok.prototype={
 K(a){var s=null,r=t.J,q=t.p
-return A.W(s,A.aG(A.b([A.nW(A.db(A.b([B.H7,A.iq(A.aG(A.b([A.aS("Edhomy AI languages",s,s,s,B.HF,B.m,s),A.aS(A.Y(a,B.o,r).gcJ(),s,s,s,B.a9s,B.m,s),B.bP,A.aS(A.Y(a,B.o,r).gcl(),s,s,s,B.HD,B.m,s),A.fu(20,"assets/images/android.jpg",u.K,10,20,40,A.Y(a,B.o,r).gcf()),A.fu(20,"assets/images/apple.jpg",u.B,10,20,40,A.Y(a,B.o,r).gcg()),A.fu(20,"assets/images/mac.jpg",u.C,10,20,40,A.Y(a,B.o,r).gco())],q),B.L,B.x,B.q),1),new A.uo($.jP[0],400,800,s)],q),B.C,B.ah,B.q),s,1232)],q),B.C,B.x,B.q),B.f,B.h,s,s,s,s,s,1/0)}}
+return A.W(s,A.aG(A.b([A.nW(A.db(A.b([B.H7,A.iq(A.aG(A.b([A.aS("Edhomy AI Languages",s,s,s,B.HF,B.m,s),A.aS(A.Y(a,B.o,r).gcJ(),s,s,s,B.a9s,B.m,s),B.bP,A.aS(A.Y(a,B.o,r).gcl(),s,s,s,B.HD,B.m,s),A.fu(20,"assets/images/android.jpg",u.K,10,20,40,A.Y(a,B.o,r).gcf()),A.fu(20,"assets/images/apple.jpg",u.B,10,20,40,A.Y(a,B.o,r).gcg()),A.fu(20,"assets/images/mac.jpg",u.C,10,20,40,A.Y(a,B.o,r).gco())],q),B.L,B.x,B.q),1),new A.uo($.jP[0],400,800,s)],q),B.C,B.ah,B.q),s,1232)],q),B.C,B.x,B.q),B.f,B.h,s,s,s,s,s,1/0)}}
 A.Oy.prototype={
 K(a){var s=null,r=t.J,q=t.p
 return A.W(s,A.aG(A.b([B.f0,A.aS(A.Y(a,B.o,r).gcl(),s,s,s,A.j(s,s,B.t,s,s,s,s,s,"IBMPlexSansMedium",s,s,50,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),A.aG(A.b([A.fu(20,"assets/images/android.jpg",u.K,10,20,40,A.Y(a,B.o,r).gcf()),A.fu(20,"assets/images/apple.jpg",u.B,10,20,40,A.Y(a,B.o,r).gcg()),A.fu(20,"assets/images/mac.jpg",u.C,10,20,40,A.Y(a,B.o,r).gco())],q),B.C,B.ah,B.q),B.f0],q),B.C,B.x,B.q),B.f,B.h,s,s,s,s,s,1/0)}}
@@ -93362,7 +93362,7 @@ m=A.b0(a,r,m).w
 return A.W(r,A.aG(A.b([A.bZ(B.bH,A.b([A.W(r,A.aG(A.b([B.r,p,B.r,n,B.r,l,s,B.r,A.W(r,new A.bv(B.b8,A.aG(A.b([A.aS(A.Y(a,B.o,q).gcH(),r,r,r,B.hk,r,r),B.r,A.aS(A.Y(a,B.o,q).gcD(),r,r,r,B.hl,r,r)],o),B.L,B.x,B.q),r),B.f,r,r,B.cK,r,r,r,m.a.a*0.8),B.M],o),B.C,B.ah,B.q),B.f,B.h,B.V,r,r,r,B.ep,1/0)],o),B.H,B.X)],o),B.C,B.x,B.q),B.f,B.h,r,r,r,r,r,1/0)}}
 A.Ol.prototype={
 K(a){var s=null,r=t.J,q=t.p
-return A.W(s,A.aG(A.b([A.W(s,A.aG(A.b([B.r,A.aS("Edhomy AI languages",s,s,s,B.HF,B.cF,s),A.aS(A.Y(a,B.o,r).gcJ(),s,s,s,B.aaP,B.cF,s),A.aS(A.Y(a,B.o,r).gcl(),s,s,s,B.HD,B.cF,s),A.fu(20,"assets/images/android.jpg",u.K,10,20,40,A.Y(a,B.o,r).gcf()),A.fu(20,"assets/images/apple.jpg",u.B,10,20,40,A.Y(a,B.o,r).gcg()),B.r,new A.uo($.jP[0],1/0,800,s)],q),B.C,B.ah,B.q),B.f,s,B.V,s,s,s,B.Nn,s)],q),B.C,B.x,B.q),B.f,B.h,s,s,s,s,s,1/0)}}
+return A.W(s,A.aG(A.b([A.W(s,A.aG(A.b([B.r,A.aS("Edhomy AI Languages",s,s,s,B.HF,B.cF,s),A.aS(A.Y(a,B.o,r).gcJ(),s,s,s,B.aaP,B.cF,s),A.aS(A.Y(a,B.o,r).gcl(),s,s,s,B.HD,B.cF,s),A.fu(20,"assets/images/android.jpg",u.K,10,20,40,A.Y(a,B.o,r).gcf()),A.fu(20,"assets/images/apple.jpg",u.B,10,20,40,A.Y(a,B.o,r).gcg()),B.r,new A.uo($.jP[0],1/0,800,s)],q),B.C,B.ah,B.q),B.f,s,B.V,s,s,s,B.Nn,s)],q),B.C,B.x,B.q),B.f,B.h,s,s,s,s,s,1/0)}}
 A.Oz.prototype={
 K(a){var s=null,r=t.J,q=t.p
 return A.W(s,A.aG(A.b([B.M,A.aS(A.Y(a,B.o,r).gcl(),s,s,s,A.j(s,s,B.t,s,s,s,s,s,"IBMPlexSansMedium",s,s,40,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),A.aG(A.b([A.fu(20,"assets/images/android.jpg",u.K,10,20,40,A.Y(a,B.o,r).gcf()),A.fu(20,"assets/images/apple.jpg",u.B,10,20,40,A.Y(a,B.o,r).gcg()),A.fu(20,"assets/images/mac.jpg",u.C,10,20,40,A.Y(a,B.o,r).gco())],q),B.C,B.ah,B.q),B.M],q),B.C,B.x,B.q),B.f,B.h,s,s,s,s,s,1/0)}}
@@ -93379,7 +93379,7 @@ m=A.b0(a,r,m).w
 return A.W(r,A.aG(A.b([A.bZ(B.bH,A.b([A.W(r,A.aG(A.b([B.r,p,B.r,n,B.r,l,s,B.r,A.W(r,new A.bv(B.b8,A.aG(A.b([A.aS(A.Y(a,B.o,q).gcH(),r,r,r,B.nL,r,r),B.r,A.aS(A.Y(a,B.o,q).gcD(),r,r,r,B.nK,r,r)],o),B.L,B.x,B.q),r),B.f,r,r,B.cK,r,r,r,m.a.a*0.8),B.M],o),B.C,B.ah,B.q),B.f,B.h,B.V,r,r,r,B.ep,1/0)],o),B.H,B.X)],o),B.C,B.x,B.q),B.f,B.h,r,r,r,r,r,1/0)}}
 A.Om.prototype={
 K(a){var s=null,r=t.J,q=t.p
-return A.W(s,A.aG(A.b([A.nW(A.db(A.b([B.H7,A.iq(A.aG(A.b([A.aS("Edhomy AI languages",s,s,s,B.aaF,B.m,s),A.aS(A.Y(a,B.o,r).gcJ(),s,s,s,B.a9o,B.m,s),A.aS(A.Y(a,B.o,r).gcl(),s,s,s,B.aaT,B.m,s),A.fu(20,"assets/images/android.jpg",u.K,10,20,40,A.Y(a,B.o,r).gcf()),A.fu(20,"assets/images/apple.jpg",u.B,10,20,40,A.Y(a,B.o,r).gcg()),A.fu(20,"assets/images/mac.jpg",u.C,10,20,40,A.Y(a,B.o,r).gco()),B.f0],q),B.L,B.x,B.q),1),new A.uo($.jP[0],700,900,s)],q),B.C,B.ah,B.q),s,1232)],q),B.C,B.x,B.q),B.f,B.h,s,s,s,s,s,1/0)}}
+return A.W(s,A.aG(A.b([A.nW(A.db(A.b([B.H7,A.iq(A.aG(A.b([A.aS("Edhomy AI Languages",s,s,s,B.aaF,B.m,s),A.aS(A.Y(a,B.o,r).gcJ(),s,s,s,B.a9o,B.m,s),A.aS(A.Y(a,B.o,r).gcl(),s,s,s,B.aaT,B.m,s),A.fu(20,"assets/images/android.jpg",u.K,10,20,40,A.Y(a,B.o,r).gcf()),A.fu(20,"assets/images/apple.jpg",u.B,10,20,40,A.Y(a,B.o,r).gcg()),A.fu(20,"assets/images/mac.jpg",u.C,10,20,40,A.Y(a,B.o,r).gco()),B.f0],q),B.L,B.x,B.q),1),new A.uo($.jP[0],700,900,s)],q),B.C,B.ah,B.q),s,1232)],q),B.C,B.x,B.q),B.f,B.h,s,s,s,s,s,1/0)}}
 A.OA.prototype={
 K(a){var s=null,r=t.J,q=t.p
 return A.W(s,A.aG(A.b([B.f0,A.aS(A.Y(a,B.o,r).gcl(),s,s,s,A.j(s,s,B.t,s,s,s,s,s,"IBMPlexSansMedium",s,s,60,s,s,s,s,s,!0,s,s,s,s,s,s,s,s),s,s),new A.XF(A.b([A.fu(20,"assets/images/android.jpg",u.K,10,20,40,A.Y(a,B.o,r).gcf()),A.fu(20,"assets/images/apple.jpg",u.B,10,20,40,A.Y(a,B.o,r).gcg()),A.fu(20,"assets/images/mac.jpg",u.C,10,20,40,A.Y(a,B.o,r).gco())],q),s),B.f0],q),B.C,B.x,B.q),B.f,B.h,s,s,s,s,s,1/0)}}
